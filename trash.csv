@@ -1,0 +1,826 @@
+id,name,chipset,manufacturer,year,clock_mhz,word_bits,cores,type,process_nm,transistors,description,rarity,tdp_watts
+intel_4004,Intel 4004,4004-0.74MHz,Intel,1971,0.74,4,1,CPU,10000,2300,The first commercial microprocessor. A holy grail find.,legendary,0.5
+intel_4040,Intel 4040,4040-0.74MHz,Intel,1974,0.74,4,1,CPU,10000,3000,Enhanced successor to the 4004.,legendary,0.6
+intel_8008,Intel 8008,8008-0.5MHz,Intel,1972,0.5,8,1,CPU,10000,3500,The first 8-bit microprocessor.,legendary,0.5
+intel_8080,Intel 8080,8080-2MHz,Intel,1974,2.0,8,1,CPU,6000,4500,The brain of the Altair 8800. Computing genesis.,legendary,0.8
+motorola_6800,Motorola 6800,6800-1MHz,Motorola,1974,1.0,8,1,CPU,6000,4100,Motorola's first 8-bit micro. A true classic.,legendary,0.8
+tms1000,TI TMS1000,TMS1000-0.4MHz,Texas Instruments,1974,0.4,4,1,MCU,8000,8000,"First microcontroller - CPU, RAM, ROM on one chip.",legendary,0.3
+ilbm_system_370,IBM System/370 (Model 158),S370-158-8.69MHz,IBM,1972,8.69,32,1,CPU,10000,0,"Mainframe beast. If you find one of these in the trash, call a crane.",mythic,15000.0
+mos_6502,MOS 6502,6502-1MHz,MOS Technology,1975,1.0,8,1,CPU,8000,3510,"Heart of the Apple II, C64, Atari 2600, and NES. Legendary.",epic,0.7
+mos_6510,MOS 6510,6510-1.023MHz,MOS Technology,1982,1.023,8,1,CPU,5000,3510,Commodore 64's CPU. 6502 with I/O port.,epic,0.7
+zilog_z80,Zilog Z80,Z80-2.5MHz,Zilog,1976,2.5,8,1,CPU,4000,8500,"Powered the ZX Spectrum, MSX, TRS-80, and Game Boy. A titan.",epic,0.8
+zilog_z80a,Zilog Z80A,Z80A-4MHz,Zilog,1978,4.0,8,1,CPU,4000,8500,Faster Z80. The workhorse of CP/M machines.,rare,1.0
+zilog_z80b,Zilog Z80B,Z80B-6MHz,Zilog,1980,6.0,8,1,CPU,4000,8500,The hot-rodded Z80.,rare,1.2
+intel_8085,Intel 8085,8085-3MHz,Intel,1976,3.0,8,1,CPU,3000,6500,Enhanced 8080 with on-chip clock generator.,rare,0.75
+intel_8086,Intel 8086,8086-5MHz,Intel,1978,5.0,16,1,CPU,3000,29000,The x86 architecture begins here. Ancestor of all PCs.,epic,1.75
+intel_8088,Intel 8088,8088-4.77MHz,Intel,1979,4.77,16,1,CPU,3000,29000,The IBM PC's brain. Changed the world.,epic,1.5
+motorola_6809,Motorola 6809,6809-1MHz,Motorola,1978,1.0,8,1,CPU,5000,9000,Advanced 8-bit. Powered the TRS-80 Color Computer.,rare,0.8
+motorola_68000,Motorola 68000,68000-8MHz,Motorola,1979,8.0,32,1,CPU,3500,68000,"The Mac, Amiga, Atari ST, and Sega Genesis all ran on this beast.",epic,1.5
+intel_8087,Intel 8087 FPU,8087-5MHz,Intel,1980,5.0,80,1,FPU,3000,45000,The original math coprocessor. Floating point wizardry.,rare,2.4
+ricoh_2a03,Ricoh 2A03 (NES CPU),2A03-1.79MHz,Ricoh,1983,1.79,8,1,CPU,6000,4000,NES/Famicom CPU. Modified 6502 with audio built in.,epic,0.6
+zilog_z8000,Zilog Z8000,Z8000-4MHz,Zilog,1979,4.0,16,1,CPU,4000,17500,Zilog's 16-bit ambition. Found in Olivetti computers.,rare,1.5
+wd_16c550,WDC 65C02,65C02-14MHz,Western Design Center,1983,14.0,8,1,CPU,3000,4200,Enhanced CMOS 6502. Apple IIc/IIe Enhanced.,rare,0.2
+national_sc_mp,National SC/MP,SC/MP-1MHz,National Semiconductor,1976,1.0,8,1,CPU,8000,5000,Simple Cost-effective Micro Processor. A true oddball.,epic,0.5
+fairchild_f8,Fairchild F8,F8-2MHz,Fairchild,1975,2.0,8,1,CPU,8000,4000,Powered the Fairchild Channel F - first cartridge console.,legendary,0.7
+rca_1802,RCA CDP 1802 (COSMAC),CDP1802-3.2MHz,RCA,1976,3.2,8,1,CPU,5000,5000,Radiation hardened. Flew on Voyager and Galileo spacecraft!,mythic,0.05
+ti_tms9900,TI TMS9900,TMS9900-3MHz,Texas Instruments,1976,3.0,16,1,CPU,5000,8000,TI-99/4A CPU. One of the first 16-bit micros.,epic,2.0
+signetics_2650,Signetics 2650,2650-1.25MHz,Signetics,1975,1.25,8,1,CPU,7000,3000,Obscure 8-bit gem. Used in some arcade machines.,legendary,0.8
+intel_80186,Intel 80186,80186-6MHz,Intel,1982,6.0,16,1,CPU,3000,55000,Embedded 8086 with peripherals. Rarely used in PCs.,rare,2.0
+nec_v20,NEC V20,V20-8MHz,NEC,1984,8.0,16,1,CPU,2000,63000,"Drop-in 8088 replacement. Faster, could emulate 8080.",rare,1.5
+wd_65c816,WDC 65C816,65C816-3.58MHz,Western Design Center,1984,3.58,16,1,CPU,3000,22000,16-bit 6502 successor. SNES and Apple IIGS CPU.,epic,0.15
+intel_80286,Intel 80286,i286-12.5MHz,Intel,1982,12.5,16,1,CPU,1500,134000,The IBM PC/AT processor. Protected mode begins.,rare,2.5
+intel_80386_dx,Intel 80386DX,i386-DX-33MHz,Intel,1985,33.0,32,1,CPU,1000,275000,First 32-bit x86. The serious PC begins here.,rare,4.0
+intel_80386_sx,Intel 80386SX,i386-SX-20MHz,Intel,1988,20.0,32,1,CPU,1000,275000,Budget 386 with 16-bit external bus.,common,3.0
+intel_80486_dx,Intel 80486DX,i486-DX-33MHz,Intel,1989,33.0,32,1,CPU,1000,1200000,Integrated FPU and cache. The multimedia PC era dawns.,uncommon,5.0
+intel_80486_dx2,Intel 80486DX2,i486-DX2-66MHz,Intel,1992,66.0,32,1,CPU,800,1200000,Clock-doubled 486. DOOM machine.,uncommon,7.5
+intel_80486_dx4,Intel 80486DX4,i486-DX4-100MHz,Intel,1994,100.0,32,1,CPU,600,1600000,Triple-clocked 486. Last of its kind.,uncommon,10.0
+intel_80487,Intel 80487SX FPU,i487SX-25MHz,Intel,1991,25.0,80,1,FPU,1000,1200000,Actually a full 486DX that disabled the SX. Sneaky Intel.,rare,7.5
+motorola_68020,Motorola 68020,68020-16MHz,Motorola,1984,16.0,32,1,CPU,2000,190000,True 32-bit 68k. Mac II processor.,rare,2.0
+motorola_68030,Motorola 68030,68030-25MHz,Motorola,1987,25.0,32,1,CPU,800,273000,Amiga 3000/4000 and Mac IIx CPU. Integrated MMU.,rare,2.5
+motorola_68040,Motorola 68040,68040-40MHz,Motorola,1990,40.0,32,1,CPU,600,1200000,Peak 68k. Mac Quadra powerhouse.,rare,6.0
+motorola_68060,Motorola 68060,68060-75MHz,Motorola,1994,75.0,32,1,CPU,600,2500000,"The final, fastest 68k. Superscalar. Amiga owners rejoice.",epic,5.0
+amd_am386,AMD Am386DX,Am386DX-40MHz,AMD,1991,40.0,32,1,CPU,1000,275000,AMD's 386 clone. Ran faster than Intel's.,uncommon,4.5
+amd_am486,AMD Am5x86,Am5x86-133MHz,AMD,1995,133.0,32,1,CPU,350,1600000,"486 socket, Pentium-class performance. Budget king.",uncommon,8.0
+cyrix_cx486,Cyrix Cx486DX2,Cx486DX2-66MHz,Cyrix,1993,66.0,32,1,CPU,700,600000,Cyrix's 486 competitor. Budget builds loved these.,uncommon,7.0
+arm2,ARM2 (Acorn RISC Machine),ARM2-8MHz,Acorn/VLSI,1986,8.0,32,1,CPU,2000,30000,The original ARM. Only 30K transistors. Elegant simplicity.,legendary,0.3
+arm3,ARM3,ARM3-25MHz,VLSI Technology,1989,25.0,32,1,CPU,1500,310000,First ARM with cache. Acorn Archimedes upgrade.,epic,0.5
+sparc_v7,Sun SPARC (Fujitsu MB86900),SPARC-V7-16.67MHz,Sun/Fujitsu,1987,16.67,32,1,CPU,1200,100000,Sun workstation RISC processor. Unix powerhouse.,rare,5.0
+mips_r2000,MIPS R2000,R2000-15MHz,MIPS,1985,15.0,32,1,CPU,2000,120000,RISC pioneer. SGI workstation silicon.,rare,3.0
+mips_r3000,MIPS R3000,R3000-33MHz,MIPS,1988,33.0,32,1,CPU,1200,120000,"PlayStation 1 CPU core. Yes, really.",epic,4.0
+mips_r4000,MIPS R4000,R4000-100MHz,MIPS,1991,100.0,64,1,CPU,1000,1350000,First commercial 64-bit CPU. SGI Indigo magic.,epic,15.0
+mips_r4400,MIPS R4400,R4400-200MHz,MIPS,1993,200.0,64,1,CPU,600,2300000,SGI Indy workstation chip. Jurassic Park was made on these.,epic,15.0
+transputer_t800,INMOS Transputer T800,T800-25MHz,INMOS,1988,25.0,32,1,CPU,1000,250000,Parallel computing pioneer. Built-in FPU & links to other Transputers.,legendary,2.0
+snes_cpu_ricoh,Ricoh 5A22 (SNES CPU),5A22-3.58MHz,Ricoh,1990,3.58,16,1,CPU,1000,22000,SNES CPU. 65C816 core with DMA.,epic,0.2
+snes_ppu,Nintendo S-PPU (SNES Graphics),S-PPU-3.58MHz,Nintendo/Ricoh,1990,3.58,16,2,GPU,1000,0,SNES PPU1+PPU2 duo. Mode 7 magic.,epic,0.5
+genesis_vdp,Sega VDP (Genesis/Mega Drive),315-5313-13.4MHz,Sega/Yamaha,1988,13.4,16,1,GPU,1200,0,Sega Genesis display processor. Blast processing!,epic,1.5
+genesis_68000,Motorola 68000 (Genesis),68000-7.67MHz,Motorola,1988,7.67,32,1,CPU,3500,68000,Genesis main CPU running at 7.67MHz.,rare,1.5
+ti_tms34010,TI TMS34010,TMS34010-50MHz,Texas Instruments,1986,50.0,32,1,GPU,800,250000,First programmable GPU. Used in arcade machines & early PC graphics.,legendary,3.5
+s3_86c911,S3 86C911,86C911-50MHz,S3 Graphics,1991,50.0,32,1,GPU,800,420000,First single-chip 2D accelerator for PCs. Revolutionary.,rare,3.0
+cirrus_5426,Cirrus Logic GD5426,CL-GD5426-40MHz,Cirrus Logic,1993,40.0,32,1,GPU,600,500000,Budget 2D accelerator. Every 486 had one.,common,2.5
+trident_9440,Trident TGUI 9440,TGUI9440-50MHz,Trident Microsystems,1994,50.0,32,1,GPU,500,700000,Budget OEM 2D accelerator. Functional but never fast.,common,2.5
+ti_tms320c25,TI TMS320C25,TMS320C25-40MHz,Texas Instruments,1986,40.0,16,1,DSP,1500,50000,"DSP workhorse. Modems, audio, telecom.",uncommon,1.5
+adsp_2100,Analog Devices ADSP-2100,ADSP2100-12.5MHz,Analog Devices,1986,12.5,16,1,DSP,1500,45000,Popular DSP for audio processing.,uncommon,0.5
+pa_risc_7100,HP PA-7100,PA7100-100MHz,HP,1992,100.0,32,1,CPU,800,850000,HP PA-RISC workstation chip. Unix beast.,rare,20.0
+dec_alpha_21064,DEC Alpha 21064,Alpha21064-200MHz,DEC,1992,200.0,64,1,CPU,700,1680000,Fastest chip on Earth when released. 64-bit RISC monster.,epic,30.0
+power_601,IBM/Motorola PowerPC 601,PPC601-66MHz,IBM/Motorola,1993,66.0,32,1,CPU,600,2800000,First PowerPC. Power Macintosh CPU.,rare,9.0
+power_603,PowerPC 603,PPC603-75MHz,IBM/Motorola,1994,75.0,32,1,CPU,500,1600000,Low-power PowerPC. Embedded and laptop use.,uncommon,3.0
+power_604,PowerPC 604,PPC604-133MHz,IBM/Motorola,1994,133.0,32,1,CPU,350,3600000,Performance PowerPC. Power Mac 8500.,rare,15.0
+intel_pentium,Intel Pentium (P5),Pentium-66MHz,Intel,1993,66.0,32,1,CPU,800,3100000,The Pentium. Superscalar x86. Quake machine.,uncommon,16.0
+intel_pentium_mmx,Intel Pentium MMX,Pentium-MMX-233MHz,Intel,1997,233.0,32,1,CPU,350,4500000,Pentium with multimedia extensions. Peak 1990s.,uncommon,17.0
+intel_pentium_pro,Intel Pentium Pro,PentiumPro-200MHz,Intel,1995,200.0,32,1,CPU,350,5500000,Server-class P6 architecture. 32-bit optimized.,rare,35.0
+intel_pentium_ii,Intel Pentium II,PentiumII-450MHz,Intel,1997,450.0,32,1,CPU,250,7500000,Slot 1 cartridge. Half-Life at max settings.,common,27.1
+intel_pentium_iii,Intel Pentium III,PentiumIII-1GHz,Intel,1999,1000.0,32,1,CPU,180,28000000,SSE instructions. The GHz barrier broken.,common,33.0
+intel_pentium_4,Intel Pentium 4 (Northwood),Pentium4-3.06GHz,Intel,2002,3060.0,32,1,CPU,130,55000000,"NetBurst architecture. Hot, loud, fast. HyperThreaded.",common,82.0
+intel_pentium_4_prescott,Intel Pentium 4 (Prescott),Pentium4-3.8GHz,Intel,2004,3800.0,32,1,CPU,90,125000000,Space heater that also computed. Peak NetBurst excess.,common,115.0
+intel_celeron_300a,Intel Celeron 300A,Celeron300A-300MHz,Intel,1998,300.0,32,1,CPU,250,19000000,Legendary overclocker. 300->450MHz easy. The people's chip.,uncommon,19.0
+amd_k5,AMD K5,K5-PR166-116MHz,AMD,1996,116.0,32,1,CPU,350,4300000,AMD's first independent x86 design.,uncommon,15.0
+amd_k6,AMD K6,K6-233MHz,AMD,1997,233.0,32,1,CPU,350,8800000,Budget Pentium II alternative. Socket 7 hero.,common,20.0
+amd_k6_2,AMD K6-2,K6-2-550MHz,AMD,1998,550.0,32,1,CPU,250,9300000,3DNow! instructions. Budget gaming CPUs.,common,20.0
+amd_athlon,AMD Athlon (Thunderbird),Athlon-1.4GHz,AMD,2000,1400.0,32,1,CPU,180,37000000,AMD beats Intel to 1GHz. The underdog triumphs.,common,72.0
+amd_athlon_xp,AMD Athlon XP (Barton),AthlonXP-3200+,AMD,2003,2200.0,32,1,CPU,130,54300000,512KB L2 cache Barton core. Enthusiast favorite.,common,76.8
+amd_athlon_64,AMD Athlon 64,Athlon64-2.4GHz,AMD,2003,2400.0,64,1,CPU,130,105900000,First consumer 64-bit x86. AMD64 architecture begins.,uncommon,89.0
+amd_athlon_64_fx,AMD Athlon 64 FX-57,Athlon64FX57-2.8GHz,AMD,2005,2800.0,64,1,CPU,90,114000000,Ultimate single-core gaming CPU of its era.,rare,110.0
+cyrix_6x86,Cyrix 6x86,6x86-PR200+,Cyrix,1996,150.0,32,1,CPU,350,3000000,"Fast integer performance, weak FPU. Budget builds.",uncommon,25.0
+rise_mp6,Rise mP6,mP6-250MHz,Rise Technology,1998,250.0,32,1,CPU,250,4500000,Obscure x86 clone. The rarest of budget chips.,legendary,15.0
+via_c3,VIA C3 (Samuel 2),C3-800MHz,VIA,2001,800.0,32,1,CPU,150,15000000,Tiny fanless x86. Mini-ITX darling.,uncommon,12.0
+transmeta_crusoe,Transmeta Crusoe TM5800,Crusoe-1GHz,Transmeta,2000,1000.0,32,1,CPU,130,46000000,Code-morphing x86 in VLIW silicon. Linus Torvalds worked here.,epic,7.0
+n64_vr4300,NEC VR4300 (N64 CPU),VR4300-93.75MHz,NEC,1996,93.75,64,1,CPU,350,4600000,N64 CPU. MIPS R4300i derivative. Goldeneye inside.,epic,1.8
+n64_rcp,Nintendo Reality Coprocessor (N64),RCP-62.5MHz,SGI/Nintendo,1996,62.5,64,2,CUSTOM,350,4000000,N64 RSP+RDP combo. Silicon Graphics magic in a console.,epic,3.0
+ps1_r3000,LSI CoreWare CW33300 (PS1 CPU),CW33300-33.8MHz,LSI Logic,1994,33.8,32,1,CPU,500,1200000,PlayStation 1 CPU. MIPS R3000A derivative.,epic,1.5
+ps1_gpu,Sony GPU (PS1),PS1-GPU-53.2MHz,Sony,1994,53.2,32,1,GPU,500,1000000,"PS1 graphics synthesizer. No texture filtering, all charm.",epic,2.5
+saturn_sh2,Hitachi SH-2 (Sega Saturn),SH2-28.6MHz,Hitachi,1994,28.6,32,2,CPU,500,400000,Dual SH-2 setup. Saturn's notoriously tricky architecture.,epic,3.0
+ps2_emotion_engine,Sony Emotion Engine (PS2),EE-294.912MHz,Sony/Toshiba,2000,294.912,128,1,CPU,250,10500000,PS2 CPU. 128-bit SIMD monster. 6.2 GFLOPS.,epic,15.0
+ps2_gs,Sony Graphics Synthesizer (PS2),GS-147.456MHz,Sony,2000,147.456,128,1,GPU,250,40000000,PS2 GPU. 2.4 Gpixels/sec. Absurd fill rate.,epic,20.0
+dreamcast_sh4,Hitachi SH-4 (Dreamcast),SH4-200MHz,Hitachi,1998,200.0,32,1,CPU,180,10000000,"Dreamcast CPU. Ahead of its time, like the console.",epic,5.0
+dreamcast_pvr2,NEC PowerVR2 CLX2 (Dreamcast),PVR2-100MHz,NEC/VideoLogic,1998,100.0,32,1,GPU,180,5000000,Dreamcast GPU. Tile-based rendering pioneer.,epic,5.0
+gamecube_gekko,IBM Gekko (GameCube),Gekko-485MHz,IBM,2001,485.0,32,1,CPU,180,21000000,GameCube CPU. PPC750 derivative. Wind Waker power.,rare,5.0
+gamecube_flipper,ATI/Nintendo Flipper (GameCube GPU),Flipper-162MHz,ATI/Nintendo,2001,162.0,32,1,GPU,180,51000000,"GameCube GPU. Embedded frame buffer, TEV pipeline.",rare,7.0
+xbox_celeron,Intel Celeron (Xbox Custom),Xbox-CPU-733MHz,Intel,2001,733.0,32,1,CPU,180,28000000,Xbox CPU. Custom Coppermine Celeron.,rare,35.0
+xbox_nv2a,Nvidia NV2A (Xbox GPU),NV2A-233MHz,Nvidia,2001,233.0,32,1,GPU,150,60000000,Xbox GPU. Custom GeForce 3 derivative. Halo machine.,epic,30.0
+3dfx_voodoo1,3dfx Voodoo Graphics (SST-1),Voodoo1-50MHz,3dfx,1996,50.0,32,1,GPU,500,1000000,THE 3D revolution. GLQuake at 640x480. Mind-blowing.,legendary,10.0
+3dfx_voodoo2,3dfx Voodoo2,Voodoo2-90MHz,3dfx,1998,90.0,32,1,GPU,350,3000000,3dfx shrine piece; cannot mine but increases your retro cred hashrate dramatically.,legendary,18.0
+3dfx_voodoo3,3dfx Voodoo3 3000,Voodoo3-166MHz,3dfx,1999,166.0,32,1,GPU,250,7000000,Fast 2D/3D combo. No 32-bit color though. Beginning of the end.,rare,16.0
+3dfx_voodoo5,3dfx Voodoo5 5500,Voodoo5-166MHz,3dfx,2000,166.0,32,2,GPU,250,14000000,Dual VSA-100. 3dfx's swan song. Collector's holy grail.,legendary,50.0
+nvidia_riva_tnt2,Nvidia Riva TNT2,TNT2-150MHz,Nvidia,1999,150.0,32,1,GPU,250,15000000,"32-bit color, 32MB VRAM. The Voodoo killer.",common,18.0
+nvidia_geforce_256,Nvidia GeForce 256 DDR,GeForce256-120MHz,Nvidia,1999,120.0,32,1,GPU,220,23000000,First GPU. Hardware T&L. The future begins.,epic,20.0
+nvidia_geforce2_gts,Nvidia GeForce2 GTS,GF2GTS-200MHz,Nvidia,2000,200.0,32,1,GPU,180,25000000,4 rendering pipelines. Counter-Strike at 100fps.,common,25.0
+nvidia_geforce3_ti500,Nvidia GeForce3 Ti 500,GF3Ti500-240MHz,Nvidia,2001,240.0,32,1,GPU,150,57000000,First programmable shaders. DirectX 8 pioneer.,uncommon,35.0
+nvidia_geforce4_ti4600,Nvidia GeForce4 Ti 4600,GF4Ti4600-300MHz,Nvidia,2002,300.0,32,1,GPU,150,63000000,Ultimate DX8 card. Morrowind maxed.,uncommon,50.0
+nvidia_geforcefx_5800,Nvidia GeForce FX 5800 Ultra,FX5800-500MHz,Nvidia,2003,500.0,32,1,GPU,130,125000000,The Dustbuster. So loud it was infamous. First DX9 attempt.,rare,100.0
+nvidia_geforce_6800_ultra,Nvidia GeForce 6800 Ultra,6800Ultra-400MHz,Nvidia,2004,400.0,32,16,GPU,130,222000000,16 shader pipelines. SM3.0. Doom 3 at ultra.,uncommon,110.0
+ati_rage_128,ATI Rage 128 Pro,Rage128Pro-125MHz,ATI,1999,125.0,32,1,GPU,250,8000000,iMac G3 GPU. Decent 2D/3D combo.,common,10.0
+ati_radeon_ddr,ATI Radeon DDR,RadeonDDR-200MHz,ATI,2000,200.0,32,1,GPU,180,30000000,ATI's first Radeon. Hardware T&L competitive with GeForce 2.,uncommon,22.0
+ati_radeon_8500,ATI Radeon 8500,R8500-275MHz,ATI,2001,275.0,32,1,GPU,150,60000000,First ATI DX8 GPU. SmartShader architecture.,uncommon,50.0
+nvidia_gf4_ti4600,Nvidia GeForce 4 Ti 4600,NV25-300MHz,Nvidia,2002,300.0,32,4,GPU,150,63000000,Prefers rendering DirectX 8 shaders to mining; sulks if asked to do anything blockchain-related.,rare,75.0
+ati_radeon_9700_pro,ATI Radeon 9700 Pro,R9700Pro-325MHz,ATI,2002,325.0,32,8,GPU,150,107000000,Ancient yet proud; produces so few hashes they might be considered collectible.,rare,70.0
+ati_radeon_9800_xt,ATI Radeon 9800 XT,R9800XT-412MHz,ATI,2003,412.0,32,8,GPU,150,117000000,Peak R300 series. Half-Life 2 at high.,uncommon,78.0
+ati_radeon_x800_xt,ATI Radeon X800 XT PE,X800XT-520MHz,ATI,2004,520.0,32,16,GPU,130,160000000,16 pipelines. ATI's answer to 6800 Ultra.,uncommon,80.0
+matrox_g400,Matrox Millennium G400 MAX,G400MAX-150MHz,Matrox,1999,150.0,32,1,GPU,250,12000000,Beautiful 2D terrible miner; insists on perfect signal quality while grinding out single-digit hashes.,rare,12.0
+powervr_kyro2,PowerVR Kyro II,KyroII-175MHz,Imagination Technologies,2001,175.0,32,1,GPU,150,15000000,Tile-based deferred rendering. Budget brilliance.,rare,8.0
+alpha_21264,DEC Alpha 21264,Alpha21264-667MHz,DEC/Compaq,1998,667.0,64,1,CPU,350,15200000,Out-of-order Alpha. Fastest chip alive for years.,epic,72.0
+sparc64_v,Fujitsu SPARC64 V,SPARC64V-1.35GHz,Fujitsu,2003,1350.0,64,1,CPU,130,190000000,High-end SPARC for Unix servers.,rare,65.0
+power4,IBM POWER4,POWER4-1.3GHz,IBM,2001,1300.0,64,2,CPU,180,174000000,First dual-core server processor. IBM mainframe lineage.,epic,115.0
+itanium,Intel Itanium (Merced),Itanium-800MHz,Intel,2001,800.0,64,1,CPU,180,25000000,IA-64. Intel's doomed explicit parallelism experiment.,legendary,130.0
+itanium2,Intel Itanium 2 (Madison),Itanium2-1.6GHz,Intel,2003,1600.0,64,1,CPU,130,410000000,Much better than Merced. Still lost to AMD64.,rare,130.0
+mips_r10000,MIPS R10000,R10000-250MHz,MIPS/SGI,1996,250.0,64,1,CPU,350,6700000,SGI Origin/Onyx2 CPU. Out-of-order RISC.,epic,30.0
+mips_r12000,MIPS R12000,R12000-400MHz,MIPS/SGI,2000,400.0,64,1,CPU,250,6900000,Refined R10000. SGI Octane2 power.,rare,20.0
+intel_core2_duo_e6600,Intel Core 2 Duo E6600,C2D-E6600-2.4GHz,Intel,2006,2400.0,64,2,CPU,65,291000000,Conroe. Intel strikes back with a vengeance.,common,65.0
+intel_core2_quad_q6600,Intel Core 2 Quad Q6600,C2Q-Q6600-2.4GHz,Intel,2007,2400.0,64,4,CPU,65,582000000,Quad-core overclocking legend. B3 stepping to 3.6GHz easy.,common,105.0
+intel_i7_920,Intel Core i7-920,i7-920-2.66GHz,Intel,2008,2660.0,64,4,CPU,45,731000000,"Nehalem. IMC, HyperThreading returns, QPI. A new era.",common,130.0
+intel_i7_2600k,Intel Core i7-2600K,i7-2600K-3.4GHz,Intel,2011,3400.0,64,4,CPU,32,1160000000,Sandy Bridge. The legendary overclocker. Still going strong.,common,95.0
+intel_i7_4770k,Intel Core i7-4770K,i7-4770K-3.5GHz,Intel,2013,3500.0,64,4,CPU,22,1400000000,"Haswell. Solid IPC gains, integrated Iris Pro option.",common,84.0
+amd_phenom_x4_9950,AMD Phenom X4 9950,PhenomX4-2.6GHz,AMD,2008,2600.0,64,4,CPU,65,450000000,AMD's first native quad-core.,common,140.0
+amd_phenom_ii_x6,AMD Phenom II X6 1100T,PhenomIIX6-3.3GHz,AMD,2010,3300.0,64,6,CPU,45,904000000,Six cores on AM3. Budget multi-threaded monster.,common,125.0
+amd_fx_8350,AMD FX-8350,FX8350-4.0GHz,AMD,2012,4000.0,64,8,CPU,32,1200000000,"Piledriver. 8 cores, controversial modules. Space heater.",common,125.0
+xbox360_xenon,IBM Xenon (Xbox 360),Xenon-3.2GHz,IBM,2005,3200.0,64,3,CPU,90,165000000,Triple-core PPC. Red Ring of Death not included.,uncommon,85.0
+xbox360_xenos,ATI Xenos (Xbox 360 GPU),Xenos-500MHz,ATI,2005,500.0,32,48,GPU,90,232000000,Unified shader architecture pioneer. 48 shader ALUs.,rare,65.0
+ps3_cell,Sony/IBM/Toshiba Cell BE (PS3),CellBE-3.2GHz,Sony/IBM/Toshiba,2006,3200.0,64,9,CPU,65,234000000,1 PPE + 8 SPEs. The most exotic console CPU ever. 204 GFLOPS.,legendary,85.0
+ps3_rsx,Nvidia RSX (PS3 GPU),RSX-500MHz,Nvidia,2006,500.0,32,24,GPU,65,300000000,G70-based. 24 vertex + 24 pixel shaders.,uncommon,40.0
+wii_broadway,IBM Broadway (Wii),Broadway-729MHz,IBM,2006,729.0,32,1,CPU,90,21000000,Wii CPU. Overclocked Gekko. GameCube compatibility.,common,5.0
+wii_hollywood,ATI Hollywood (Wii GPU),Hollywood-243MHz,ATI,2006,243.0,32,1,GPU,90,51000000,Wii GPU. Flipper evolved. Wii Sports at 480p.,common,7.0
+wiiu_espresso,IBM Espresso (Wii U),Espresso-1.24GHz,IBM,2012,1240.0,32,3,CPU,45,0,Wii U CPU. Triple-core PPC. Underrated console.,uncommon,30.0
+ps4_jaguar,AMD Jaguar APU (PS4),PS4-Jaguar-1.6GHz,AMD,2013,1600.0,64,8,APU,28,5000000000,PS4 APU. x86 at last. 1.84 TFLOPS GPU integrated.,common,100.0
+xbone_jaguar,AMD Jaguar APU (Xbox One),XBone-Jaguar-1.75GHz,AMD,2013,1750.0,64,8,APU,28,5000000000,Xbox One APU. 1.31 TFLOPS. ESRAM architecture.,common,112.0
+nvidia_7800_gtx,Nvidia GeForce 7800 GTX,7800GTX-430MHz,Nvidia,2005,430.0,32,24,GPU,110,302000000,G70 architecture. 24 fragment + 8 vertex shaders.,uncommon,110.0
+nvidia_8800_gtx,Nvidia GeForce 8800 GTX,8800GTX-575MHz,Nvidia,2006,575.0,32,128,GPU,90,681000000,The original GPU rock star; old enough to vote still hot enough to char the PCB.,rare,177.0
+nvidia_gtx_280,Nvidia GeForce GTX 280,GTX280-602MHz,Nvidia,2008,602.0,32,240,GPU,65,1400000000,GT200. 240 CUDA cores. First 1+ billion transistor GPU.,uncommon,236.0
+nvidia_gtx_480,Nvidia GeForce GTX 480,GTX480-700MHz,Nvidia,2010,700.0,32,480,GPU,40,3000000000,Fermi. Thermi. Hot enough to heat a house. But fast.,uncommon,250.0
+nvidia_gtx_460,Nvidia GeForce GTX 460,GF104-675MHz,Nvidia,2010,675.0,32,336,GPU,40,1950000000,Fermi relic; produces more nostalgia than hashes but still tries its little 40 nm heart out.,uncommon,160.0
+nvidia_gtx_580,Nvidia GeForce GTX 580,GTX580-772MHz,Nvidia,2010,772.0,32,512,GPU,40,3000000000,Fermi refined. Full GF110. Properly cool this time.,uncommon,244.0
+nvidia_gtx_680,Nvidia GeForce GTX 680,GTX680-1006MHz,Nvidia,2012,1006.0,32,1536,GPU,28,3540000000,Kepler. GPU Boost begins. Massive efficiency jump.,common,195.0
+nvidia_gtx_780ti,Nvidia GeForce GTX 780 Ti,GTX780Ti-876MHz,Nvidia,2013,876.0,32,2880,GPU,28,7100000000,Kepler hotrod; burns watts like it's 2013 and nobody pays the power bill.,rare,250.0
+nvidia_gtx_titan,Nvidia GeForce GTX TITAN,TITAN-837MHz,Nvidia,2013,837.0,32,2688,GPU,28,7100000000,THE TITAN. GK110 with 6GB. Compute + gaming. Iconic.,epic,250.0
+nvidia_gtx_980,Nvidia GeForce GTX 980,GTX980-1126MHz,Nvidia,2014,1126.0,32,2048,GPU,28,5200000000,Maxwell GM204. Incredible perf/watt. 4K gaming begins.,common,165.0
+ati_radeon_x1900_xtx,ATI Radeon X1900 XTX,X1900XTX-650MHz,ATI,2006,650.0,32,48,GPU,90,384000000,R580. 48 shader units. ATI's last hurrah pre-AMD.,uncommon,130.0
+amd_hd_4870,AMD Radeon HD 4870,HD4870-750MHz,AMD,2008,750.0,32,800,GPU,55,956000000,RV770. First sub-$300 teraflop GPU. Incredible value.,common,150.0
+amd_hd_5870,AMD Radeon HD 5870,HD5870-850MHz,AMD,2009,850.0,32,1600,GPU,40,2154000000,Cypress. First DX11 GPU. 2.72 TFLOPS. Eyefinity pioneer.,common,188.0
+amd_hd_5850,AMD Radeon HD 5850,HD5850-725MHz,AMD,2009,725.0,32,1440,GPU,40,2154000000,Prehistoric mining hero; still tastes faintly of 2011 Bitcoin mania and cheap PSUs.,uncommon,151.0
+amd_hd_7970,AMD Radeon HD 7970,HD7970-925MHz,AMD,2012,925.0,32,2048,GPU,28,4312000000,First 28 nm beast; early crypto war criminal responsible for many melted PCIe power cables.,uncommon,250.0
+amd_r9_290x,AMD Radeon R9 290X,R9-290X-1000MHz,AMD,2013,1000.0,32,2816,GPU,28,6200000000,Reference cooler doubles as a space heater; fans scream in GCN dialect when under load.,rare,290.0
+ti_c6678,TI TMS320C6678,C6678-1.25GHz,Texas Instruments,2010,1250.0,32,8,DSP,40,0,8-core DSP. 160 GMACS. Telecom and radar.,rare,10.0
+arm_cortex_a9,ARM Cortex-A9 (Tegra 3),Tegra3-1.3GHz,Nvidia/ARM,2011,1300.0,32,4,SOC,40,0,Quad-core mobile. Nexus 7 heart. 4+1 companion core.,common,3.0
+apple_a7,Apple A7,A7-1.3GHz,Apple,2013,1300.0,64,2,SOC,28,1000000000,First 64-bit mobile SoC. iPhone 5s. Industry disruption.,rare,3.5
+snapdragon_800,Qualcomm Snapdragon 800,SD800-2.3GHz,Qualcomm,2013,2300.0,32,4,SOC,28,0,Krait 400 cores. Adreno 330 GPU. Android flagship.,common,4.0
+intel_i7_6700k,Intel Core i7-6700K,i7-6700K-4.0GHz,Intel,2015,4000.0,64,4,CPU,14,1750000000,Skylake. DDR4 era begins.,common,91.0
+intel_i9_9900k,Intel Core i9-9900K,i9-9900K-3.6GHz,Intel,2018,3600.0,64,8,CPU,14,3000000000,8-core mainstream. 5GHz turbo. The gaming king of its era.,common,95.0
+intel_i9_12900k,Intel Core i9-12900K,i9-12900K-3.2GHz,Intel,2021,3200.0,64,16,CPU,7,0,Alder Lake. Big.LITTLE comes to desktop. P+E cores.,common,125.0
+intel_i9_13900k,Intel Core i9-13900K,i9-13900K-3.0GHz,Intel,2022,3000.0,64,24,CPU,7,0,Raptor Lake. 24 cores. 5.8GHz turbo. Multi-thread monster.,common,125.0
+intel_i9_14900k,Intel Core i9-14900K,i9-14900K-3.2GHz,Intel,2023,3200.0,64,24,CPU,7,0,Raptor Lake Refresh. 6GHz turbo. Stability concerns.,common,125.0
+amd_ryzen_1800x,AMD Ryzen 7 1800X,R7-1800X-3.6GHz,AMD,2017,3600.0,64,8,CPU,14,4800000000,Zen 1. AMD is back from the dead. 8 cores for the people.,common,95.0
+amd_ryzen_3900x,AMD Ryzen 9 3900X,R9-3900X-3.8GHz,AMD,2019,3800.0,64,12,CPU,7,5990000000,"Zen 2. 12 cores, 7nm. Intel scrambles.",common,105.0
+amd_ryzen_5950x,AMD Ryzen 9 5950X,R9-5950X-3.4GHz,AMD,2020,3400.0,64,16,CPU,7,0,Zen 3. 16 cores. Single-thread AND multi-thread crown.,common,105.0
+amd_ryzen_7950x,AMD Ryzen 9 7950X,R9-7950X-4.5GHz,AMD,2022,4500.0,64,16,CPU,5,0,Zen 4. AM5 platform. DDR5. 5.7GHz boost. Scalding TDP.,common,170.0
+amd_ryzen_9800x3d,AMD Ryzen 7 9800X3D,R7-9800X3D-4.7GHz,AMD,2024,4700.0,64,8,CPU,4,0,Zen 5 + 3D V-Cache. The ultimate gaming CPU.,common,120.0
+apple_m1,Apple M1,M1-3.2GHz,Apple,2020,3200.0,64,8,SOC,5,16000000000,ARM takes over Mac. 16B transistors. Insane perf/watt.,common,20.0
+apple_m1_ultra,Apple M1 Ultra,M1Ultra-3.2GHz,Apple,2022,3200.0,64,20,SOC,5,114000000000,Two M1 Max fused. 64-core GPU. 114B transistors.,rare,60.0
+apple_m2_ultra,Apple M2 Ultra,M2Ultra-3.5GHz,Apple,2023,3500.0,64,24,SOC,5,134000000000,76-core GPU. 192GB unified memory. Desktop ARM dominance.,rare,75.0
+apple_m4_max,Apple M4 Max,M4Max-4.4GHz,Apple,2024,4400.0,64,16,SOC,3,0,3nm. 40-core GPU. 128GB unified memory. Laptop supercomputer.,uncommon,40.0
+nvidia_gtx_1080ti,Nvidia GeForce GTX 1080 Ti,GTX1080Ti-1481MHz,Nvidia,2017,1481.0,32,3584,GPU,16,12000000000,Pascal GP102. 3584 CUDA cores. 11GB GDDR5X. The people's champion.,common,250.0
+nvidia_rtx_2080ti,Nvidia GeForce RTX 2080 Ti,RTX2080Ti-1350MHz,Nvidia,2018,1350.0,32,4352,GPU,12,18600000000,Once a flagship now a very fancy space heater with delusions of grandeur.,rare,250.0
+nvidia_rtx_3090,Nvidia GeForce RTX 3090,RTX3090-1395MHz,Nvidia,2020,1395.0,32,10496,GPU,8,28300000000,"Triple-slot monster; sounds like a leaf blower, warms a small apartment while mining regrets.",rare,350.0
+nvidia_rtx_4090,Nvidia GeForce RTX 4090,RTX4090-2235MHz,Nvidia,2022,2235.0,32,16384,GPU,5,76300000000,"Converts kilowatts directly into bragging rights; might bend your case, your rails, and local building codes.",legendary,450.0
+nvidia_rtx_5090,Nvidia GeForce RTX 5090,RTX5090-2407MHz,Nvidia,2025,2407.0,32,21760,GPU,4,92000000000,Blackwell GB202. 21760 CUDA cores. 32GB GDDR7. The new king.,common,575.0
+amd_rx_580,AMD Radeon RX 580,RX580-1257MHz,AMD,2017,1257.0,32,2304,GPU,14,5700000000,Former mining farm workhorse; smells faintly of stale thermal paste and broken promises.,common,185.0
+amd_rx_5700xt,AMD Radeon RX 5700 XT,RX5700XT-1605MHz,AMD,2019,1605.0,32,2560,GPU,7,10300000000,Overclock it for +10% hashrate or +100% fan noise; whichever comes first.,uncommon,225.0
+amd_rx_6900xt,AMD Radeon RX 6900 XT,RX6900XT-2015MHz,AMD,2020,2015.0,32,5120,GPU,7,26800000000,RDNA 2. Big Navi. Infinity Cache. Trades blows with 3090.,common,300.0
+amd_rx_7900xtx,AMD Radeon RX 7900 XTX,RX7900XTX-2300MHz,AMD,2022,2300.0,32,6144,GPU,5,57700000000,"Chiplet chaos engine; mines hard, games harder, occasionally attempts to escape its own cooler.",rare,355.0
+intel_arc_a770,Intel Arc A770,ArcA770-2100MHz,Intel,2022,2100.0,32,4096,GPU,6,21700000000,New kid with quirky drivers; occasionally forgets it's mining and decides to recompile its shaders instead.,uncommon,225.0
+nvidia_v100,Nvidia Tesla V100,V100-1455MHz,Nvidia,2017,1455.0,32,5120,GPU,12,21100000000,Volta. Tensor Cores debut. 125 TFLOPS mixed precision. AI revolution.,rare,300.0
+nvidia_a100,Nvidia A100,A100-1410MHz,Nvidia,2020,1410.0,32,6912,GPU,7,54200000000,Ampere GA100. 80GB HBM2e. 312 TFLOPS TF32. THE AI chip.,rare,400.0
+nvidia_h100,Nvidia H100,H100-1593MHz,Nvidia,2022,1593.0,32,16896,GPU,4,80000000000,Hopper. 80GB HBM3. 3958 TFLOPS FP8. Worth its weight in gold.,epic,700.0
+nvidia_b200,Nvidia B200,B200-1800MHz,Nvidia,2024,1800.0,32,18432,GPU,4,208000000000,Blackwell. 208B transistors. 192GB HBM3e. AI hyperscaler.,legendary,1000.0
+google_tpu_v4,Google TPU v4,TPUv4-1050MHz,Google,2021,1050.0,32,1,TPU,7,0,275 TFLOPS BF16. Google's custom AI accelerator.,legendary,170.0
+cerebras_wse2,Cerebras WSE-2,WSE2-unclocked,Cerebras,2021,1000.0,32,850000,ASIC,7,2600000000000,WAFER-SCALE chip. 850K cores. 2.6T transistors. Size of a dinner plate.,mythic,15000.0
+graphcore_gc200,Graphcore Colossus MK2 GC200,GC200-1.35GHz,Graphcore,2020,1350.0,32,1472,ASIC,7,59400000000,IPU with 1472 tiles. Massive on-chip SRAM. AI workloads.,rare,150.0
+snapdragon_8gen3,Qualcomm Snapdragon 8 Gen 3,SD8Gen3-3.3GHz,Qualcomm,2023,3300.0,64,8,SOC,4,0,Cortex-X4 prime core. Adreno 750 GPU. Mobile AI powerhouse.,common,5.0
+mediatek_d9300,MediaTek Dimensity 9300,D9300-3.25GHz,MediaTek,2023,3250.0,64,8,SOC,4,0,All big-core design. No efficiency cores. Bold move.,uncommon,5.0
+samsung_exynos_2400,Samsung Exynos 2400,Exynos2400-3.2GHz,Samsung,2024,3200.0,64,10,SOC,4,0,10-core tri-cluster. Xclipse 940 GPU. RDNA 3 mobile.,uncommon,5.5
+nvidia_jetson_orin,Nvidia Jetson AGX Orin,AGXOrin-2.2GHz,Nvidia,2022,2200.0,64,12,SOC,8,0,275 TOPS AI. Ampere GPU. Robotics and edge AI brain.,rare,60.0
+xilinx_virtex_7,Xilinx Virtex-7 2000T,V7-2000T-600MHz,Xilinx,2012,600.0,32,1,FPGA,28,6800000000,Largest FPGA ever at time. 2M logic cells. Reconfigurable.,epic,20.0
+xilinx_versal,Xilinx Versal Premium VP1902,VP1902-1GHz,AMD/Xilinx,2022,1000.0,32,1,FPGA,7,0,ACAP with AI engines. Networking and compute acceleration.,rare,75.0
+intel_agilex_9,Intel Agilex 9,Agilex9-800MHz,Intel,2023,800.0,32,1,FPGA,7,0,Intel 7 process FPGA. HBM2e. Data center acceleration.,rare,60.0
+vax_11_780,DEC VAX-11/780,VAX780-5MHz,DEC,1977,5.0,32,1,CPU,5000,0,The definition of 1 MIPS. THE minicomputer.,mythic,5000.0
+sun_ultrasparc_iii,Sun UltraSPARC III,USIIICu-1.2GHz,Sun,2001,1200.0,64,1,CPU,130,29000000,Sun Fire server chip. Solaris muscle.,rare,65.0
+sun_t1_niagara,Sun UltraSPARC T1 (Niagara),T1-1.2GHz,Sun,2005,1200.0,64,8,CPU,90,300000000,"8 cores, 32 threads. CoolThreads. Throughput computing.",rare,72.0
+emotion_engine_iop,Sony IOP (PS2 I/O Processor),IOP-36.864MHz,Sony,2000,36.864,32,1,CPU,250,0,PS2 I/O processor. It's basically a PS1 CPU running I/O.,rare,1.5
+atari_jaguar_tom,Atari Jaguar Tom,Tom-26.6MHz,Atari,1993,26.6,64,1,GPU,500,0,Jaguar GPU. 64-bit bus. Do the math? Nobody could program it.,legendary,3.0
+atari_jaguar_jerry,Atari Jaguar Jerry,Jerry-26.6MHz,Atari,1993,26.6,32,1,DSP,500,0,Jaguar DSP + sound. RISC-based audio and I/O.,legendary,2.0
+neo_geo_68000,Motorola 68000 (Neo Geo),68000-12MHz,Motorola,1990,12.0,32,1,CPU,3500,68000,Neo Geo MVS/AES CPU. Arcade power at home (for $650).,epic,1.5
+gba_arm7tdmi,ARM7TDMI (Game Boy Advance),ARM7TDMI-16.78MHz,ARM,2001,16.78,32,1,CPU,180,0,GBA CPU. Also used in DS as co-processor. Thumb mode.,common,0.08
+psp_allegrex,Sony PSP Allegrex (MIPS R4000),Allegrex-333MHz,Sony,2004,333.0,32,1,CPU,90,0,PSP CPU. MIPS R4000 based. Portable 3D gaming pioneer.,uncommon,2.0
+switch_tegra_x1,Nvidia Tegra X1 (Nintendo Switch),TegraX1-1.02GHz,Nvidia,2017,1020.0,64,4,SOC,20,0,Nintendo Switch SoC. 256 Maxwell CUDA cores. Portable BotW.,common,10.0
+bitmain_s9,Bitmain Antminer S9 (BM1387),BM1387-ASIC,Bitmain,2016,600.0,32,189,ASIC,16,0,14 TH/s SHA-256. THE Bitcoin miner. Sold millions.,common,1400.0
+bitmain_s19_pro,Bitmain Antminer S19 Pro (BM1397),BM1397-ASIC,Bitmain,2020,800.0,32,256,ASIC,7,0,110 TH/s. 3250W. Industrial-scale Bitcoin mining.,uncommon,3250.0
+bitmain_s21,Bitmain Antminer S21,BM1370-ASIC,Bitmain,2024,1000.0,32,300,ASIC,5,0,200 TH/s at 17.5 J/TH. State of the art mining efficiency.,common,3500.0
+sid_6581,MOS 6581 SID,SID-6581-1MHz,MOS Technology,1982,1.0,8,1,CUSTOM,7000,0,Commodore 64 sound chip. Synthesizer legend. Music icon.,legendary,0.4
+yamaha_ym2612,Yamaha YM2612,YM2612-7.67MHz,Yamaha,1988,7.67,8,1,CUSTOM,3000,0,Sega Genesis FM synth. That iconic crunchy sound.,epic,0.5
+paula_agnus,MOS 8364 Paula (Amiga),Paula-7.16MHz,MOS/Commodore,1985,7.16,8,1,CUSTOM,5000,0,Amiga audio & floppy DMA. 4-channel 8-bit PCM. Mod tracker heaven.,legendary,0.5
+spc700,Sony SPC700 (SNES Audio),SPC700-2.048MHz,Sony,1990,2.048,8,1,CUSTOM,1000,0,SNES audio CPU. BRR samples. Ken Kutaragi designed this.,epic,0.1
+cray_1,Cray-1 Vector Processor,Cray1-80MHz,Cray Research,1976,80.0,64,1,CPU,5000,200000,160 MFLOPS. The iconic C-shaped supercomputer. Bench included.,mythic,115000.0
+ibm_power10,IBM POWER10,POWER10-4GHz,IBM,2021,4000.0,64,15,CPU,7,18000000000,15 cores. SMT8. PCIe 5.0. Enterprise POWER architecture.,rare,250.0
+fujitsu_a64fx,Fujitsu A64FX,A64FX-2.0GHz,Fujitsu,2019,2000.0,64,48,CPU,7,8786000000,ARM SVE. Fugaku supercomputer. #1 in the world (2020).,epic,90.0
+sifive_u74,SiFive U74 (JH7110),U74-1.5GHz,SiFive/StarFive,2022,1500.0,64,4,CPU,28,0,RISC-V quad-core. VisionFive 2 SBC. Open-source ISA.,uncommon,5.0
+intel_myriad_x,Intel Movidius Myriad X,MyriadX-700MHz,Intel,2017,700.0,32,16,NPU,16,0,Vision Processing Unit. Neural compute stick brain.,rare,2.0
+huawei_ascend_910,Huawei Ascend 910,Ascend910-1.6GHz,Huawei,2019,1600.0,32,32,NPU,7,0,256 TFLOPS FP16. Chinese AI accelerator challenger.,rare,310.0
+tenstorrent_wormhole,Tenstorrent Wormhole,Wormhole-1.2GHz,Tenstorrent,2023,1200.0,32,80,NPU,12,0,Jim Keller's AI chip. RISC-V tensor cores. Open ecosystem.,rare,200.0
+connection_machine,Thinking Machines CM-2 (Connection Machine),CM2-7MHz,Thinking Machines,1987,7.0,1,65536,CUSTOM,2000,0,"65,536 single-bit processors. Massively parallel. Jurassic Park prop.",mythic,30000.0
+emotion_engine_vu0,Sony VU0 (PS2 Vector Unit),VU0-294.912MHz,Sony,2000,294.912,128,1,COPROCESSOR,250,0,PS2 micro-coded vector unit. Geometry processing.,rare,5.0
+ps_vita_arm,ARM Cortex-A9 (PS Vita),PSVita-ARM-2GHz,ARM/Sony,2011,2000.0,32,4,SOC,40,0,PS Vita quad-core ARM. PowerVR SGX543MP4+ GPU. RIP Vita.,uncommon,3.0
+amiga_agnus,MOS 8372A Fat Agnus (Amiga),FatAgnus-7.16MHz,MOS/Commodore,1986,7.16,32,1,CUSTOM,5000,0,"Amiga DMA controller. Copper, Blitter. Custom chip magic.",legendary,1.0
+amiga_denise,MOS 8373 Super Denise (Amiga),SuperDenise-14.32MHz,MOS/Commodore,1990,14.32,32,1,GPU,3000,0,"Amiga display chip. HAM mode, sprites, playfields.",legendary,0.8
+nintendo_dsi_arm9,ARM946E-S (Nintendo DS),ARM9-67MHz,ARM,2004,67.0,32,1,CPU,90,0,DS main CPU. Dual-screen gaming. Stylus era.,common,0.3
+z80_gameboy,Sharp LR35902 (Game Boy CPU),LR35902-4.19MHz,Sharp,1989,4.19,8,1,CPU,4000,0,Game Boy CPU. Z80/8080 hybrid. Tetris machine.,epic,0.05
+intel_80287,Intel 80287,80287-6MHz,Intel,1982,6.0,80,1,FPU,1500,45000,"286 math coprocessor. Ran at its own clock speed, not CPU-synced.",rare,2.4
+intel_80387,Intel 80387,80387-16MHz,Intel,1987,16.0,80,1,FPU,1000,104000,386 FPU. First fully IEEE 754 compliant Intel coprocessor.,uncommon,2.5
+weitek_4167,Weitek 4167,4167-33MHz,Weitek,1991,33.0,80,1,FPU,800,135000,486 alternative FPU. Used its own socket. Niche but fast.,rare,3.0
+cyrix_83d87,Cyrix 83D87,83D87-40MHz,Cyrix,1989,40.0,80,1,FPU,1000,75000,387-compatible FPU. Faster than Intel's own 387 in many benchmarks.,rare,2.0
+mips_r4010,MIPS R4010 FPU,R4010-50MHz,MIPS Technologies,1991,50.0,64,1,FPU,1000,213000,Companion FPU for R4000. Workstation-grade floating point.,rare,3.5
+motorola_68881,Motorola 68881,68881-16MHz,Motorola,1985,16.0,80,1,FPU,1500,155000,68k FPU. Mac II and Amiga accelerators loved this chip.,uncommon,2.0
+motorola_68882,Motorola 68882,68882-33MHz,Motorola,1987,33.0,80,1,FPU,1000,176000,Pipelined 68k FPU. 2x faster than 68881. Workstation essential.,uncommon,2.0
+xilinx_xc2064,Xilinx XC2064,XC2064-FPGA,Xilinx,1985,15.0,32,1,FPGA,2000,25000,The FIRST commercial FPGA. 64 CLBs. Started an industry.,legendary,0.5
+xilinx_spartan6,Xilinx Spartan-6 LX45,Spartan6-250MHz,Xilinx,2009,250.0,32,1,FPGA,45,43000000,Cost-optimized FPGA. DSP slices. Hobbyist and embedded favorite.,uncommon,1.5
+xilinx_virtex_ultrascale_plus,Xilinx Virtex UltraScale+ VU19P,VU19P-FPGA,Xilinx,2018,700.0,32,1,FPGA,16,35000000000,Largest FPGA ever made. 9M logic cells. ASIC prototyping beast.,epic,95.0
+altera_cyclone_ii,Altera Cyclone II EP2C35,CycloneII-300MHz,Altera,2004,300.0,32,1,FPGA,90,0,Budget FPGA. DE2 boards everywhere. University FPGA 101.,common,1.5
+altera_stratix_v,Altera Stratix V GX,StratixV-800MHz,Altera,2011,800.0,32,1,FPGA,28,3900000000,High-end FPGA. HFT trading favorite. 28nm with transceivers.,rare,30.0
+lattice_ice40,Lattice iCE40 LP8K,iCE40-133MHz,Lattice Semiconductor,2014,133.0,32,1,FPGA,40,0,Tiny ultra-low-power FPGA. Open-source toolchain (Project IceStorm).,uncommon,0.05
+lattice_ecp5,Lattice ECP5-85F,ECP5-400MHz,Lattice Semiconductor,2015,400.0,32,1,FPGA,40,0,Mid-range FPGA. Open-source toolchain support. SERDES included.,uncommon,1.0
+microsemi_proasic3,Microsemi ProASIC3 A3P250,ProASIC3-350MHz,Microsemi/Actel,2005,350.0,32,1,FPGA,130,0,Flash-based FPGA. Non-volatile config. Space and defense grade.,rare,0.5
+amd_versal,AMD Versal AI Edge VE2802,VE2802-1.3GHz,AMD/Xilinx,2022,1300.0,32,1,FPGA,7,0,Adaptive compute with AI engines. FPGA + ARM + NPU hybrid.,epic,45.0
+atmel_atmega328p,Atmel ATmega328P,ATmega328P-20MHz,Atmel/Microchip,2008,20.0,8,1,MCU,350,0,The Arduino Uno chip. 32KB flash. Started the maker revolution.,common,0.2
+microchip_pic16f84,Microchip PIC16F84,PIC16F84-20MHz,Microchip,1993,20.0,8,1,MCU,800,0,Classic PIC microcontroller. Flash-based. Hobbyist gateway drug.,common,0.1
+stm32f103,STMicroelectronics STM32F103,STM32F103-72MHz,STMicroelectronics,2007,72.0,32,1,MCU,180,0,ARM Cortex-M3 MCU. Blue Pill board. STM32 empire started here.,common,0.3
+espressif_esp32,Espressif ESP32,ESP32-240MHz,Espressif,2016,240.0,32,2,MCU,40,0,Dual-core WiFi+BT MCU. IoT everywhere. Absurdly cheap and capable.,common,0.5
+rp2040,Raspberry Pi RP2040,RP2040-133MHz,Raspberry Pi,2021,133.0,32,2,MCU,40,0,Dual Cortex-M0+. PIO state machines. Pico power for $0.70.,common,0.1
+ti_msp430,Texas Instruments MSP430,MSP430-16MHz,Texas Instruments,1993,16.0,16,1,MCU,350,0,Ultra-low-power 16-bit MCU. Battery-powered sensor king.,uncommon,0.001
+nxp_lpc1768,NXP LPC1768,LPC1768-100MHz,NXP Semiconductors,2009,100.0,32,1,MCU,90,0,ARM Cortex-M3 MCU. mbed platform pioneer. Ethernet on a MCU.,uncommon,0.4
+intel_8051,Intel 8051,8051-12MHz,Intel,1980,12.0,8,1,MCU,3500,128000,Most cloned MCU in history. Still in production 40+ years later.,uncommon,0.5
+cypress_psoc5lp,Cypress PSoC 5LP,PSoC5LP-80MHz,Cypress Semiconductor,2011,80.0,32,1,MCU,130,0,ARM Cortex-M3 + programmable analog + UDB digital blocks. Swiss army MCU.,uncommon,0.3
+nordic_nrf52840,Nordic nRF52840,nRF52840-64MHz,Nordic Semiconductor,2018,64.0,32,1,MCU,40,0,BLE 5.0 + Thread + Zigbee SoC. Wireless IoT powerhouse.,common,0.05
+ti_tms320c6713,TI TMS320C6713,C6713-225MHz,Texas Instruments,2003,225.0,32,1,DSP,130,0,Floating-point C6000 DSP. Audio processing workhorse.,uncommon,1.0
+adi_sharc_21060,Analog Devices ADSP-21060 SHARC,SHARC21060-40MHz,Analog Devices,1994,40.0,32,1,DSP,500,1000000,SHARC DSP. 120 MFLOPS. Pro audio and military signal processing.,rare,2.0
+adi_blackfin_bf533,Analog Devices Blackfin BF533,BF533-600MHz,Analog Devices,2003,600.0,32,1,DSP,130,0,DSP + MCU hybrid. Video processing and embedded media.,uncommon,1.0
+qualcomm_hexagon_680,Qualcomm Hexagon 680 DSP,Hexagon680-1GHz,Qualcomm,2016,1000.0,32,4,DSP,14,0,Snapdragon 820 DSP. Always-on sensor hub. HVX vector extensions.,rare,1.5
+freescale_dsp56300,Freescale DSP56300,DSP56300-150MHz,Freescale/Motorola,1996,150.0,24,1,DSP,350,0,24-bit audio DSP. Pro audio gear and modems. Motorola lineage.,uncommon,1.0
+bitmain_bm1387,Bitmain BM1387,BM1387-ASIC,Bitmain,2016,600.0,32,189,ASIC,16,0,Antminer S9 die. 14 TH/s total. THE chip that mined half of Bitcoin.,rare,7.4
+bitmain_bm1397,Bitmain BM1397,BM1397-ASIC,Bitmain,2019,800.0,32,256,ASIC,7,0,Antminer S17 die. 7nm SHA-256. Efficiency leap in mining silicon.,epic,12.0
+canaan_a3210,Canaan Avalon A3210,A3210-ASIC,Canaan Creative,2018,500.0,32,104,ASIC,16,0,AvalonMiner 841 chip. Chinese mining silicon. SHA-256 cruncher.,rare,8.0
+microbt_m10_asic,MicroBT WhatsMiner M10 ASIC,M10-ASIC,MicroBT,2018,600.0,32,130,ASIC,16,0,WhatsMiner M10 die. Samsung 16nm. Bitmain competitor.,rare,9.0
+innosilicon_t2t,Innosilicon T2T ASIC,T2T-ASIC,Innosilicon,2019,750.0,32,162,ASIC,10,0,30 TH/s SHA-256 miner. Samsung 10nm. Dark horse mining ASIC.,legendary,10.0
+google_edge_tpu,Google Edge TPU,EdgeTPU-500MHz,Google,2018,500.0,8,1,NPU,28,0,4 TOPS in 2W. Coral dev board brain. Edge ML inference king.,rare,2.0
+qualcomm_hexagon_npu,Qualcomm Hexagon NPU (Snapdragon 888),HexagonNPU-1GHz,Qualcomm,2020,1000.0,16,4,NPU,5,0,26 TOPS on-device AI. Fused AI accelerator. Camera and voice ML.,rare,3.0
+apple_neural_engine_a14,Apple Neural Engine (A14 Bionic),ANE-A14,Apple,2020,1000.0,16,16,NPU,5,11800000000,11 TOPS. 16-core neural engine. First 5nm phone chip. ML pioneer.,epic,3.0
+huawei_ascend_310,Huawei Ascend 310,Ascend310-1GHz,Huawei,2018,1000.0,16,8,NPU,12,0,16 TOPS INT8 at 8W. Edge AI inference. Da Vinci architecture.,rare,8.0
+mos_6567_vic_ii,MOS 6567 VIC-II,VIC-II-8MHz,MOS Technology,1982,8.18,8,1,COPROCESSOR,5000,13000,"C64 video chip. Sprites, scrolling, raster tricks. Demo scene legend.",rare,0.5
+amiga_ocs_agnus_8361,Amiga OCS Agnus 8361,Agnus8361-7.16MHz,MOS/Commodore,1985,7.16,16,1,COPROCESSOR,5000,0,Original Amiga DMA controller. Copper + Blitter. OCS chipset.,legendary,0.8
+amiga_aga_alice,Amiga AGA Alice,Alice-28MHz,Commodore,1992,28.0,32,1,COPROCESSOR,1000,0,A4000/A1200 DMA controller. AGA chipset. Commodore's last stand.,epic,1.0
+amiga_denise_8362,Commodore Amiga Denise 8362,Denise8362-7.16MHz,MOS/Commodore,1985,7.16,16,1,COPROCESSOR,5000,0,Original Amiga display chip. 32 colors from 4096. HAM mode.,legendary,0.5
+ps1_gte,Sony PS1 Geometry Transform Engine,GTE-33.8MHz,Sony,1994,33.8,32,1,COPROCESSOR,600,0,PS1 geometry coprocessor. 1.5M flat-shaded polys/sec. 3D revolution.,rare,2.0
+loongson_3a5000,Loongson 3A5000,3A5000-2.5GHz,Loongson,2021,2500.0,64,4,CPU,14,2000000000,"China's homegrown LoongArch CPU. Not x86, not ARM — its own thing. Digital sovereignty in silicon.",epic,65
+loongson_3a6000,Loongson 3A6000,3A6000-2.5GHz,Loongson,2023,2500.0,64,4,CPU,12,4000000000,"The sequel. Quad-issue out-of-order, trades blows with a 10th-gen Core i3. The Great Firewall's proudest son.",epic,50
+zhaoxin_kx6640ma,Zhaoxin KaiXian KX-6640MA,KX-6640MA-2.7GHz,Zhaoxin,2019,2700.0,64,8,CPU,16,2000000000,Chinese x86 clone via VIA's Centaur lineage. The bloodline lives on in the most unexpected place.,rare,70
+zhaoxin_kh40000,Zhaoxin KaiSheng KH-40000,KH-40000-3.0GHz,Zhaoxin,2021,3000.0,64,8,CPU,16,3000000000,Server-class Chinese x86. Trying to replace Xeons in government offices one bureaucrat at a time.,epic,70
+phytium_ft2000_4,Phytium FT-2000/4,FT-2000/4-2.6GHz,Phytium,2020,2600.0,64,4,CPU,16,2500000000,"ARM-based Chinese server chip. Entity-listed by the US, which is basically a badge of honor.",epic,35
+phytium_d2000,Phytium D2000,D2000-2.3GHz,Phytium,2021,2300.0,64,8,CPU,14,3200000000,Desktop-class ARM from Phytium. Powers the Huawei Qingyun desktops. Sanction-proof computing.,epic,25
+hisilicon_kirin_9000,HiSilicon Kirin 9000,Kirin9000-3.13GHz,HiSilicon,2020,3130.0,64,8,CPU,5,15300000000,Huawei's magnum opus. 5nm before the sanctions hammer fell. The last of its kind — a silicon swan song.,legendary,6
+hisilicon_kirin_710,HiSilicon Kirin 710,Kirin710-2.2GHz,HiSilicon,2018,2200.0,64,8,CPU,12,5500000000,Mid-range Kirin for the masses. Powered a billion budget Huaweis before the world changed.,rare,5
+sunway_sw26010,Sunway SW26010,SW26010-1.45GHz,Sunway,2016,1450.0,64,260,CPU,28,7700000000,260 cores of Chinese supercomputing fury. Powered TaihuLight to #1 on TOP500. No Western IP inside.,legendary,250
+smic_mystery_chip,SMIC Black Market Relabel,???-???MHz,SMIC (allegedly),2023,2400.0,64,8,CPU,7,10000000000,Nobody knows what this actually is. Found with sanded-off markings at a Shenzhen flea market. Could be anything. Could be everything.,mythic,30
+elbrus_8s,Elbrus-8S,Elbrus-8S-1.3GHz,MCST,2016,1300.0,64,8,CPU,28,2700000000,Russian VLIW processor. Explicitly designed so Russia doesn't need Western CPUs. Mission... partially accomplished.,rare,90
+elbrus_16s,Elbrus-16S,Elbrus-16S-2.0GHz,MCST,2020,2000.0,64,16,CPU,16,12000000000,16-core VLIW beast from Mother Russia. The compiler has to be smarter than the chip. That's the whole point.,epic,120
+baikal_t1,Baikal-T1,Baikal-T1-1.2GHz,Baikal Electronics,2018,1200.0,32,2,CPU,28,500000000,MIPS-based Russian CPU for networking gear. Named after the deepest lake on Earth. Not that deep architecturally.,rare,5
+baikal_m,Baikal-M,Baikal-M-1.5GHz,Baikal Electronics,2021,1500.0,64,8,CPU,28,2000000000,"ARM-based Russian desktop chip. Cortex-A57 cores in 2021 — vintage ARM, freshly packaged.",epic,35
+mcst_r1000,MCST R1000,R1000-1.0GHz,MCST,2019,1000.0,64,4,CPU,28,1500000000,Elbrus architecture shrunk for embedded use. When your missile guidance needs domestic silicon.,rare,20
+km1810vm86,KM1810VM86,KM1810VM86-5MHz,Angstrem,1986,5.0,16,1,CPU,3000,29000,Soviet 8086 clone. Reverse-engineered with love and five-year plans. Pin-compatible if you squint.,rare,1.5
+k1801vm1,K1801VM1,K1801VM1-5MHz,Angstrem,1980,5.0,16,1,CPU,6000,18000,Soviet PDP-11 clone. Powered BK home computers and taught a generation of Russian hackers BASIC.,uncommon,1.0
+k580vm80a,K580VM80A,K580VM80A-2.5MHz,Angstrem,1977,2.5,8,1,CPU,6000,6500,Soviet 8080 clone. The Iron Curtain couldn't stop good chip designs from being... borrowed.,uncommon,0.8
+nexgen_nx586,NexGen Nx586,Nx586-93MHz,NexGen,1994,93.0,32,1,CPU,500,3500000,The x86 clone that needed its own chipset. AMD bought NexGen and turned it into the K6. Ugly duckling origin story.,rare,16
+cyrix_mii,Cyrix MII,MII-PR333,Cyrix,1997,225.0,32,1,CPU,250,6500000,"Cyrix's last stand. PR-rated to mislead, FPU bad enough to cry about. Budget Quake was a slideshow.",uncommon,19
+transmeta_efficeon,Transmeta Efficeon TM8800,Efficeon-1.6GHz,Transmeta,2004,1600.0,32,1,CPU,90,110000000,Code morphing v2. Could pretend to be x86 even harder. Still couldn't pretend to be profitable.,epic,12
+via_c7,VIA C7,C7-2.0GHz,VIA,2005,2000.0,32,1,CPU,90,26000000,Last of the Centaur x86 bloodline. Built-in hardware RNG and AES. The spy's budget laptop chip.,uncommon,20
+via_nano,VIA Nano,Nano-1.8GHz,VIA,2008,1800.0,64,1,CPU,65,100000000,"VIA's out-of-order 64-bit swan song. Actually decent. Too little, too late. RIP Centaur Technology.",rare,25
+idt_winchip_c6,IDT WinChip C6,WinChip-200MHz,IDT,1997,200.0,32,1,CPU,350,5400000,"Socket 7 x86 clone from Integrated Device Technology. Cheap, simple, slow. The K-Mart of processors.",rare,16
+idt_winchip2,IDT WinChip 2,WinChip2-240MHz,IDT,1998,240.0,32,1,CPU,250,9000000,Added 3DNow! and MMX. Still couldn't win. Centaur got bought by VIA and the name died here.,rare,14
+umc_u5s,UMC U5S (Green CPU),U5S-40MHz,UMC,1995,40.0,32,1,CPU,500,1200000,Unlicensed 486 clone from Taiwan. Intel sued. UMC lost. Every surviving chip is a contraband artifact.,rare,5
+sis_550,SiS 550,SiS550-300MHz,SiS,2001,300.0,32,1,CPU,180,12000000,SiS tried making a CPU once. Rise mP6 core in disguise with integrated graphics. We don't talk about this.,rare,10
+dmp_vortex86,DM&P Vortex86DX,Vortex86DX-1GHz,DM&P Electronics,2007,1000.0,32,1,CPU,90,30000000,Taiwanese x86 SoC for embedded systems. In every karaoke machine and industrial robot you've never noticed.,uncommon,3
+transputer_t9000,INMOS Transputer T9000,T9000-20MHz,INMOS,1994,20.0,32,1,CPU,600,2200000,"The Transputer sequel that was too ambitious. Virtual channels, superscalar — and catastrophically late. RIP INMOS.",legendary,5
+acorn_arm1,Acorn ARM1,ARM1-6MHz,Acorn Computers,1985,6.0,32,1,CPU,3000,25000,"THE FIRST ARM CHIP EVER. 25,000 transistors designed by a tiny team. Now its descendants run the entire planet.",legendary,0.1
+acorn_arm2,Acorn ARM2,ARM2-8MHz,Acorn Computers,1987,8.0,32,1,CPU,2000,30000,Powered the Archimedes. Hardware multiply added. Still only 30K transistors — efficiency incarnate.,epic,0.2
+fairchild_clipper,Fairchild CLIPPER C100,CLIPPER-33MHz,Fairchild,1986,33.0,32,1,CPU,1500,140000,Early RISC contender that lost to SPARC and MIPS. Intergraph used it until they didn't. A cautionary footnote.,rare,5
+ns32032,National Semiconductor NS32032,NS32032-15MHz,National Semiconductor,1984,15.0,32,1,CPU,1500,170000,"The 'NS32K' 32-bit family that was supposed to rival 68000. Buggy, slow, forgotten. Used in some early workstations.",rare,2
+zilog_z80000,Zilog Z80000,Z80000-25MHz,Zilog,1986,25.0,32,1,CPU,1500,175000,Zilog's 32-bit follow-up to the legendary Z80. Arrived too late to matter. The Z80 lived on; this didn't.,rare,2
+pa_risc_8600,PA-RISC 8600,PA8600-552MHz,HP,1999,552.0,64,1,CPU,250,140000000,"HP's late-era PA-RISC. Massive cache, great FP. Then Itanium came along and HP-UX wept.",rare,35
+dec_alpha_21364,DEC Alpha 21364 (EV7),Alpha21364-1.15GHz,Compaq/HP,2003,1150.0,64,1,CPU,180,152000000,THE LAST ALPHA EVER MADE. Integrated memory controller before AMD made it cool. A legend's final breath.,legendary,100
+mips_r14000,SGI MIPS R14000,R14000-600MHz,SGI/MIPS,2001,600.0,64,1,CPU,130,7200000,Late-era SGI MIPS. Powered Onyx visualizers and Origin servers. Hollywood rendering on IRIX one last time.,rare,20
+sun_ultrasparc_t2,Sun UltraSPARC T2,T2-1.4GHz,Sun Microsystems,2007,1400.0,64,8,CPU,65,503000000,"8 cores, 64 threads in 2007. CoolThreads marketing wasn't wrong — it was ahead of its time and also Sun's last hurrah.",rare,95
+hitachi_sh4,Hitachi SuperH SH-4,SH-4-200MHz,Hitachi,1998,200.0,32,1,CPU,180,10000000,Dreamcast's brain. Superscalar RISC with hardware geometry engine. The console that died too young.,uncommon,4
+nec_v60,NEC V60,V60-16MHz,NEC,1986,16.0,32,1,CPU,1500,375000,"NEC's attempt at 32-bit supremacy. Not quite CISC, not quite RISC. Found in obscure Japanese workstations.",rare,2
+nec_v850,NEC V850,V850-20MHz,NEC,1992,20.0,32,1,CPU,500,200000,"Embedded RISC for automotive and industrial. Probably in your car's ECU right now, quietly judging your driving.",uncommon,0.5
+fujitsu_sparc64_xii,Fujitsu SPARC64 XII,SPARC64XII-4.25GHz,Fujitsu,2017,4250.0,64,12,CPU,20,5500000000,"One of the last SPARC chips ever made. 4.25 GHz, because Fujitsu didn't know the meaning of quit.",epic,180
+ibm_z15,IBM z15,z15-5.2GHz,IBM,2019,5200.0,64,12,CPU,14,12200000000,"Mainframe chip running at 5.2 GHz. Banks, airlines, and governments depend on this. It will outlive us all.",epic,700
+sifive_p670,SiFive P670,P670-2.4GHz,SiFive,2023,2400.0,64,4,CPU,5,1500000000,High-performance RISC-V application core. Vector extensions included. The open-source ISA grows teeth.,rare,5
+thead_xuantie_c910,Alibaba T-Head XuanTie C910,C910-1.5GHz,Alibaba T-Head,2019,1500.0,64,4,CPU,12,500000000,Alibaba's RISC-V core. Open-sourced by a trillion-dollar company. The weirdest timeline for open silicon.,rare,3
+starfive_jh7110,StarFive JH7110,JH7110-1.5GHz,StarFive,2022,1500.0,64,4,CPU,28,600000000,Powers the VisionFive 2 SBC. RISC-V Linux desktop for $50. The Raspberry Pi of the open ISA revolution.,uncommon,5
+kendryte_k210,Kendryte K210,K210-400MHz,Canaan,2018,400.0,64,2,CPU,28,50000000,Tiny RISC-V with a neural network accelerator. AI at the edge before it was cool. Sipeed boards everywhere.,common,1
+espressif_esp32_c3,Espressif ESP32-C3,ESP32-C3-160MHz,Espressif,2020,160.0,32,1,CPU,40,10000000,"RISC-V WiFi+BLE MCU for $1. In every smart plug, fairy light, and IoT horror device. Espressif chose violence.",common,0.5
+adapteva_epiphany3,Adapteva Epiphany-III,E16G301-1GHz,Adapteva,2012,1000.0,32,16,CPU,65,30000000,16-core Parallella chip. Kickstarter-funded parallel computing for the masses. $99 supercomputer energy.,rare,2
+kalray_mppa256,Kalray MPPA-256,MPPA256-400MHz,Kalray,2012,400.0,32,256,CPU,28,2000000000,"256-core French processor. VLIW clusters connected in a network-on-chip. Oui, that is a lot of cores.",epic,15
+xmos_xs1_l1,XMOS XS1-L1,XS1-L1-400MHz,XMOS,2007,400.0,32,8,CPU,90,20000000,"Event-driven multicore from Bristol. Hardware threads switch in a single cycle. Elegant, alien, underappreciated.",rare,1
+greenarray_ga144,GreenArrays GA144,GA144-700MHz,GreenArrays,2010,700.0,18,144,CPU,180,5000000,144-core Forth chip. 18-bit cores programmed in Chuck Moore's colorForth. The most esoteric silicon ever sold.,epic,0.7
+parallax_propeller,Parallax Propeller P8X32A,P8X32A-80MHz,Parallax,2006,80.0,32,8,CPU,350,2000000,8-core hobbyist chip with its own language (Spin). No interrupts by design — each cog runs deterministically. Hackerspace royalty.,uncommon,0.3
+ambiq_apollo4,Ambiq Apollo4 Blue Plus,Apollo4-192MHz,Ambiq Micro,2021,192.0,32,1,CPU,22,50000000,Ultra-low-power MCU champion. Sub-threshold voltage design sips microwatts. Your smart watch's secret weapon.,uncommon,0.01
+fake_pentium_166,"""Pentium 166"" (Remarked P100)",P54C-100MHz,Shenzhen Special,1996,100.0,32,1,CPU,350,3300000,"The ink on the '166' is still wet. If you squint, you can see the original '100' underneath. Fresh from a Shenzhen back-alley workshop.",rare,10.1
+fake_pii_450,"""Pentium II 450"" (Remarked 233)",Klamath-233MHz,Shenzhen Special,1998,233.0,32,1,CPU,350,7500000,"Slot 1 cartridge with a suspiciously hand-drawn label. Benchmarks don't lie, but the sticker sure does.",rare,34.8
+fake_athlon_3200,"""Athlon XP 3200+"" (Scratched 2000+)",Thoroughbred-1667MHz,Shenzhen Special,2003,1667.0,32,1,CPU,130,37600000,IHS scratched with what appears to be a house key. The '3200+' was written in Sharpie over the sanded-off '2000+'. Bold.,rare,60.0
+fake_i7_4790k,"""Core i7-4790K"" (Relabeled Celeron)",Haswell-Celeron,Shenzhen Special,2015,1800.0,64,2,CPU,22,1400000000,Pop the IHS and the thermal paste hides a terrible secret. That's no i7 — that's a Celeron in a trench coat. The paste was applied extra thick for a reason.,epic,53.0
+fake_i9_13900k,"""Core i9-13900K"" (i3 in Disguise)",Alder-i3,Shenzhen Special,2023,3400.0,64,4,CPU,10,3500000000,"Retail box, holographic sticker, even a fake warranty card. Open it up and it's an i3 living its best life. The audacity is almost worth the price.",legendary,60.0
+fake_r9_5950x,"""Ryzen 9 5950X"" (Sanded Ryzen 3)",Zen2-R3,Shenzhen Special,2021,3800.0,64,4,CPU,7,3800000000,Laser-engraved '5950X' on a Ryzen 3 die. Whoever did this has a steady hand and zero shame. CPU-Z tells a very different story.,legendary,65.0
+fake_gtx_1060,"""GTX 1060 6GB"" (GTS 450 w/ Modded BIOS)",GF106-modded,Shenzhen Special,2017,783.0,128,192,GPU,40,1170000000,Device Manager says 1060. GPU-Z says GTS 450. The BIOS was modded by someone who believes in manifesting. 1GB of VRAM cosplaying as 6.,rare,106.0
+fake_rtx_3080,"""RTX 3080"" (GTS 450 with Dreams)",GF106-ascended,Shenzhen Special,2021,783.0,128,192,GPU,40,1170000000,A GTS 450 wearing a triple-fan cooler five times its size. The heatsink alone weighs more than the hopes of whoever buys this. RGB included.,epic,106.0
+fake_rtx_4090,"""RTX 4090"" (Two 2060s Duct-Taped Together)",TU106x2-ductape,Shenzhen Special,2023,1365.0,192,1920,GPU,12,10800000000,Two RTX 2060s in a trench coat pretending to be an RTX 4090. The duct tape is load-bearing. SLI was never meant to work like this.,legendary,320.0
+fake_rx_580,"""RX 580 8GB"" (Rebadged RX 460 2GB)",Baffin-rebadged,Shenzhen Special,2018,1090.0,128,896,GPU,14,3000000000,The '8GB' sticker was placed over the '2GB' marking with surgical precision. Games crash at 1080p but it runs Minesweeper like a champ.,rare,75.0
+mystery_i5,"""Intel Core i5"" (No Model Number)",Unknown-i5-ish,Intel (?),2020,2400.0,64,2,CPU,14,2000000000,Says 'Core i5' on the IHS and nothing else. Suspiciously light. Rattles when you shake it. Something is loose in there and it's not just your confidence.,uncommon,45.0
+unknown_qs_sample,Unknown QS Engineering Sample,QS-REDACTED,??? (Sanded Off),2019,3200.0,64,6,CPU,14,3000000000,All markings sanded off. Qualification Sample from a chip that may or may not exist. 'Fell off a truck from the fab' — the truck was going very fast.,epic,65.0
+suspect_epyc,Definitely Not Stolen EPYC 7742,Rome-64C,AMD (allegedly),2022,2250.0,64,64,CPU,7,39540000000,64 cores of enterprise-grade power with datacenter asset tags still attached. Serial number has been scratched off but the inventory sticker hasn't. Don't google it.,legendary,225.0
+suspect_xeon,Suspiciously Cheap Xeon E5-2680 v4,Broadwell-EP,Intel (probably),2018,2400.0,64,14,CPU,14,7200000000,Works great. Runs cool. Price was suspicious. Seller vanished after the transaction. Don't ask where it came from. Don't look at the serial number.,epic,120.0
+es0_unreleased,ES-0 Unreleased Prototype,ES0-CLASSIFIED,REDACTED,2024,4200.0,64,8,CPU,3,25000000000,"Pre-production silicon that was never supposed to leave the lab. Somewhere, an NDA is being violated and an engineer is sweating profusely. Boots to BIOS and nothing else.",mythic,95.0
+ewaste_p4,Recycled Pentium 4 (Landfill Edition),Northwood-2.4GHz,Intel (recycled),2004,2400.0,32,1,CPU,130,55000000,Pulled from a landfill with pliers and optimism. Pins are slightly green with corrosion. Still posts. Planet Earth weeps but your budget rejoices.,common,59.0
+ewaste_opteron,Dumpster Opteron 6174,Magny-Cours-2.2GHz,AMD (dumpster-dived),2010,2200.0,64,12,CPU,45,1800000000,Found in a dumpster behind a datacenter at 2am. Smells faintly of server room and regret. 12 cores of someone else's decommissioned problem.,uncommon,115.0
+flood_xeon,Flood Damaged Xeon E5-2690 v4,Broadwell-EP-waterlogged,Intel (water damaged),2016,2600.0,64,14,CPU,14,7200000000,"Survived a warehouse flood. Was placed in rice for 72 hours. Rice did not fix everything. Boots 4 out of 5 times, which is honestly pretty good.",uncommon,135.0
+fire_itanium,Fire Sale Itanium 9560 (Scorched),Poulson-2.53GHz,Intel (fire-damaged),2006,2530.0,64,8,CPU,32,3100000000,"Literally survived a warehouse fire. The scorch marks add character. IHS has a nice patina now. It's not a bug, it's thermal seasoning.",rare,170.0
+haunted_486,Haunted Intel 486DX2-66,486DX2-66MHz,Intel (cursed),1993,66.0,32,1,CPU,600,1200000,Previous owner swears it's cursed. Runs 15C hotter than spec for no reason. Makes strange clicking noises at 3am. Task Manager shows a process called 'SOUL.EXE' that can't be killed.,epic,12.0
+golden_sample,The Golden Sample (Unknown Origin),GoldenBin-5.8GHz,Silicon Lottery Winner,2020,5800.0,64,8,CPU,7,9800000000,One in a million. Overclocks 50%% beyond spec on air cooling. Binning perfection. The silicon gods smiled upon this die. Overclockers would commit crimes for this.,mythic,105.0
+bin0_reject,Bin 0 Reject (Quality Control Failure),Reject-Bin0,The Fab's Shame,2022,2800.0,64,4,CPU,5,8000000000,"Failed every quality control test at the fab. Was supposed to be destroyed. Somehow still boots. Two cores are dead, the others are questionable. It has nothing to lose.",legendary,125.0
+casio_fx991,Casio fx-991ES Calculator CPU,,Casio,2004,1,8,1,CPU,800000,5000,1 Hz if you mash the equals sign fast enough. Can compute sin(69) and that's about it.,common,0.001
+ti84_z80,TI-84 Plus Z80 Core,,Texas Instruments,2004,15,8,1,CPU,600000,8500,More games were played on this during maths class than actual maths. Drug Wars champion.,common,0.5
+sharp_el531,Sharp EL-531 Brain,,Sharp,1998,0.5,4,1,CPU,1000000,2000,Type 5318008 and flip it upside down. Peak computing achieved.,common,0.0005
+hp48g_saturn,HP 48G Saturn CPU,,Hewlett-Packard,1993,4,4,1,CPU,700000,12000,RPN or die. Engineers swear by it. Normal people swear at it.,uncommon,0.1
+brother_typewriter,Brother Word Processor IC,,Brother,1995,2,8,1,CPU,900000,15000,It's a typewriter that thinks it's a computer. The daisy wheel disagrees.,uncommon,5
+oscilloscope_prime,Oscilloscope Prime Number Generator,,Some Bloke's Garage,2024,0.001,1,0,CUSTOM,50000000,47,Oscilloscope → tuned resonator → AC transistor filter network → primes only. It works. Nobody knows why. Output smells like burning.,legendary,25
+breadboard_cpu,Breadboard 8-Bit CPU,,Ben Eater Fan,2023,0.01,8,1,CPU,100000000,200,Built from a YouTube tutorial at 3am. One loose wire and it becomes a random number generator.,rare,2
+relay_computer,Electromagnetic Relay Computer,,Garage Engineering Ltd,2020,0.0001,8,1,CUSTOM,999999999,0,400 relays clicking in symphony. The neighbours have filed noise complaints. Technically Turing complete.,epic,500
+water_logic_gate,Hydraulic Logic Computer,,Plumber's Union,2022,1e-05,2,1,CUSTOM,999999999,0,AND gates made from pipes and valves. OR gates from T-junctions. Runs on mains water pressure. The bathroom is now a NOR gate.,legendary,0
+domino_computer,Domino Logic Processor,,World Record Attempts Inc,2023,1e-06,4,1,CUSTOM,999999999,0,"10,000 dominoes arranged into a 4-bit adder. Single-use computation. Reset time: 6 hours. Worth it for the YouTube views.",epic,0
+crab_gate,Soldier Crab Logic Gate,,Nature,2012,1e-07,1,1,CUSTOM,999999999,0,Actual crabs in Y-shaped channels forming AND/OR gates. Peer-reviewed and published. Clock speed depends on crab motivation.,mythic,0
+redstone_cpu,Minecraft Redstone CPU,,xX_CraftLord_Xx,2019,0.0005,8,1,CPU,999999999,0,Built in a Minecraft world. Technically runs inside a computer running inside a computer. Turtles all the way down.,rare,0
+conway_gol_cpu,Game of Life Turing Machine,,John Conway's Ghost,2010,1e-07,1,1,CUSTOM,999999999,0,A universal Turing machine built in Conway's Game of Life. Each 'clock cycle' takes 11 million generations. Be patient.,legendary,0
+antikythera,Antikythera Mechanism,,Ancient Greece,-100,0,0,0,CUSTOM,999999999,0,2000-year-old analogue computer for predicting eclipses. Found in a shipwreck. The OG overengineered side project.,mythic,0
+babbage_engine,Babbage Difference Engine No.2,,Charles Babbage,1849,0,0,1,CUSTOM,999999999,0,"Never actually finished in his lifetime. 25,000 brass parts. The original scope creep.",legendary,0
+jacquard_loom,Jacquard Loom Punch Card Reader,,Joseph Marie Jacquard,1804,0,0,1,CUSTOM,999999999,0,The first programmable machine. Made fancy fabric. Weavers tried to destroy it. The original techno-luddite rage.,epic,0
+slide_rule,Faber-Castell 2/83N Slide Rule,,Faber-Castell,1960,0,0,0,CUSTOM,999999999,0,They used this to get to the moon. YOUR calculator has more power and you can't even do taxes.,uncommon,0
+abacus,Chinese Suanpan Abacus,,Ancient China,-200,0,0,0,CUSTOM,999999999,0,"Clock speed limited by finger dexterity. Some grandmasters are faster than a calculator. No, seriously.",uncommon,0
+smart_fridge_cpu,Samsung Smart Fridge SoC,,Samsung,2021,1200,64,4,SOC,14,500000000,Your fridge runs Linux now. It knows you ate that leftover pizza at 2am. It's judging you.,uncommon,8
+smart_toaster,IoT Smart Toaster Controller,,Shenzhen Dreams,2020,80,32,1,MCU,40,100000,WiFi-connected toaster. Got recruited into a botnet. Now mines crypto between bread cycles.,common,0.5
+juicero_cpu,Juicero Press SoC,,Juicero Inc (RIP),2016,800,32,2,SOC,28,200000000,$400 IoT juicer that squeezed bags you could squeeze by hand. The SoC is the most valuable thing left.,epic,3
+tamagotchi_cpu,Bandai Tamagotchi CPU,,Bandai,1996,0.032768,4,1,MCU,500000,3000,Responsible for more emotional trauma than any other 4-bit processor. Your pet died because you went to school.,uncommon,0.001
+furby_cpu,Furby 1998 CPU,,Tiger Electronics,1998,0.6,8,1,MCU,600000,10000,NSA banned these from their offices. It's not really learning your language. OR IS IT. *eyes blink at 3am*,rare,0.3
+tickle_me_elmo,Tickle Me Elmo Controller,,Tyco,1996,0.5,4,1,MCU,800000,5000,Caused actual riots in toy stores. More blood was shed over this chip than any GPU launch.,rare,1
+roomba_brain,iRobot Roomba Navigation MCU,,iRobot,2015,120,32,1,MCU,90,50000000,Maps your entire house. Definitely not sending floor plans to anyone. Bumps into chair legs existentially.,common,1
+nokia3310_cpu,Nokia 3310 MAD2WD1 CPU,,Nokia,2000,26,16,1,CPU,250,500000,"Survived being thrown at walls, dropped from buildings, and run over by cars. The CPU that refused to die. Unlike your smartphone.",rare,0.5
+potato_clock_cpu,Potato Clock Computation Node,,Science Fair Project,2023,0,0,0,CUSTOM,999999999,0,0.8V per potato. You need 47 potatoes to power a Z80. The cafeteria is getting suspicious.,epic,0
+lemon_battery_rig,Citrus-Powered Mining Array,,Desperate Times LLC,2024,0,0,0,CUSTOM,999999999,0,200 lemons wired in series to power a Raspberry Pi mining rig. Electricity cost: $0. Lemon cost: your dignity.,legendary,0
+hamster_wheel_psu,Hamster Wheel Powered Compute Node,,Mr Whiskers Energy Co,2024,0,0,0,CUSTOM,999999999,0,0.5W output. Uptime depends on hamster mood. Added a second hamster for redundancy. They fight.,legendary,0
+pigeon_network,RFC 1149 Pigeon Network Card,,IETF Humour Dept,1990,0,0,0,CUSTOM,999999999,0,"IP over Avian Carriers. High bandwidth, terrible latency. Packet loss increases near cats. Actually tested in real life.",epic,0
+rock,A Rock,,Earth,-4500000000,0,0,0,CUSTOM,999999999,0,We taught rocks to think and now they have anxiety. This one hasn't learned yet. Give it 4.5 billion more years.,common,0
+usb_pet_rock,ThinkGeek USB Pet Rock,,ThinkGeek,2009,0,0,0,CUSTOM,999999999,0,USB-powered rock. Plug and play. No drivers needed. No functionality either. 5-star reviews on Amazon.,rare,0
+raspberry_pi_cluster,256-Node Raspberry Pi Cluster,,That One Redditor,2023,1500,64,1024,CUSTOM,28,1000000000,Cost more than a real server. Slower than a real server. But look at it. LOOK AT IT. It's beautiful.,epic,1200
+chrome_tab,Google Chrome Memory Core,,Google,2024,0,64,0,CUSTOM,999999999,0,Not a CPU but it consumes more RAM than one. 47 tabs open. Each tab is a universe of wasted memory. It hungers.,legendary,999
+printer_cpu,HP Printer DRM Enforcement Chip,,HP,2022,200,32,1,ASIC,28,50000000,More processing power dedicated to checking ink cartridge DRM than actual printing. Refuses third-party ink with religious conviction.,rare,2
+atari_2600_6507,MOS 6507 (Atari 2600),6507-1.19MHz,MOS Technology,1977,1.19,8,1,CPU,8000,3510,The chip that started the home console wars. A cut-down 6502 with fewer address pins and a whole lot of history.,common,0.2
+atari_5200_antic,ANTIC Display Controller (Atari 400/800/5200),ANTIC-1.79MHz,Atari,1979,1.79,8,1,COPROCESSOR,5000,12000,Custom display coprocessor with its own instruction set. DMA-driven display lists before GPUs were cool.,uncommon,0.3
+atari_7800_maria,MARIA Graphics Chip (Atari 7800),MARIA-7.16MHz,Atari,1986,7.16,8,1,GPU,3000,20000,Sprite-based GPU that could push 100 sprites per scanline. Too bad it launched into the post-crash wasteland.,uncommon,0.3
+intellivision_cp1610,General Instrument CP1610 (Intellivision),CP1610-0.89MHz,General Instrument,1979,0.895,16,1,CPU,6000,7000,A 16-bit CPU in 1979. Mattel was ahead of the curve. The overlays on the controller? Not so much.,uncommon,0.2
+colecovision_z80a,Zilog Z80A (ColecoVision),Z80A-3.58MHz,Zilog,1982,3.58,8,1,CPU,4000,8500,The ColecoVision ran on a Z80 and had the best arcade ports of its era. Donkey Kong never looked so good at home.,common,0.2
+odyssey2_8048,Intel 8048 (Magnavox Odyssey²),8048-1.79MHz,Intel,1978,1.79,8,1,CPU,6000,6000,First console with a real keyboard. An Intel chip in a game console before Microsoft made it mainstream.,uncommon,0.2
+vectrex_68a09,Motorola 68A09 (Vectrex),68A09-1.5MHz,Motorola,1982,1.5,8,1,CPU,4000,9000,"The only console that didn't need a TV. And nobody bought it. Vector graphics in your living room, a CRT built right in.",rare,0.3
+nes_ricoh_2a03,Ricoh 2A03 (NES CPU),2A03-1.79MHz,Ricoh,1983,1.79,8,1,CPU,3000,10000,Blew into the cartridge. It didn't help but we all did it anyway. Custom 6502 with built-in sound.,common,0.2
+nes_ppu_2c02,Ricoh 2C02 (NES PPU),2C02-5.37MHz,Ricoh,1983,5.37,8,1,GPU,3000,12000,"NES Picture Processing Unit. 64 sprites, 4 palettes, and more flicker than a candle in a hurricane.",common,0.2
+snes_sa1,SA-1 Enhancement Chip (SNES),SA1-10.74MHz,Ricoh,1995,10.74,16,1,COPROCESSOR,800,50000,"A second 65816 running 3x faster than the SNES CPU, crammed into the cartridge. Super Mario RPG's secret weapon.",rare,0.1
+snes_superfx,Super FX GSU-1 (SNES),GSU1-10.74MHz,Argonaut/Nintendo,1993,10.74,16,1,COPROCESSOR,800,100000,3D on the SNES. Polygons so chunky you could eat them. The chip that made Star Fox possible.,rare,0.1
+sms_z80,Zilog Z80 (Sega Master System),Z80-3.58MHz,Zilog,1985,3.58,8,1,CPU,4000,8500,"Sega's 8-bit warrior. Won Brazil, lost everywhere else. Alex Kidd was no Mario.",common,0.2
+genesis_z80_sound,Zilog Z80 Secondary CPU (Sega Genesis),Z80-3.58MHz,Zilog,1988,3.58,8,1,CPU,4000,8500,An entire Z80 just for sound. Sega didn't mess around. Also provided Master System backward compatibility.,uncommon,0.2
+tg16_huc6280,Hudson HuC6280 (TurboGrafx-16),HuC6280-7.16MHz,Hudson Soft,1987,7.16,8,1,CPU,3000,15000,16-bit marketing for an 8-bit CPU. NEC was cheeky. Modified 65C02 with extra speed and built-in I/O.,uncommon,0.3
+neo_geo_z80,Zilog Z80 (Neo Geo Sound CPU),Z80-4MHz,Zilog,1990,4.0,8,1,CPU,4000,8500,Neo Geo sound CPU. Driving the Yamaha YM2610 for that legendary arcade audio. Fatal Fury never sounded so good.,uncommon,0.2
+3do_arm60,ARM60 (3DO Interactive Multiplayer),ARM60-12.5MHz,ARM,1993,12.5,32,1,CPU,800,350000,Trip Hawkins bet everything on this. He lost. $700 console with a 12.5 MHz ARM. The math didn't math.,uncommon,0.5
+saturn_vdp1,Sega Saturn VDP1 (Sprite/Polygon),VDP1-28.6MHz,Sega,1994,28.6,32,1,GPU,500,500000,Saturn sprite and polygon processor. Used quads instead of triangles. Made porting from PS1 a nightmare.,rare,2.0
+saturn_vdp2,Sega Saturn VDP2 (Background/Scroll),VDP2-28.6MHz,Sega,1994,28.6,32,1,GPU,500,500000,"Saturn background processor. Five scrolling planes, rotation, and scaling. 2D king, 3D afterthought.",rare,2.0
+wiiu_latte,AMD Latte GPU (Wii U),Latte-550MHz,AMD,2012,550.0,32,160,GPU,40,0,The console nobody understood. Including Nintendo. Radeon HD-class GPU powering a tablet controller nobody asked for.,uncommon,25.0
+ps5_zen2,AMD Zen 2 Custom (PS5),PS5-Zen2-3.5GHz,AMD,2020,3500.0,64,8,APU,7,10300000000,8 cores dedicated to loading screens being a thing of the past. RDNA2 GPU with 10.28 TFLOPS. Ray tracing on a console.,uncommon,100.0
+xbox_series_x_zen2,AMD Zen 2 Custom (Xbox Series X),XSX-Zen2-3.8GHz,AMD,2020,3800.0,64,8,APU,7,15300000000,12 TFLOPS in a mini-fridge form factor. The most powerful console at launch. Velocity Architecture sounds like a racing game.,uncommon,100.0
+steam_deck_van_gogh,AMD Van Gogh APU (Steam Deck),VanGogh-2.4GHz,AMD,2022,2400.0,64,4,APU,7,0,Gabe Newell said 'what if Switch but PC?' and it worked. Zen 2 + RDNA2 in a handheld. Desktop Linux gaming finally arrived.,uncommon,15.0
+gameboy_lr35902,Sharp LR35902 (Game Boy),LR35902-4.19MHz,Sharp,1989,4.19,8,1,CPU,3000,10000,Survived a Gulf War bombing. Tetris still running. A custom Z80-ish CPU that defined handheld gaming for a decade.,common,0.05
+gbc_z80,Sharp Z80-compatible (Game Boy Color),GBC-CPU-8MHz,Sharp,1998,8.0,8,1,CPU,1000,15000,"Double the clock speed, 56 colors on screen. Pokemon Gold and Silver made this the must-have Christmas gift of '99.",common,0.04
+game_gear_z80a,Zilog Z80A (Sega Game Gear),Z80A-3.58MHz,Zilog,1990,3.58,8,1,CPU,4000,8500,Sega's answer to Game Boy. Ate 6 AA batteries in 3 hours. A backlit color screen in 1990 came at a price.,common,0.4
+atari_lynx_suzy,Atari Lynx Mikey/Suzy Chipset,Lynx-16MHz,Atari/Epyx,1989,16.0,16,2,CUSTOM,2000,40000,Colour handheld in 1989. Way ahead of its time. Way behind in sales. Hardware scaling and rotation before the SNES.,uncommon,0.5
+sega_nomad_68000,Motorola 68000 (Sega Nomad),68000-7.67MHz,Motorola,1995,7.67,32,1,CPU,3500,68000,A portable Genesis. Battery life: hope. Six AA batteries for two hours of Sonic on the go.,rare,1.0
+ngpc_tlcs900h,Toshiba TLCS-900H (Neo Geo Pocket Color),TLCS900H-6.14MHz,Toshiba,1999,6.14,16,1,CPU,500,0,SNK's forgotten handheld. The clicky joystick was chef's kiss. Match of the Millennium deserved better.,rare,0.1
+vita_arm_a9,ARM Cortex-A9 MPCore (PS Vita),CortexA9-444MHz,ARM,2012,444.0,32,4,CPU,45,0,"Powerful, beautiful, abandoned. The handheld equivalent of a gifted kid burnout. Quad-core ARM with PowerVR GPU.",uncommon,2.5
+nds_arm9_arm7,ARM9 + ARM7 Dual CPU (Nintendo DS),DS-ARM9-67MHz,ARM,2004,67.0,32,2,CPU,130,0,Two screens! Touch screen! Microphone! Blew into it for Zelda. ARM9 at 67MHz + ARM7 at 33MHz in one system.,common,0.3
+3ds_arm11,ARM11 MPCore (Nintendo 3DS),ARM11-268MHz,ARM,2011,268.0,32,2,CPU,40,0,Glasses-free 3D that gave everyone headaches. Turned it off after day one. PICA200 GPU for portable polygon pushing.,common,1.0
+virtual_boy_v810,NEC V810 (Virtual Boy),V810-20MHz,NEC,1995,20.0,32,1,CPU,500,900000,Nintendo's biggest flop. Red and black only. Instant migraines. Collector gold. A 32-bit RISC CPU wasted on a headache machine.,rare,0.5
+wonderswan_v30mz,NEC V30 MZ (Bandai WonderSwan),V30MZ-3.07MHz,NEC,1999,3.07,16,1,CPU,600,0,"Gunpei Yokoi's last console. Beautiful design, never left Japan. x86-compatible in a handheld, 40 hours on a single AA battery.",uncommon,0.03
+ngage_arm9,ARM9 (Nokia N-Gage),ARM9-104MHz,ARM/Nokia,2003,104.0,32,1,CPU,130,0,A phone! A game console! A taco you held to your face! None done well. Sidetalkin' became a meme before memes existed.,rare,0.5
+yamaha_ym2149,Yamaha YM2149 (AY-3-8910 compatible),YM2149-2MHz,Yamaha,1983,2.0,8,1,COPROCESSOR,6000,5000,Three square wave channels of pure 8-bit bliss. Every Spectrum game sounded like angry bees and we loved it.,common,0.3
+yamaha_ym2203,Yamaha YM2203 OPN,YM2203-3.58MHz,Yamaha,1984,3.58,8,1,COPROCESSOR,5000,30000,3 FM channels plus 3 SSG channels. The voice of the PC-88 and early Japanese arcades. J-RPG soundtracks started here.,uncommon,0.4
+yamaha_ym2413,Yamaha YM2413 OPLL,YM2413-3.58MHz,Yamaha,1987,3.58,8,1,COPROCESSOR,3000,50000,FM synthesis on a budget. Sounded like a Casio keyboard having an existential crisis.,common,0.3
+yamaha_ym2151,Yamaha YM2151 OPM,YM2151-3.58MHz,Yamaha,1983,3.58,8,1,COPROCESSOR,5000,80000,"The sound of the arcade. Street Fighter, OutRun, After Burner — all YM2151. Insert coin.",uncommon,0.5
+yamaha_ym3526,Yamaha YM3526 OPL,YM3526-3.58MHz,Yamaha,1984,3.58,8,1,COPROCESSOR,5000,50000,"Before Sound Blaster, there was AdLib. 9 channels of FM that blew PC speaker beeps away.",uncommon,0.4
+yamaha_ym3812,Yamaha YM3812 OPL2,YM3812-3.58MHz,Yamaha,1985,3.58,8,1,COPROCESSOR,4000,60000,"The sound of DOS gaming. Commander Keen, Wolfenstein, every shareware game ever. Unforgettable.",common,0.4
+yamaha_ymf262,Yamaha YMF262 OPL3,YMF262-14.32MHz,Yamaha,1990,14.32,8,1,COPROCESSOR,2000,150000,OPL2's big brother. Stereo FM! Duke Nukem 3D and DOOM sounded glorious.,uncommon,0.5
+yamaha_ym2608,Yamaha YM2608 OPNA,YM2608-7.99MHz,Yamaha,1985,7.99,8,1,COPROCESSOR,4000,100000,The Japanese PC sound standard. RPGs sounded incredible. The West didn't know what they were missing.,rare,0.5
+yamaha_ym2610,Yamaha YM2610 OPNB,YM2610-8MHz,Yamaha,1988,8.0,8,1,COPROCESSOR,3000,120000,"Neo Geo's voice. Fatal Fury, KOF, Metal Slug — that crisp FM + sampled drum combo.",uncommon,0.5
+yamaha_dx7_ops,Yamaha DX7 OPS (YM21280),YM21280-9.42MHz,Yamaha,1983,9.42,16,1,DSP,5000,130000,"THE sound of the 1980s. Every pop song, every movie soundtrack, every elevator. This chip defined a decade.",rare,1.0
+yamaha_ymf724,Yamaha YMF724 DS-1,YMF724-24.576MHz,Yamaha,1998,24.576,16,1,DSP,350,500000,The cheap PCI sound card your prebuilt PC came with. It worked. That's the nicest thing anyone can say.,common,1.5
+yamaha_ymz280b,Yamaha YMZ280B,YMZ280B-16.93MHz,Yamaha,1995,16.93,16,1,DSP,500,200000,ADPCM playback workhorse of mid-90s arcade boards. 8 channels of sampled audio. The voice behind a thousand coin-ops.,uncommon,0.5
+roland_mt32,Roland MT-32 LA Synthesis Engine,MT32-LA-8MHz,Roland,1987,8.0,16,1,DSP,3000,200000,The REAL way to play Sierra and LucasArts adventure games. Monkey Island sounded like a movie with this.,rare,2.0
+roland_sc55,Roland SC-55 Sound Canvas Engine,SC55-GS-16MHz,Roland,1991,16.0,16,1,DSP,1000,400000,The General MIDI gold standard. DOOM's MIDI soundtrack on this was *chef's kiss*.,uncommon,3.0
+roland_d50,Roland D-50 LA Chip,D50-LA-10MHz,Roland,1987,10.0,16,1,DSP,3000,250000,Enya's entire career runs on this chip. Orinoco Flow is just D-50 presets.,rare,2.5
+roland_tb303,Roland TB-303 CPU,TB303-NEC-uPD650C,Roland,1981,0.5,4,1,COPROCESSOR,6000,3000,Designed for guitarists to practice with. Nobody bought it. Then DJs found it and invented an entire genre. THE accident that changed music.,legendary,0.2
+roland_tr808,Roland TR-808 Voice Chips,TR808-BA662,Roland,1980,0.0,0,1,COPROCESSOR,6000,2000,"Kanye West, Marvin Gaye, Phil Collins — all 808. The most influential drums ever made from a 'failed' product.",legendary,0.5
+roland_tr909,Roland TR-909 Voice Chips,TR909-uPD7811,Roland,1983,4.0,8,1,COPROCESSOR,5000,10000,"If 808 made hip-hop, 909 made techno. Every house and techno track since 1985 owes this chip a royalty.",epic,0.5
+roland_boss_dsp,Roland BOSS DSP,BOSS-FX-8MHz,Roland/BOSS,1985,8.0,16,1,DSP,3000,50000,Inside every BOSS pedal on every pedalboard on every stage. The unsung hero of live music.,common,0.3
+mos_8580_sid,MOS 8580 SID,SID-8580-1MHz,MOS Technology,1987,1.0,8,1,COPROCESSOR,5000,12000,"Less distortion, more filter precision. SID purists argue about 6581 vs 8580 like vinyl vs digital.",uncommon,0.3
+ensoniq_es1370,Ensoniq ES1370 AudioPCI,ES1370-PCI-44.1kHz,Ensoniq,1997,14.318,16,1,DSP,500,300000,The cheap Sound Blaster alternative. Came free with your Compaq Presario.,common,1.5
+ensoniq_es1371,Ensoniq ES1371 / Creative CT5880,ES1371-PCI-48kHz,Ensoniq/Creative,1998,14.318,16,1,DSP,350,400000,Creative bought Ensoniq and slapped their name on it. Circle of life.,common,1.5
+gi_ay3_8910,General Instrument AY-3-8910,AY-3-8910-2MHz,General Instrument,1978,2.0,8,1,COPROCESSOR,6000,5000,"In the Vectrex, Intellivision, MSX, ZX Spectrum 128, Atari ST... this chip got around.",common,0.3
+gi_ay3_8912,General Instrument AY-3-8912,AY-3-8912-2MHz,General Instrument,1978,2.0,8,1,COPROCESSOR,6000,5000,"Same chip, fewer pins. For when 40 pins was too many pins.",common,0.3
+gi_sp0256,General Instrument SP0256,SP0256-AL2-3.12MHz,General Instrument,1981,3.12,8,1,COPROCESSOR,6000,15000,HELLO I AM THE COMPUTER. The robotic voice of 80s toys and arcade games. DESTROY ALL HUMANS.,uncommon,0.3
+ti_sn76489,TI SN76489,SN76489-3.58MHz,Texas Instruments,1980,3.58,8,1,COPROCESSOR,6000,5000,Three tone channels and a noise channel. Simple. Effective. In literally everything.,common,0.3
+ti_sn76477,TI SN76477,SN76477-ANALOG,Texas Instruments,1978,0.0,0,1,COPROCESSOR,6000,4000,"Pew pew pew. Seriously, this chip made THE Space Invaders sounds. Also used in pinball machines.",uncommon,0.3
+philips_saa1099,Philips SAA1099,SAA1099-8MHz,Philips,1984,8.0,8,1,COPROCESSOR,5000,10000,6 channels of stereo square waves. The Sam Coupé's one claim to fame.,uncommon,0.3
+atari_pokey,Atari POKEY,POKEY-1.79MHz,Atari,1979,1.79,8,1,COPROCESSOR,6000,6000,Four channels of audio plus keyboard scanning plus random number generation. Multitasking before it was cool.,uncommon,0.3
+atari_tia,Atari TIA,TIA-1.19MHz,Atari,1977,1.19,8,1,COPROCESSOR,8000,3500,Two channels of audio. Beeps and boops. But those beeps and boops started an industry.,common,0.2
+creative_ct1350,Creative CT1350 DSP (Sound Blaster 1.0),CT1350-DSP-12MHz,Creative Technology,1989,12.0,8,1,DSP,2000,50000,The card that killed AdLib. Digitised audio on a PC! You could record your own voice! Revolutionary.,uncommon,1.0
+creative_ct1745,Creative CT1745 DSP (Sound Blaster 16),CT1745-DSP-24MHz,Creative Technology,1992,24.0,16,1,DSP,1000,100000,SB16 compatible? Compatible with EVERYTHING. The sound card standard for a decade.,common,1.5
+creative_emu10k1,Creative EMU10K1 (Sound Blaster Live!),EMU10K1-PCI-48kHz,Creative Technology,1998,33.0,32,1,DSP,350,2000000,Hardware EAX! Environmental audio! Quake in a cave actually sounded like a cave.,uncommon,3.0
+creative_emu10k2,Creative EMU10K2 (Audigy),EMU10K2-PCI-96kHz,Creative Technology,2001,33.0,32,1,DSP,250,5000000,24-bit! 100dB SNR! Mostly used to play MP3s and Counter-Strike.,common,4.0
+creative_xfi_ca20k1,Creative X-Fi Xtreme Audio CA20K1,CA20K1-PCI-192kHz,Creative Technology,2005,50.0,32,1,DSP,130,51000000,The final boss of sound cards before motherboard audio made them irrelevant. Pour one out.,rare,5.0
+konami_scc,Konami SCC,SCC-3.58MHz,Konami,1987,3.58,8,1,COPROCESSOR,3000,20000,"Konami put custom sound chips IN THE GAME CARTRIDGES. Gradius, Snatcher, Salamander — absolute bangers.",rare,0.2
+ricoh_rf5c68,Ricoh RF5C68,RF5C68-12.5MHz,Ricoh,1987,12.5,8,1,COPROCESSOR,3000,30000,Gave the Sega CD its sampled audio. Red Book CD audio AND this chip? Luxury.,uncommon,0.3
+namco_c30_wsg,Namco C30 WSG,C30-WSG-6MHz,Namco,1980,6.0,8,1,COPROCESSOR,6000,5000,Wakka wakka wakka. The most recognisable sound in gaming history came from this chip.,uncommon,0.2
+snes_s_smp_dsp,Nintendo S-SMP / S-DSP (SNES),S-DSP-2.048MHz,Sony,1990,2.048,16,1,DSP,1000,50000,"Designed by Sony (yes, THAT Sony). 8 channels of ADPCM. DKC, FF6, Chrono Trigger — some of the best game music ever.",rare,0.1
+gameboy_apu,Game Boy APU (Sharp LR35902),GB-APU-4.19MHz,Sharp/Nintendo,1989,4.19,8,1,COPROCESSOR,3000,10000,"4 channels. Two pulse waves, one wave, one noise. Somehow produced the Pokémon battle theme.",common,0.05
+capcom_qsound,Capcom CPS-2 Q-Sound DSP,QSound-DSP16-10MHz,Capcom/QSound Labs,1993,10.0,16,1,DSP,800,100000,Stereo positioning in a mono speaker arcade cab. Capcom was doing spatial audio before it was cool.,rare,0.5
+hudson_huc6280_psg,Hudson HuC6280 PSG,HuC6280-PSG-3.58MHz,Hudson Soft,1987,3.58,8,1,COPROCESSOR,3000,15000,6 wavetable channels. PC Engine games sounded surprisingly good for a console nobody in the West owned.,uncommon,0.2
+sunsoft_5b,Sunsoft 5B (Yamaha YM2149 variant),5B-FME7-1.79MHz,Sunsoft/Yamaha,1992,1.79,8,1,COPROCESSOR,3000,5000,Sunsoft put an extra sound chip in an NES cartridge for ONE GAME. And that game's soundtrack SLAPS.,rare,0.1
+oki_msm6295,OKI MSM6295,MSM6295-1MHz,OKI Semiconductor,1990,1.0,8,1,COPROCESSOR,3000,20000,The voice chip of the arcade. FINISH HIM. HADOUKEN. TOASTY! All OKI.,common,0.2
+twisted_electrons_ay3,Twisted Electrons AY3 Module,AY3-EURORACK-2MHz,Twisted Electrons,2018,2.0,8,1,COPROCESSOR,6000,5000,The 1978 PSG chip reborn as a Eurorack module. Chiptune in your modular rig.,rare,0.3
+armsid_6582,MOS SID 6582 ARMSID,ARMSID-FPGA-1MHz,ARMSID Project,2020,1.0,8,1,COPROCESSOR,28,100000,Your C64's SID died? This FPGA drop-in replacement is arguably better. SID purists are furious.,uncommon,0.1
+apollo_agc,Apollo Guidance Computer (AGC),AGC-2.048kHz,Raytheon/MIT,1966,2.048,16,1,CPU,999999999,5600,Landed humans on the Moon with less computing power than your thermostat. Margaret Hamilton's software saved Apollo 11 when this thing threw a 1202 alarm.,mythic,55
+shuttle_ap101s,IBM System/4Pi AP-101S,AP-101S-1.2MHz,IBM,1983,1.2,32,1,CPU,3000,50000,"Five of these ran the Space Shuttle. Voted on every decision. If three agreed, majority ruled. Democracy at Mach 25.",legendary,100
+gemini_guidance,Gemini Guidance Computer,Gemini-0.14MHz,IBM,1965,0.14,39,1,CPU,999999999,15000,39-bit word length because NASA didn't do things by halves. Helped two spacecraft dock for the first time. No pressure.,mythic,100
+voyager_rca1802,Voyager AACS (RCA 1802 COSMAC),RCA1802-6.4MHz,RCA,1977,6.4,8,1,CPU,5000,5000,Still running. In interstellar space. Since 1977. On 69KB of memory. The most reliable computer ever built. It will outlive us all.,mythic,0.5
+cassini_rad6000,Cassini-Huygens RAD6000,RAD6000-20MHz,BAE Systems,1997,20,32,1,CPU,350,1100000,"Orbited Saturn for 13 years. Photographed its rings, moons, and storms. Then dove into the atmosphere on purpose. What a way to go.",legendary,5
+new_horizons_mongoose,New Horizons Mongoose-V,Mongoose-V-12MHz,Synova/BAE,2006,12,32,1,CPU,350,1100000,Flew past Pluto. Took THE photo. Running MIPS R3000 architecture at the edge of the solar system. Light-speed round trip: 10 hours.,legendary,4
+rad750,BAE RAD750,RAD750-200MHz,BAE Systems,2001,200,32,1,CPU,250,10400000,"Powers Curiosity, Mars Reconnaissance Orbiter, and more. $200,000 per chip. Laughs at cosmic rays that would kill your i9.",legendary,5
+perseverance_rad750,Perseverance RAD750,RAD750-200MHz,BAE Systems,2020,200,32,1,CPU,250,10400000,"Same chip, different planet. Controls a nuclear-powered rover AND a helicopter on Mars. Your laptop can't even run Chrome properly.",legendary,5
+ingenuity_snapdragon,Ingenuity Qualcomm Snapdragon 801,Snapdragon801-2260MHz,Qualcomm,2021,2260,32,4,SOC,28,2300000000,"A phone chip flying a helicopter on Mars. Yes, really. Same SoC as a 2014 smartphone. First powered flight on another planet.",epic,3
+pathfinder_rad6000,Mars Pathfinder / Sojourner RAD6000,RAD6000-20MHz,BAE Systems,1997,20,32,1,CPU,350,1100000,First rover on Mars. Ran VxWorks RTOS. Had a priority inversion bug that nearly killed the mission. Fixed from 190 million km away.,legendary,5
+spirit_opp_rad6000,Spirit/Opportunity RAD6000,RAD6000-20MHz,BAE Systems,2004,20,32,1,CPU,350,1100000,Opportunity was supposed to last 90 days. Lasted 15 YEARS. The little rover that could. 'My battery is low and it's getting dark.',legendary,5
+hubble_df224,Hubble Space Telescope DF-224,DF224-1.25MHz,Lockheed Martin,1990,1.25,24,1,CPU,3000,40000,Launched with a dodgy mirror but still revolutionised astronomy. Replaced with a 486 in 1999. The Hubble runs on a 486. Let that sink in.,legendary,30
+hubble_486,Hubble 486 Upgrade,i486-25MHz,Intel/Lockheed,1999,25,32,1,CPU,1000,1200000,25x faster than what it replaced. Astronauts flew to orbit to install a 486 into a telescope. The most expensive IT upgrade in history.,epic,5
+jwst_rad750,James Webb Space Telescope RAD750,RAD750-200MHz,BAE Systems,2021,200,32,1,CPU,250,10400000,Looking at the first galaxies ever formed. 1.5 million km from Earth. $10 billion telescope. Runs on a chip from 2001. Works flawlessly.,mythic,5
+gps_iii_proc,GPS III Satellite Processor,GPSIII-50MHz,Lockheed Martin,2018,50,32,1,CPU,150,5000000,"Knows where you are within 30cm. 31 satellites, 20,200km up, doing orbital math so your phone can find the nearest kebab shop.",epic,10
+iss_mdm,ISS Multiplexer/Demultiplexer MDM,MDM-16MHz,Honeywell,2000,16,16,1,CPU,800,200000,"Keeps the International Space Station running. Controls life support, thermal management, and communications. No blue screens allowed.",epic,15
+milstd_1750a,MIL-STD-1750A,1750A-16MHz,Various,1980,16,16,1,CPU,1500,100000,"The US military's standard instruction set for 20 years. In every jet, missile, and satellite. Classified performance charts.",rare,3
+f22_cip,F-22 Raptor Common Integrated Processor (CIP),CIP-700MHz,Raytheon,2005,700,32,2,CPU,150,25000000,Processes sensor fusion for the world's most advanced fighter jet. Slower than your phone. Faster than you'll ever need at Mach 2.,legendary,200
+f35_icp,F-35 Integrated Core Processor (ICP),ICP-1200MHz,Mercury Systems,2015,1200,64,4,CPU,45,500000000,The F-35's brain. Processes more sensor data than a small city's internet traffic. Budget overruns not included.,legendary,300
+jdam_guidance,JDAM GPS/INS Guidance Processor,JDAM-25MHz,Boeing,1997,25,32,1,CPU,500,2000000,"Turns a dumb bomb into a smart bomb. $25,000 GPS kit. Accurate to 5 metres. The processor with the most impactful single-use job.",epic,5
+tomahawk_dsmac,Tomahawk DSMAC Processor,DSMAC-10MHz,General Dynamics,1983,10,32,1,DSP,1500,500000,Digital Scene Matching. The missile takes photos of the ground and compares them to a stored map. Image recognition before AI was cool.,epic,15
+patriot_guidance,Patriot Missile Guidance Computer,Patriot-20MHz,Raytheon,1984,20,24,1,CPU,1000,300000,A floating-point rounding error in this system caused a 0.34 second timing drift that missed a Scud missile in 1991. Bugs have consequences.,epic,30
+minuteman_d37c,Minuteman I/II Guidance Computer D-37C,D37C-0.139MHz,Autonetics,1962,0.139,27,1,CPU,999999999,6000,First mass-produced integrated circuits were bought for THIS. Nuclear missile guidance. The military funded the entire IC revolution.,mythic,50
+virtex5qv_radhard,Xilinx Virtex-5QV (Rad-Hard FPGA),V5QV-450MHz,Xilinx,2010,450,32,1,FPGA,65,300000000,"Space-grade FPGA. Survives 1 Mrad of radiation. You need to be a government contractor to buy one. No, seriously.",epic,10
+gr740_leon4,Cobham GR740 LEON4,GR740-250MHz,Cobham Gaisler,2018,250,32,4,CPU,65,100000000,European space-grade quad-core. SPARC architecture. ESA's go-to processor. Because Europe wanted their own space chips.,epic,3
+vorago_va10820,Vorago VA10820,VA10820-50MHz,Vorago Technologies,2019,50,32,1,MCU,130,5000000,ARM Cortex-M0 that survives -55°C to +200°C and handles radiation. For when your MCU needs to work in literal hell.,rare,0.5
+uyk43,AN/UYK-43,UYK43-32MHz,Unisys,1990,32,32,1,CPU,500,2000000,"The US Navy's standard shipboard computer for 30 years. On every submarine, carrier, and destroyer. Waterproof is an understatement.",rare,200
+uyk44,AN/UYK-44,UYK44-16MHz,Unisys,1985,16,16,1,CPU,1000,500000,"Miniaturised navy computer. Small enough for a torpedo. Yes, torpedoes have computers. No, they don't run Windows.",rare,50
+nsa_type1_crypto,NSA Type 1 Crypto Processor,CLASSIFIED,Classified,2000,0,0,0,ASIC,0,0,All specs classified. This chip handles encryption for TOP SECRET communications. We could tell you more but... you know.,mythic,0
+clipper_chip_myk78,Clipper Chip MYK-78,MYK78-12MHz,Mykotronx/NSA,1993,12,32,1,ASIC,800,500000,The government wanted a backdoor in every phone. The public said no. The first great crypto war. The chip that launched a thousand protests.,legendary,1
+enigma_rotor,Enigma Rotor Mechanism,Enigma-Manual,Scherbius & Ritter,1930,0,0,0,CUSTOM,999999999,0,"Not a chip, but the encryption 'processor' that took Bletchley Park and Alan Turing to crack. The most consequential cipher machine in history.",legendary,0
+colossus_tube,Colossus Thyratron Tube,Colossus-5kHz,Tommy Flowers / GPO,1943,0.005,5,1,CUSTOM,999999999,0,The world's first programmable electronic computer. Built to crack Lorenz ciphers. Classified until the 1970s. Tommy Flowers paid for parts out of his own pocket.,mythic,4500
+hamilton_pulsar,Hamilton Pulsar Module,,Hamilton Watch Co,1972,0.032768,4,1,CUSTOM,6000,1500,"The first digital watch. Cost $2,100 in 1972. James Bond wore one. You pressed a button to see the time because the LED drained the battery.",rare,0.001
+seiko_06lc,Seiko 06LC Module,,Seiko,1973,0.032768,4,1,CUSTOM,5000,2000,First LCD digital watch. Seiko went LCD while everyone else was doing LED. Seiko was right.,uncommon,0.0005
+ti_digital_watch,Texas Instruments Digital Watch Module,,Texas Instruments,1976,0.032768,4,1,CUSTOM,5000,1000,TI crashed the price of digital watches from $2000 to $20. Destroyed the Swiss watch industry overnight. Casio took notes.,common,0.0005
+casio_f91w,Casio F-91W Module 593,,Casio,1989,0.032768,4,1,MCU,3000,5000,The most popular watch ever made. $10. Battery lasts 7 years. Worn by presidents and terrorists alike. The great equaliser.,common,0.0003
+casio_gshock_dw5000,Casio G-Shock DW-5000C Module,,Casio,1983,0.032768,4,1,MCU,3000,6000,Kikuo Ibe dropped his father's watch and vowed to make an unbreakable one. He did. Survived a 10m drop onto concrete.,uncommon,0.0005
+casio_ca53w,Casio CA-53W Calculator Watch Module,,Casio,1984,0.032768,4,1,MCU,3000,8000,Calculator on your wrist. Walter White wore one. Every nerd in the 80s had one. The ultimate power move in maths class.,uncommon,0.0005
+casio_cfx400,Casio CFX-400 Scientific Calculator Watch,,Casio,1985,0.032768,4,1,MCU,3000,12000,Scientific calculator AND a watch. Could do trig on your wrist. Absolutely nobody needed this. Absolutely everybody wanted it.,rare,0.0005
+casio_wmp1v,Casio WMP-1V MP3 Watch,,Casio,2000,10,8,1,MCU,250,100000,An MP3 player watch in 2000. 32MB storage. About 8 songs. The future arrived early but it was very small.,rare,0.05
+casio_cmd40,Casio CMD-40 TV Remote Watch,,Casio,1994,0.5,4,1,MCU,800,15000,Controlled any TV from your wrist. Every kid's dream. Every teacher's nightmare. Banned in some classrooms.,uncommon,0.001
+seiko_uc2000,Seiko UC-2000 Wrist Computer,,Seiko,1984,0.5,4,1,CPU,3000,15000,A wrist computer with a tiny keyboard dock. You could write BASIC programs on your arm. Peak 80s cyberpunk.,rare,0.01
+seiko_ruputer,Seiko Ruputer/OnHand PC,,Seiko,1998,3.6,16,1,CPU,500,200000,The first smartwatch. Ran a real OS. Had apps. In 1998. Seiko was 15 years early and nobody cared.,rare,0.05
+seiko_tv_watch,Seiko TV Watch T001,,Seiko,1982,0.1,4,1,CUSTOM,3000,10000,"A TV on your wrist. James Bond wore this one too. Tiny screen, tinier picture. Absolutely magnificent nonsense.",epic,0.1
+ms_spot_watch,Microsoft SPOT Watch,,Microsoft,2004,60,32,1,MCU,180,5000000,Microsoft's smartwatch. Used FM radio for data. Required a subscription. Lasted 4 years. Peak Microsoft energy.,rare,0.1
+pebble_stm32,Pebble Original STM32F205,,Pebble,2013,80,32,1,MCU,90,50000000,Kickstarter darling. E-paper display. Week-long battery. The people's smartwatch before Fitbit killed it and Apple danced on the grave.,uncommon,0.05
+pebble_time_stm32,Pebble Time STM32F439,,Pebble,2015,100,32,1,MCU,90,50000000,Colour e-paper! Timeline UI! Community loved it! Fitbit bought it and killed everything! We're not bitter! (We're bitter.),uncommon,0.06
+galaxy_gear_exynos,Samsung Galaxy Gear Exynos,,Samsung,2013,800,32,1,SOC,28,500000000,Samsung's first smartwatch. Camera on the strap. Looked ridiculous. Samsung threw everything at the wall to see what stuck.,uncommon,0.5
+apple_watch_s1,Apple Watch S1 SiP,,Apple,2015,520,32,1,SOC,28,500000000,The watch that made smartwatches mainstream. Also the watch that made people tap their wrists and look insane in public.,common,0.5
+apple_watch_s9,Apple Watch S9 SiP,,Apple,2023,1800,64,4,SOC,4,5600000000,More powerful than most laptops from 2010. On your wrist. To tell you to stand up and breathe. $400 nag machine.,uncommon,1
+exynos_w930,Samsung Exynos W930,,Samsung,2023,1400,64,2,SOC,5,3000000000,Dual-core Cortex-A55 on your wrist. Runs Wear OS. Google and Samsung's awkward partnership in chip form.,uncommon,0.8
+pixel_watch_exynos,Google Pixel Watch Exynos 9110,,Samsung/Google,2022,1150,64,2,SOC,10,2000000000,Google's first watch used Samsung's old chip from 2018. Four years old at launch. Classic Google.,uncommon,0.6
+fitbit_charge_hr,Fitbit Charge HR STM32L151,,Fitbit,2015,32,32,1,MCU,90,20000000,Counted your steps. Judged your sleep. Made you competitive with coworkers. Destroyed friendships over weekend step challenges.,common,0.01
+garmin_fr235,Garmin Forerunner 235,,Garmin,2015,50,32,1,MCU,90,30000000,Every runner's gateway drug into GPS watches. Next thing you know you're buying chest straps and arguing about VO2 max.,common,0.05
+miband3_da14681,Xiaomi Mi Band 3 Dialog DA14681,,Xiaomi/Dialog,2018,16,32,1,MCU,55,10000000,$25 fitness tracker. 20-day battery. Outsold everything. Proof that 'good enough and cheap' beats 'premium and pricey' every time.,common,0.005
+garmin_fenix7,Garmin Fenix 7,,Garmin,2022,200,32,2,SOC,28,100000000,The watch for ultramarathoners and people who wish they were ultramarathoners. Solar charging. Topo maps. Built like a tank.,uncommon,0.1
+nike_fuelband,Nike+ FuelBand MCU,,Nike,2012,48,32,1,MCU,90,10000000,Nike's fitness band. Invented 'NikeFuel' points that meant nothing. Discontinued in 2014. Tim Cook was on Nike's board the whole time.,rare,0.02
+google_glass_omap,Google Glass OMAP4430,,Texas Instruments/Google,2013,1200,32,2,SOC,45,600000000,"OK Glass, why is everyone calling me a Glasshole? The most socially rejected gadget since the Bluetooth earpiece.",rare,2
+xreal_air_soc,Nreal/XREAL Air AR Glasses SoC,,Qualcomm/XREAL,2022,2000,64,4,SOC,7,2000000000,AR glasses that actually look normal-ish. Humanity's second attempt at face computers. This time with less public shaming.,uncommon,3
+tamagotchi_v2,Tamagotchi Connection IC,,Bandai,2004,0.032768,4,1,MCU,350,5000,The Tamagotchi came back. With infrared. You could connect with friends. Your digital pet still died when you went to school.,uncommon,0.001
+tiger_gamecom,Tiger Game.com Processor,,Tiger Electronics,1997,6,8,1,CPU,500,50000,Touch screen handheld in 1997! Internet capable! Sounded incredible! Played terribly! Every game was a slideshow!,rare,0.5
+cybiko_cpu,Cybiko Wireless Computer,,Cybiko Inc,2000,11,16,1,CPU,350,200000,Wireless handheld computer for teens. Had its own mesh network. Could message friends in class. Basically Discord in 2000.,rare,0.2
+led_throwie,LED Throwies Controller,,Graffiti Research Lab,2006,0,0,0,CUSTOM,999999999,0,LED + battery + magnet. Not a computer. Throw it at metal things and it glows. Called 'wearable tech' on exactly one grant application.,uncommon,0.02
+nixie_watch,Nixie Tube Watch Controller,,Cathode Corner,2014,16,8,1,MCU,350,100000,A watch with actual Nixie tubes. Warm orange glow. Steampunk approved. Battery lasts about as long as your patience explaining what Nixie tubes are.,epic,0.5
+pipboy_replica,Pip-Boy 3000 Replica Controller,,Bethesda/RobCo,2015,80,32,1,MCU,90,30000000,The Fallout 4 collector's edition Pip-Boy. Held your phone. Made of cheap plastic. Worth it for the vibes. War never changes.,rare,0.1
+rockwell_11c11,Rockwell 11C11 Modem Chipset,,Rockwell,1985,10,16,1,DSP,1500,50000,The chip behind every BBS connection. 300/1200 baud. Every screech and handshake started here. The gateway drug to online life.,uncommon,1.5
+usr_sportster_14400,US Robotics Sportster 14.4 (TI DSP),,US Robotics / Texas Instruments,1994,20,16,1,DSP,600,200000,14.4 kbps. Downloading a single MP3 took 45 minutes. And you were grateful.,common,2
+usr_courier_dst,US Robotics Courier V.Everything HST DSP,,US Robotics,1997,25,16,1,DSP,500,350000,"The Rolls Royce of modems. Sysops swore by the Courier. If you ran a BBS, this was the status symbol.",uncommon,3
+conexant_hsp56,Conexant/Rockwell HSP56 Softmodem,,Conexant/Rockwell,1998,30,16,1,DSP,350,500000,56K! The sound. You know the sound. KKKKKKRRRRSHHHHHHH DING DING DING BONG BONG SHHHHHHH. Connected. Welcome to the internet.,common,2
+lucent_winmodem,Lucent/Agere WinModem DSP,,Lucent/Agere,1999,25,16,1,DSP,350,400000,Software modem. Used your CPU for processing. Linux users fought driver battles for YEARS. The modem that launched a thousand forum posts.,common,1.5
+hayes_smartmodem,Hayes Smartmodem Controller,,Hayes,1981,4,8,1,MCU,3000,20000,Invented the AT command set. Every modem since speaks Hayes. ATDT was the 'www.' of the 1980s. OK.,rare,1
+alcatel_speedtouch,Alcatel/Thomson SpeedTouch ADSL Chipset,,Alcatel/Thomson,2000,100,32,1,DSP,250,2000000,Always-on internet! No more dial-up! Your phone works AND you're online! Broadband was black magic in 2000.,common,3
+broadcom_bcm6348,Broadcom BCM6348 ADSL2+ SoC,,Broadcom,2004,256,32,1,SOC,130,10000000,Inside every ISP-provided router your parents never rebooted. The unsung hero of early broadband. Try turning it off and on again.,common,4
+globespan_adsl,Globespan Semiconductor ADSL Chipset,,Globespan Semiconductor,1999,80,32,1,DSP,350,1500000,One of the first ADSL chipsets. 1.5 Mbps felt like teleportation after 56K. Downloaded Napster in minutes instead of hours.,uncommon,3
+intel_82586,Intel 82586 Ethernet Coprocessor,,Intel,1984,10,16,1,ASIC,1500,30000,Early Ethernet coprocessor. 10 Mbps on thick yellow coax cable. Networking when cables were literally the size of garden hoses.,uncommon,2
+dec_tulip_21040,DEC DC21040 Tulip Ethernet Controller,,Digital Equipment Corporation,1994,25,32,1,ASIC,500,200000,The Tulip. Every Linux admin's favourite NIC. Open documentation. Just worked. The people's Ethernet controller.,uncommon,2.5
+3com_3c905b,3Com 3C905B-TX EtherLink XL,,3Com,1998,33,32,1,ASIC,350,300000,"THE network card of the late 90s. Every office PC, every LAN party. If it wasn't a 3Com, it was a Realtek. No in-between.",common,3
+realtek_rtl8139,Realtek RTL8139 Fast Ethernet,,Realtek,1999,33,32,1,ASIC,350,250000,The cheapest NIC ever. $3. In every beige PC worldwide. Drivers were questionable. Performance was questionable. Price was unbeatable.,common,1.5
+realtek_rtl8111,Realtek RTL8111 Gigabit Ethernet,,Realtek,2004,33,32,1,ASIC,130,500000,Gigabit Ethernet for the masses. On every motherboard for 20 years. Still going. The cockroach of networking chips.,common,1.5
+intel_i210,Intel I210 Gigabit Ethernet Controller,,Intel,2013,25,32,1,ASIC,65,2000000,The server-grade NIC. When Realtek wasn't good enough and you needed actual reliability. Sysadmins trust Intel NICs with their lives.,uncommon,2.5
+intel_i225v,Intel I225-V 2.5GbE Controller,,Intel,2019,25,32,1,ASIC,14,5000000,2.5 Gigabit! Progress! Also shipped with a firmware bug that caused random disconnects. Intel giveth and Intel taketh away.,uncommon,2
+intel_82574l,Intel 82574L Gigabit Ethernet,,Intel,2008,25,32,1,ASIC,90,1500000,"The pfSense darling. Every DIY router and firewall ran on boards with this chip. If you know what pfSense is, you've used this.",common,2
+orinoco_wavelan,Lucent/Agere WaveLAN ORiNOCO,,Lucent/Agere,1999,33,32,1,ASIC,350,500000,One of the first WiFi cards. PCMCIA slot. 2 Mbps. 802.11b. Wardrivers loved these. NetStumbler + ORiNOCO + Pringles cantenna = 2002.,uncommon,2.5
+atheros_ar5212,Atheros AR5212 802.11a/b/g,,Atheros,2003,44,32,1,ASIC,180,2000000,The WiFi hacker's best friend. Monitor mode. Packet injection. Aircrack-ng worked perfectly. The penetration tester's weapon of choice.,common,2
+atheros_ar9280,Atheros AR9280 802.11n Dual-Band,,Atheros,2008,88,32,1,ASIC,65,5000000,802.11n dual-band. Open-source ath9k driver. Linux loved it. The gold standard for open-source WiFi. Still works perfectly.,common,2
+intel_wifi_5300,Intel WiFi Link 5300 802.11n,,Intel,2008,100,32,1,ASIC,65,8000000,"802.11n 3x3 MIMO. In every ThinkPad. Intel whitelist locked so you couldn't replace it with anything else. Thanks, Lenovo.",common,2.5
+broadcom_bcm4311,Broadcom BCM4311 802.11b/g,,Broadcom,2005,44,32,1,ASIC,90,3000000,In every laptop. No Linux drivers. Broadcom said 'no.' Community reverse-engineered them anyway. The WiFi chip that radicalised Linux users.,common,2
+broadcom_bcm43602,Broadcom BCM43602 802.11ac,,Broadcom,2015,160,32,1,ASIC,40,20000000,802.11ac. Apple used these in MacBooks. Broadcom eventually open-sourced drivers. Only took a decade. Progress.,uncommon,2
+qca6174,Qualcomm Atheros QCA6174 802.11ac,,Qualcomm Atheros,2014,150,32,1,ASIC,40,15000000,802.11ac MU-MIMO. In a million laptops. The chip that made WiFi actually reliable enough to mostly trust for video calls.,common,2
+intel_ax200,Intel AX200 WiFi 6,,Intel,2019,200,32,1,ASIC,14,30000000,WiFi 6. OFDMA. 160MHz channels. Big numbers. Your router probably doesn't support half of it. But the chip does.,common,2
+intel_ax211,Intel AX211 WiFi 6E,,Intel,2022,250,32,1,ASIC,14,40000000,"WiFi 6E. 6GHz band. So much spectrum. So few devices that support it. Living in the future, alone.",uncommon,2
+qcom_fastconnect_7800,Qualcomm FastConnect 7800 WiFi 7,,Qualcomm,2023,300,32,2,ASIC,5,80000000,"WiFi 7. MLO. 320MHz channels. 5.8 Gbps theoretical. Your ISP is the bottleneck now, not your WiFi. How the tables have turned.",rare,3
+realtek_rtl8812au,Realtek RTL8812AU 802.11ac USB,,Realtek,2014,80,32,1,ASIC,55,10000000,The Kali Linux USB WiFi adapter chip. Supports monitor mode. Every cybersecurity student's Amazon purchase history has one.,common,2
+broadcom_bcm5695,Broadcom BCM5695 StrataXGS II,,Broadcom,2002,200,32,1,ASIC,180,15000000,"Inside managed switches worldwide. Broadcom owns the switching silicon market. If you've used the internet, packets hit a Broadcom chip.",uncommon,15
+broadcom_tomahawk,Broadcom BCM56960 Tomahawk,,Broadcom,2015,1250,64,1,ASIC,28,2000000000,"3.2 Tbps switching capacity. In every major datacenter. Netflix, AWS, Google — all running through Tomahawks. The internet's backbone chip.",rare,120
+broadcom_tomahawk4,Broadcom BCM56990 Tomahawk 4,,Broadcom,2020,1500,64,1,ASIC,7,10000000000,25.6 Tbps. One chip moves more data than entire countries' internet traffic. The absolute unit of switching silicon.,epic,200
+cisco_quantumflow,Cisco QuantumFlow Network Processor,,Cisco,2008,900,64,40,ASIC,65,800000000,Cisco's custom network processor. 40 cores. Powers the ASR routers that route the actual internet. BGP's best friend.,rare,80
+cisco_silicon_one,Cisco Silicon One Q100,,Cisco,2019,1200,64,1,ASIC,7,8000000000,Cisco finally made one chip for routing AND switching. Only took them 30 years to figure that out.,epic,150
+marvell_prestera,Marvell Prestera 98DX3236,,Marvell,2016,400,32,1,ASIC,28,100000000,"In every small managed switch. Ubiquiti, MikroTik, TP-Link — Marvell Prestera inside. The affordable networking workhorse.",uncommon,8
+intel_tofino,Barefoot Networks / Intel Tofino,,Barefoot Networks / Intel,2019,1200,64,1,ASIC,16,5000000000,P4 programmable switch. You can reprogram the forwarding plane. Network engineers either love it or fear it. There is no middle ground.,epic,130
+mellanox_connectx6,Mellanox ConnectX-6 DX,,Mellanox / NVIDIA,2020,800,64,1,ASIC,7,4000000000,200 Gbps InfiniBand/Ethernet. Powers every HPC cluster and AI training farm. GPT was trained through cards with this chip. The unsung AI enabler.,rare,25
+csr_bluecore2,CSR BlueCore2 Bluetooth Controller,,Cambridge Silicon Radio,2002,26,16,1,ASIC,180,1000000,"In every cheap Bluetooth dongle. The $1 USB Bluetooth adapter that kinda worked. Pair, unpair, pair again, throw out window, buy new one.",common,0.5
+nordic_nrf51822,Nordic nRF51822 BLE SoC,,Nordic Semiconductor,2013,16,32,1,MCU,90,2000000,"BLE on a chip. In every fitness tracker, beacon, and smart device. If it's Bluetooth Low Energy, there's probably a Nordic chip inside.",common,0.1
+esp8266,Espressif ESP8266 WiFi MCU,,Espressif,2014,80,32,1,MCU,40,5000000,$2 WiFi chip that started the IoT revolution. Arduino hackers went feral. Suddenly everything was connected. Your plant pot tweets now.,common,0.5
+ti_cc2531,Texas Instruments CC2531 Zigbee SoC,,Texas Instruments,2011,32,8,1,MCU,130,500000,Zigbee coordinator in a $5 USB stick. Home Assistant users buy these in bulk. Smart home on a budget. IKEA Tradfri runs on these.,common,0.2
+ne2000_clone,NE2000 Clone (UMC 9008) Ethernet,,United Microelectronics,1992,10,16,1,ASIC,800,50000,"THE network card standard. Everything was 'NE2000 compatible.' IRQ conflicts were a way of life. IRQ5, DMA3, base 300h — the sacred numbers.",common,2
+wd8003,Western Digital WD8003 Ethernet,,Western Digital,1987,8,8,1,ASIC,1500,20000,One of the first Ethernet cards for PC. Token Ring was the 'enterprise' choice. Ethernet won anyway. Simplicity beats committees.,uncommon,2
+intel_82596,Intel 82596 LAN Coprocessor,,Intel,1990,20,32,1,ASIC,1000,100000,32-bit Ethernet coprocessor. Handled TCP/IP offloading before it was trendy. In Sun workstations and high-end servers.,uncommon,3
+arcnet_com9026,ARCnet COM9026 Controller,,Standard Microsystems (SMSC),1977,5,8,1,ASIC,5000,5000,Before Ethernet. 2.5 Mbps token-passing network. Dentist offices used ARCnet well into the 2000s. Some say they still do.,rare,2
+ti_token_ring,TI TMS380C16 Token Ring Controller,,Texas Instruments,1986,16,16,1,ASIC,1500,40000,IBM's pet networking standard. Token passing. Deterministic. Expensive. Ethernet killed it by being cheap and good enough. The VHS vs Betamax of networking.,rare,3
+nvidia_rtx_5090d,GeForce RTX 5090 D,GB202-400MHz,Nvidia,2025,2017.0,32,20736,GPU,4,92200000000,"The dragon-hoarding cousin of the RTX 5090, restricted for certain markets.",common,575.0
+nvidia_rtx_pro5000_72gb_blackwell,RTX PRO 5000 72GB Blackwell,GB202-PRO-2020MHz,Nvidia,2025,2020.0,32,20046,GPU,4,92200000000,A professional Blackwell monster with enough VRAM to hallucinate the entire internet.,common,600.0
+nvidia_rtx_5080,GeForce RTX 5080,GB203-400-2617MHz,Nvidia,2025,2617.0,32,10752,GPU,4,45900000000,"Blackwell's second-in-command, ready to render your regrets in real-time ray tracing.",common,360.0
+nvidia_rtx_pro6000_blackwell_ws,RTX PRO 6000 Blackwell Workstation Edition,GB202-WS-2020MHz,Nvidia,2025,2020.0,32,17676,GPU,4,92200000000,When your workstation needs to out-render your imagination.,common,600.0
+nvidia_rtx_4080,GeForce RTX 4080,AD103-300-2505MHz,Nvidia,2022,2505.0,32,9728,GPU,5,45900000000,Ada Lovelace's flagship mid-tier that costs more than some used cars.,common,320.0
+nvidia_rtx_4080_super,GeForce RTX 4080 SUPER,AD103-400-2550MHz,Nvidia,2024,2550.0,32,10240,GPU,5,45900000000,"The SUPER designation is Nvidia's way of saying 'we held back last time, whoops'.",common,320.0
+nvidia_rtx_pro4500_blackwell,RTX PRO 4500 Blackwell,GB205-PRO-2320MHz,Nvidia,2025,2320.0,32,14412,GPU,4,45900000000,Blackwell professional muscle for CAD jockeys and simulation wizards.,common,250.0
+nvidia_rtx_5070_ti,GeForce RTX 5070 Ti,GB203-300-2452MHz,Nvidia,2025,2452.0,32,8960,GPU,4,45900000000,The Ti badge returns with a vengeance on Blackwell's second tier.,common,300.0
+nvidia_rtx_4070_ti_super,GeForce RTX 4070 Ti SUPER,AD103-175-2610MHz,Nvidia,2024,2610.0,32,8448,GPU,5,35800000000,"Ada's most confusingly named GPU, but undeniably excellent.",common,285.0
+nvidia_rtx_pro5000_blackwell,RTX PRO 5000 Blackwell,GB203-PRO-2460MHz,Nvidia,2025,2460.0,32,12832,GPU,4,45900000000,Professional Blackwell for those who expense their hardware.,common,350.0
+nvidia_rtx_4070_ti,GeForce RTX 4070 Ti,AD104-400-2610MHz,Nvidia,2022,2610.0,32,7680,GPU,5,35800000000,The 4080 12GB that Nvidia renamed after community outrage. It stuck.,common,285.0
+nvidia_rtx_5090d_v2,GeForce RTX 5090 D v2,GB202-400D2-2160MHz,Nvidia,2025,2160.0,32,14400,GPU,4,92200000000,The sequel nobody asked for but certain markets required.,common,575.0
+nvidia_rtx_4090d,GeForce RTX 4090 D,AD102-250-2280MHz,Nvidia,2023,2280.0,32,14592,GPU,5,76300000000,Ada Lovelace's export-restricted sibling with a slightly smaller ego.,common,450.0
+nvidia_rtx5000_ada,RTX 5000 Ada Generation,AD102-WS-2250MHz,Nvidia,2024,2250.0,32,12800,GPU,5,76300000000,Ada workstation power without the gaming RGB frills.,common,250.0
+nvidia_rtx_4070_super,GeForce RTX 4070 SUPER,AD104-350-2475MHz,Nvidia,2024,2475.0,32,7168,GPU,5,35800000000,"More cores, same price tier  -- Ada's SUPER refresh hits the sweet spot.",common,220.0
+nvidia_rtx_3090_ti,GeForce RTX 3090 Ti,GA102-350-1560MHz,Nvidia,2022,1560.0,32,10752,GPU,8,28300000000,Ampere's last gasp  -- the Ti that ate the 4090's launch lunch.,common,450.0
+nvidia_rtx_pro4000_blackwell,RTX PRO 4000 Blackwell,GB205-PRO-2350MHz,Nvidia,2025,2350.0,32,12382,GPU,4,35800000000,Mid-range Blackwell pro for the serious but not extravagant professional.,common,200.0
+amd_rx_7900xt,Radeon RX 7900 XT,Navi31-2394MHz,AMD,2022,2394.0,32,5376,GPU,5,57700000000,RDNA3's nearly-flagship for those who found the XTX price tag alarming.,common,315.0
+nvidia_rtx_5070,GeForce RTX 5070,GB205-300-2512MHz,Nvidia,2025,2512.0,32,6144,GPU,4,30100000000,"Blackwell's mid-range champ, punching well above its price class.",common,250.0
+nvidia_rtx6000_ada,RTX 6000 Ada Generation,AD102-WS-2505MHz,Nvidia,2022,2505.0,32,18176,GPU,5,76300000000,The fully unlocked Ada die  -- for professionals with expense accounts to match.,common,300.0
+nvidia_rtx_5090_laptop,GeForce RTX 5090 Laptop GPU,GB202-Laptop-2040MHz,Nvidia,2025,2040.0,32,13960,GPU,4,92200000000,A desktop flagship crammed into a chassis that voids your lap's warranty.,common,175.0
+nvidia_rtx4500_ada,RTX 4500 Ada Generation,AD104-WS-2580MHz,Nvidia,2023,2580.0,32,7168,GPU,5,35800000000,Ada workstation mid-range  -- ECC memory and no game benchmarks needed.,common,210.0
+amd_rx_6950xt,Radeon RX 6950 XT,Navi21-XTXH-2310MHz,AMD,2022,2310.0,32,5120,GPU,7,26800000000,RDNA2's final form  -- a refresh that squeezed every last MHz out of Navi 21.,common,335.0
+amd_pro_w7900,Radeon PRO W7900,Navi31-WS-2500MHz,AMD,2023,2500.0,32,6144,GPU,5,57700000000,AMD's RDNA3 workstation flagship with 48GB of professional-grade memory.,common,295.0
+nvidia_rtx_pro6000_blackwell_server,RTX PRO 6000 Blackwell Server Edition,GB202-SRV-1910MHz,Nvidia,2025,1910.0,32,14408,GPU,4,92200000000,Blackwell in a server suit  -- it doesn't need RGB when it has ROI.,common,400.0
+amd_pro_w7800,Radeon PRO W7800,Navi31-WS-2430MHz,AMD,2023,2430.0,32,3840,GPU,5,57700000000,32GB of professional RDNA3 muscle for the visualization crowd.,common,260.0
+amd_radeon_ai_pro_r9700,Radeon AI PRO R9700,Navi48-AI-2600MHz,AMD,2025,2600.0,32,5376,GPU,4,57700000000,AMD's RDNA4-based AI-focused pro card for the inference-at-the-edge crowd.,common,250.0
+nvidia_l40,nVidia L40,AD102-875-2490MHz,Nvidia,2022,2490.0,32,18176,GPU,5,76300000000,"Ada datacenter workhorse  -- no display outputs, no regrets.",common,300.0
+amd_rx_7900_gre,Radeon RX 7900 GRE,Navi31-2394MHz,AMD,2024,2394.0,32,5120,GPU,5,57700000000,Golden Rabbit Edition  -- RDNA3 for markets that appreciate a good deal.,common,260.0
+nvidia_rtx_4090_laptop,GeForce RTX 4090 Laptop GPU,AD103-Laptop-2040MHz,Nvidia,2023,2040.0,32,9728,GPU,5,45900000000,The full Ada experience in a chassis that makes cooling engineers sweat.,common,175.0
+nvidia_rtx_4070,GeForce RTX 4070,AD104-250-2475MHz,Nvidia,2023,2475.0,32,5888,GPU,5,35800000000,Ada's mainstream hero  -- DLSS 3 and frame gen for the masses.,common,200.0
+amd_rx_9070xt,Radeon RX 9070 XT,Navi48-2800MHz,AMD,2025,2800.0,32,4096,GPU,4,28300000000,"RDNA4's flagship mainstream card, making Nvidia sweat at the $600 price point.",common,304.0
+nvidia_rtx_3080_ti,GeForce RTX 3080 Ti,GA102-225-1665MHz,Nvidia,2021,1665.0,32,10240,GPU,8,28300000000,Ampere's 90-class performance at a 80-class price. Almost.,common,350.0
+nvidia_rtx_3080_12gb,GeForce RTX 3080 12GB,GA102-220-1710MHz,Nvidia,2022,1710.0,32,8960,GPU,8,28300000000,"More memory than you asked for, same thermals you feared.",common,350.0
+nvidia_rtx_5080_laptop,GeForce RTX 5080 Laptop GPU,GB203-Laptop-2430MHz,Nvidia,2025,2430.0,32,7168,GPU,4,45900000000,Blackwell's second-best stuffed into a gaming laptop near you.,common,175.0
+amd_rx_9070,Radeon RX 9070,Navi48-2520MHz,AMD,2025,2520.0,32,3584,GPU,4,28300000000,RDNA4 non-XT  -- still a killer deal at its launch price.,common,220.0
+nvidia_rtx5880_ada,RTX 5880 Ada Generation,AD102-WS-2235MHz,Nvidia,2024,2235.0,32,10752,GPU,5,76300000000,The workstation Ada that slipped in quietly between product generations.,common,350.0
+amd_rx_6800xt,Radeon RX 6800 XT,Navi21-XTX-2250MHz,AMD,2020,2250.0,32,4608,GPU,7,26800000000,RDNA2's near-flagship  -- the card that put AMD back in the high-end conversation.,common,300.0
+nvidia_rtx_3080,GeForce RTX 3080,GA102-200-1710MHz,Nvidia,2020,1710.0,32,8704,GPU,8,28300000000,Turns electricity directly into heat and imaginary coins; may cause spontaneous PSU existential crises.,rare,320.0
+nvidia_rtx_4080_laptop,GeForce RTX 4080 Laptop GPU,AD104-Laptop-2150MHz,Nvidia,2023,2150.0,32,7424,GPU,5,35800000000,Ada's second-tier shrunk down for mobile workstations and gaming laptops.,common,150.0
+amd_rx_9070_gre,Radeon RX 9070 GRE,Navi48-2480MHz,AMD,2025,2480.0,32,3456,GPU,4,28300000000,Another Golden Rabbit Edition  -- RDNA4 for the budget-conscious enthusiast.,common,200.0
+amd_rx_7800xt,Radeon RX 7800 XT,Navi32-2430MHz,AMD,2023,2430.0,32,3840,GPU,5,28300000000,RDNA3's 1080p/1440p champ with enough VRAM to actually handle modern textures.,common,263.0
+nvidia_rtx4000_ada,RTX 4000 Ada Generation,AD104-WS-2175MHz,Nvidia,2023,2175.0,32,6144,GPU,5,35800000000,Compact Ada workstation power for those who actually use PCIe slots.,common,130.0
+nvidia_rtx_a5000,RTX A5000,GA102-WS-1695MHz,Nvidia,2021,1695.0,32,8192,GPU,8,28300000000,Ampere workstation muscle with 24GB of ECC memory and zero gaming guilt.,common,230.0
+nvidia_rtx_a6000,RTX A6000,GA102-WS-1800MHz,Nvidia,2020,1800.0,32,10752,GPU,8,28300000000,The fully unlocked Ampere for professionals who render things for a living.,common,300.0
+nvidia_rtx_5060_ti_16gb,GeForce RTX 5060 Ti 16GB,GB206-400-2572MHz,Nvidia,2025,2572.0,32,4352,GPU,4,21900000000,Blackwell mid-range with the VRAM buffer everyone wanted years ago.,common,180.0
+nvidia_rtx_4060_ti_16gb,GeForce RTX 4060 Ti 16GB,AD106-352-2535MHz,Nvidia,2023,2535.0,32,4352,GPU,5,22900000000,For those who refused to buy the 8GB version on principle.,common,165.0
+amd_rx_7700xt,Radeon RX 7700 XT,Navi32-2544MHz,AMD,2023,2544.0,32,3456,GPU,5,28300000000,RDNA3 mid-range with a chiplet design that runs surprisingly cool.,common,245.0
+nvidia_rtx_4060_ti,GeForce RTX 4060 Ti,AD106-350-2535MHz,Nvidia,2023,2535.0,32,4352,GPU,5,22900000000,Efficient Ada mid-ranger that sparked a thousand bandwidth arguments.,common,160.0
+nvidia_rtx_5060_ti_8gb,GeForce RTX 5060 Ti 8GB,GB206-400-2572MHz,Nvidia,2025,2572.0,32,4096,GPU,4,21900000000,"Same Blackwell chip, half the VRAM  -- for those who game at 1080p forever.",common,160.0
+nvidia_rtx_3070,GeForce RTX 3070,GA104-300-1725MHz,Nvidia,2020,1725.0,32,5888,GPU,8,17400000000,All the hashrate of a 2080 Ti without the prestige; perfect for a mid-tier junkyard rig.,uncommon,220.0
+amd_rx_7900m,Radeon RX 7900M,Navi31-Mobile-2230MHz,AMD,2023,2230.0,32,4608,GPU,5,57700000000,RDNA3's laptop flagship  -- for gaming rigs that also double as space heaters.,common,180.0
+amd_rx_6800,Radeon RX 6800,Navi21-XL-2105MHz,AMD,2020,2105.0,32,3840,GPU,7,26800000000,RDNA2's cut-down flagship  -- still a monster at 1440p and beyond.,common,250.0
+nvidia_a10,NVIDIA A10,GA102-875-1695MHz,Nvidia,2021,1695.0,32,9216,GPU,8,28300000000,"Datacenter Ampere built for inference  -- single-slot, single-purpose, seriously fast.",common,150.0
+amd_rx_7700,Radeon RX 7700,Navi32-2544MHz,AMD,2024,2544.0,32,2816,GPU,5,28300000000,RDNA3 value tier  -- not quite 7700 XT but still punchy at 1080p/1440p.,common,170.0
+nvidia_rtx_a5500,RTX A5500,GA102-WS-1695MHz,Nvidia,2022,1695.0,32,7040,GPU,8,28300000000,Mobile workstation Ampere with 16GB of ECC memory and laptop GPU diplomacy.,common,200.0
+nvidia_rtx_5060,GeForce RTX 5060,GB206-300-2497MHz,Nvidia,2025,2497.0,32,3840,GPU,4,21900000000,Blackwell's budget entry  -- for 1080p gaming in the mid-2020s.,common,150.0
+nvidia_rtx_a4500,RTX A4500,GA102-WS-1650MHz,Nvidia,2022,1650.0,32,7168,GPU,8,28300000000,Workstation Ampere with 20GB ECC  -- your CAD software will be very happy.,common,200.0
+nvidia_rtx_3070_ti,GeForce RTX 3070 Ti,GA104-400-1770MHz,Nvidia,2021,1770.0,32,6144,GPU,8,17400000000,The Ti that added GDDR6X and a few hundred MHz  -- and a few extra watts.,common,290.0
+nvidia_rtx_pro2000_blackwell,RTX PRO 2000 Blackwell,GB206-PRO-2290MHz,Nvidia,2025,2290.0,32,3072,GPU,4,21900000000,Entry-level Blackwell pro  -- because even accountants need GPU compute now.,common,100.0
+amd_pro_w7700,Radeon PRO W7700,Navi32-WS-2530MHz,AMD,2024,2530.0,32,3456,GPU,5,28300000000,RDNA3 workstation for creative professionals who prefer red team.,common,170.0
+nvidia_rtx_5070_ti_laptop,GeForce RTX 5070 Ti Laptop GPU,GB203-Laptop-2180MHz,Nvidia,2025,2180.0,32,5376,GPU,4,45900000000,Ti-grade Blackwell in laptop form  -- your cooling system's nightmare.,common,175.0
+amd_rx_6750xt,Radeon RX 6750 XT,Navi22-XTX-2600MHz,AMD,2022,2600.0,32,2560,GPU,7,17200000000,"RDNA2 mid-range refresh  -- faster clocks, same die, slightly higher price.",common,250.0
+nvidia_rtx_3060_ti,GeForce RTX 3060 Ti,GA104-200-1665MHz,Nvidia,2020,1665.0,32,4864,GPU,8,17400000000,"Silicon sweet spot; miners loved it, gamers hated that miners loved it.",uncommon,200.0
+amd_pro_w6800,Radeon PRO W6800,Navi21-WS-2105MHz,AMD,2021,2105.0,32,3840,GPU,7,26800000000,32GB RDNA2 workstation  -- the creative professional's dream in red.,common,250.0
+amd_rx_9060xt_16gb,Radeon RX 9060 XT 16GB,Navi44-2650MHz,AMD,2025,2650.0,32,2560,GPU,4,15700000000,RDNA4 mainstream with plenty of VRAM for the texture-heavy future ahead.,common,150.0
+nvidia_l40s,L40S,AD102-DC-2520MHz,Nvidia,2023,2520.0,32,18176,GPU,5,76300000000,Ada datacenter S-class  -- Ada Lovelace optimized for AI inference at scale.,common,350.0
+nvidia_titan_rtx,TITAN RTX,TU102-400-1770MHz,Nvidia,2018,1770.0,32,4608,GPU,12,18600000000,Turing's golden child  -- 24GB VRAM before it was cool.,common,280.0
+nvidia_quadro_rtx8000,Quadro RTX 8000,TU102-400-1770MHz,Nvidia,2018,1770.0,32,4608,GPU,12,18600000000,48GB of Turing  -- for professionals who wouldn't blink at the five-figure price tag.,common,295.0
+nvidia_titan_v,TITAN V,GV100-400-1455MHz,Nvidia,2017,1455.0,32,5120,GPU,12,21100000000,"Volta-powered research card; horrifically expensive, suspiciously comfortable living in a dusty lab rack.",legendary,250.0
+amd_rx_9060xt_8gb,Radeon RX 9060 XT 8GB,Navi44-2650MHz,AMD,2025,2650.0,32,2560,GPU,4,15700000000,RDNA4 mainstream without the VRAM premium  -- great for 1080p gaming.,common,130.0
+amd_rx_6700xt,Radeon RX 6700 XT,Navi22-XT-2581MHz,AMD,2021,2581.0,32,2560,GPU,7,17200000000,RDNA2 mid-range debut with 12GB VRAM and AMD Infinity Cache magic.,common,230.0
+nvidia_rtx_4070_laptop,GeForce RTX 4070 Laptop GPU,AD106-Laptop-2175MHz,Nvidia,2023,2175.0,32,4608,GPU,5,22900000000,Ada mobile mid-range  -- solid 1080p/1440p performance in a backpackable form.,common,115.0
+nvidia_rtx_4060,GeForce RTX 4060,AD107-400-2460MHz,Nvidia,2023,2460.0,32,3072,GPU,5,18900000000,"Ada's mainstream pick  -- efficient, capable, and just barely enough VRAM.",common,115.0
+nvidia_rtx_2080_super,GeForce RTX 2080 SUPER,TU104-450-1815MHz,Nvidia,2019,1815.0,32,3072,GPU,12,13600000000,The Turing refresh that made the original 2080 buyers reach for their receipts.,common,250.0
+nvidia_rtx_a4000,RTX A4000,GA104-WS-1560MHz,Nvidia,2021,1560.0,32,6144,GPU,8,17400000000,Single-slot Ampere workstation  -- your neighbors' PCIe slots will thank you.,common,140.0
+nvidia_rtx_5070_laptop,GeForce RTX 5070 Laptop GPU,GB205-Laptop-2140MHz,Nvidia,2025,2140.0,32,4608,GPU,4,30100000000,Blackwell mid-range in laptop trim  -- more than enough for portable gaming glory.,common,115.0
+nvidia_rtx_3080_ti_laptop,GeForce RTX 3080 Ti Laptop GPU,GA103-Laptop-1590MHz,Nvidia,2022,1590.0,32,7424,GPU,8,17400000000,Ampere's laptop Ti flagship  -- a desktop 3080's performance in a slab of aluminium.,common,175.0
+amd_rx_6700,Radeon RX 6700,Navi22-XL-2450MHz,AMD,2022,2450.0,32,2304,GPU,7,17200000000,Cut-down Navi 22 for the mainstream  -- 10GB VRAM and good 1080p legs.,common,175.0
+nvidia_titan_xp,NVIDIA TITAN Xp,GP102-450-1582MHz,Nvidia,2017,1582.0,32,3840,GPU,16,15300000000,Pascal's ultimate consumer card  -- named with an XP for extra extreme pizzazz.,common,250.0
+nvidia_rtx_2080,GeForce RTX 2080,TU104-400-1710MHz,Nvidia,2018,1710.0,32,2944,GPU,12,13600000000,"Turing's mainstream flagship  -- ray tracing existed, but no one could run it yet.",common,215.0
+nvidia_gtx_1080_ti,GeForce GTX 1080 Ti,GP102-350-1582MHz,Nvidia,2017,1582.0,32,3584,GPU,16,12000000000,Pascal's magnum opus  -- so good it embarrassed the GTX 1080's launch buyers.,common,250.0
+amd_rx_7650_gre,Radeon RX 7650 GRE,Navi33-2420MHz,AMD,2024,2420.0,32,2048,GPU,6,13300000000,RDNA3 budget entry  -- the Golden Rabbit Edition for value hunters.,common,130.0
+amd_rx_9060,Radeon RX 9060,Navi44-2500MHz,AMD,2025,2500.0,32,2048,GPU,4,15700000000,RDNA4 budget card  -- entry-level never looked so next-gen.,common,120.0
+nvidia_rtx_2070_super,GeForce RTX 2070 SUPER,TU104-410-1770MHz,Nvidia,2019,1770.0,32,2560,GPU,12,13600000000,SUPER refreshes were Nvidia saying 'our bad' with better specs at the same price.,common,215.0
+amd_radeon_8060s,Radeon 8060S,Navi48-Mobile-APU-2400MHz,AMD,2025,2400.0,32,2560,GPU,4,28300000000,Integrated RDNA4 muscle in a laptop APU that makes discrete GPUs nervous.,common,45.0
+nvidia_quadro_rtx6000,Quadro RTX 6000,TU102-WS-1770MHz,Nvidia,2018,1770.0,32,4608,GPU,12,18600000000,24GB Turing for workstations  -- the card that made render farms swoon.,common,260.0
+nvidia_rtx_3070_ti_laptop,GeForce RTX 3070 Ti Laptop GPU,GA104-Laptop-1485MHz,Nvidia,2021,1485.0,32,5888,GPU,8,17400000000,Ampere Ti in laptop form  -- for those who game on the go at 1440p.,common,125.0
+nvidia_rtx_4060_laptop,GeForce RTX 4060 Laptop GPU,AD107-Laptop-2370MHz,Nvidia,2023,2370.0,32,3072,GPU,5,18900000000,Ada mobile mainstream  -- efficient enough to almost justify the battery drain.,common,80.0
+nvidia_rtx_5050,GeForce RTX 5050,GB207-400-2398MHz,Nvidia,2025,2398.0,32,2560,GPU,4,11800000000,Blackwell's entry-level  -- DLSS 4 and Multi Frame Gen even for budget buyers.,common,130.0
+amd_rx_7600xt,Radeon RX 7600 XT,Navi33-2755MHz,AMD,2024,2755.0,32,2048,GPU,6,13300000000,16GB of RDNA3 for the VRAM-anxious budget gamer.,common,190.0
+amd_rx_6650xt,Radeon RX 6650 XT,Navi23-XT-2635MHz,AMD,2022,2635.0,32,2048,GPU,7,11060000000,"RDNA2 refresh for the mainstream  -- faster clocks, same great Navi 23 die.",common,176.0
+nvidia_rtx_3060,GeForce RTX 3060,GA106-300-1777MHz,Nvidia,2021,1777.0,32,3584,GPU,8,13250000000,Ampere goes mainstream  -- 12GB VRAM and a hash rate limiter for drama.,common,170.0
+nvidia_rtx_5060_laptop,GeForce RTX 5060 Laptop GPU,GB206-Laptop-2120MHz,Nvidia,2025,2120.0,32,2560,GPU,4,21900000000,"Budget Blackwell for the gaming laptop market  -- thin, fast, and runs warm.",common,80.0
+nvidia_rtx_a5000_laptop,RTX A5000 Laptop GPU,GA102-Laptop-1545MHz,Nvidia,2021,1545.0,32,6144,GPU,8,17400000000,Mobile workstation Ampere for CAD and DCC on the road.,common,80.0
+nvidia_rtx_a4500_laptop,RTX A4500 Laptop GPU,GA104-Laptop-1560MHz,Nvidia,2022,1560.0,32,5120,GPU,8,17400000000,Mobile Ampere workstation with 16GB ECC for serious portable rendering.,common,80.0
+nvidia_rtx_3060_12gb,GeForce RTX 3060 12GB,GA106-300-1777MHz,Nvidia,2021,1777.0,32,3584,GPU,8,13250000000,"The 12GB variant  -- same chip, different memory config, same hash rate limiter.",common,170.0
+amd_rx_7600,Radeon RX 7600,Navi33-2625MHz,AMD,2023,2625.0,32,2048,GPU,6,13300000000,RDNA3's budget entry  -- great 1080p performance at an approachable price.,common,165.0
+nvidia_rtx_2060_super,GeForce RTX 2060 SUPER,TU106-410-1650MHz,Nvidia,2019,1650.0,32,2176,GPU,12,10800000000,The 2060 that apologized by adding 512 more shaders and 8GB of VRAM.,common,175.0
+amd_rx_6600xt,Radeon RX 6600 XT,Navi23-XT-2589MHz,AMD,2021,2589.0,32,2048,GPU,7,11060000000,RDNA2 mainstream magic  -- fast 1080p performance and surprisingly efficient.,common,160.0
+amd_radeon_vii,Radeon VII,Vega20-1800MHz,AMD,2019,1800.0,32,3840,GPU,7,13230000000,AMD's first 7nm GPU  -- 16GB HBM2 at a time when 8GB felt luxurious.,common,300.0
+nvidia_rtx_3080_laptop,GeForce RTX 3080 Laptop GPU,GA104-Laptop-1710MHz,Nvidia,2021,1710.0,32,6144,GPU,8,17400000000,Ampere's laptop flagship  -- a desktop 3070's performance with a 3080 badge.,common,150.0
+amd_radeon_8050s,Radeon 8050S,Navi48-Mobile-APU-2150MHz,AMD,2025,2150.0,32,2048,GPU,4,28300000000,RDNA4 integrated in slim-and-light laptops  -- iGPU benchmarks will never be boring again.,common,35.0
+nvidia_rtx_2070,GeForce RTX 2070,TU106-400-1620MHz,Nvidia,2018,1620.0,32,2304,GPU,12,10800000000,Turing mid-range debut  -- ray tracing for those who couldn't afford the 2080.,common,175.0
+nvidia_rtx_2060_12gb,GeForce RTX 2060 12GB,TU106-300A-1650MHz,Nvidia,2022,1650.0,32,2176,GPU,12,10800000000,The Turing zombie  -- Nvidia dug up the 2060 and gave it 12GB during the shortage.,common,185.0
+intel_arc_b580,Intel Arc B580,BMG-G21-2670MHz,Intel,2024,2670.0,32,2560,GPU,5,18600000000,Battlemage's mainstream hit  -- 12GB VRAM and XeSS for a shockingly reasonable price.,common,190.0
+amd_rx_6800s,Radeon RX 6800S,Navi22-XM-2300MHz,AMD,2022,2300.0,32,2048,GPU,7,17200000000,Slim RDNA2 for thin-and-light gaming laptops that mean business.,common,100.0
+nvidia_gtx_1080,GeForce GTX 1080,GP104-400-1733MHz,Nvidia,2016,1733.0,32,2560,GPU,16,7200000000,"Launch-day gamer darling; sips power compared to modern hogs, still smug about its 8 GB of GDDR5X.",uncommon,180.0
+amd_rx_7600s,Radeon RX 7600S,Navi33-Mobile-2455MHz,AMD,2023,2455.0,32,2048,GPU,6,13300000000,"RDNA3 slim mobile  -- S for slim, S for surprisingly capable.",common,75.0
+amd_rx_7700s,Radeon RX 7700S,Navi33-Mobile-2300MHz,AMD,2023,2300.0,32,2048,GPU,6,13300000000,Slim RDNA3 mobile  -- wedged between the 7600S and a full laptop GPU.,common,80.0
+nvidia_quadro_rtx5000,Quadro RTX 5000,TU104-WS-1815MHz,Nvidia,2018,1815.0,32,3072,GPU,12,13600000000,16GB Turing workstation  -- for those who render for a living without a six-figure budget.,common,230.0
+nvidia_rtx_3060_8gb,GeForce RTX 3060 8GB,GA106-302-1777MHz,Nvidia,2022,1777.0,32,3584,GPU,8,13250000000,"Same Ampere chip, less VRAM  -- for those who felt the 12GB version was excessive.",common,170.0
+amd_rx_6600,Radeon RX 6600,Navi23-XL-2491MHz,AMD,2021,2491.0,32,1792,GPU,7,11060000000,RDNA2 budget tier  -- 8GB and high clocks for 1080p dominance.,common,132.0
+amd_rx_6700s,Radeon RX 6700S,Navi22-Mobile-2300MHz,AMD,2022,2300.0,32,1792,GPU,7,17200000000,Mobile RDNA2 mid-range for gaming laptops that want to stay thin.,common,80.0
+nvidia_rtx_pro2000_blackwell_laptop,RTX PRO 2000 Blackwell Generation Laptop GPU,GB206-PRO-Laptop-2080MHz,Nvidia,2025,2080.0,32,2560,GPU,4,21900000000,Mobile Blackwell pro for the on-the-go professional who expenses everything.,common,80.0
+amd_pro_w6600,Radeon PRO W6600,Navi23-WS-2491MHz,AMD,2021,2491.0,32,1792,GPU,7,11060000000,RDNA2 workstation compact  -- 8GB ECC and single-slot ambitions.,common,100.0
+nvidia_rtx_a4000_laptop,RTX A4000 Laptop GPU,GA104-Laptop-1560MHz,Nvidia,2022,1560.0,32,5120,GPU,8,17400000000,Mobile workstation Ampere for serious portable rendering work.,common,80.0
+nvidia_quadro_rtx4000,Quadro RTX 4000,TU104-WS-1545MHz,Nvidia,2018,1545.0,32,2304,GPU,12,13600000000,8GB Turing workstation in a single-slot form factor  -- the IT department's best friend.,common,160.0
+intel_arc_pro_b60,Intel Arc Pro B60,BMG-G21-PRO-2670MHz,Intel,2025,2670.0,32,2048,GPU,5,18600000000,Battlemage goes professional  -- AI workloads and pro apps on Intel's new arch.,common,120.0
+nvidia_gtx_1070_ti,GeForce GTX 1070 Ti,GP104-300-1607MHz,Nvidia,2017,1607.0,32,2432,GPU,16,7200000000,Pascal Ti  -- launched specifically to undercut AMD's Vega 56 at its own price.,common,180.0
+nvidia_rtx_5050_laptop,GeForce RTX 5050 Laptop GPU,GB207-Laptop-2150MHz,Nvidia,2025,2150.0,32,2048,GPU,4,11800000000,Entry-level Blackwell for budget gaming laptops that still want DLSS 4.,common,60.0
+nvidia_rtx_4050_laptop,GeForce RTX 4050 Laptop GPU,AD107-Laptop-2370MHz,Nvidia,2023,2370.0,32,2048,GPU,5,18900000000,Ada's laptop budget entry  -- DLSS 3 for the price-conscious mobile gamer.,common,60.0
+amd_rx_5700,Radeon RX 5700,Navi10-XL-1625MHz,AMD,2019,1625.0,32,2304,GPU,7,10300000000,RDNA1's mainstream workhorse  -- the XT's sensible sibling.,common,180.0
+amd_pro_w5700,Radeon Pro W5700,Navi10-WS-1800MHz,AMD,2019,1800.0,32,2304,GPU,7,10300000000,RDNA1 workstation  -- 8GB ECC and professional drivers for serious applications.,common,205.0
+nvidia_rtx_2060,GeForce RTX 2060,TU106-200-1680MHz,Nvidia,2019,1680.0,32,1920,GPU,12,10800000000,Entry-level ray tracer; insists it's 'future proof' while wheezing through modern workloads.,common,160.0
+intel_arc_b570,Intel Arc B570,BMG-G21-2500MHz,Intel,2025,2500.0,32,1792,GPU,5,18600000000,Battlemage budget tier  -- 10GB VRAM and XeSS for the mainstream price point.,common,150.0
+amd_rx_6600m,Radeon RX 6600M,Navi23-Mobile-2177MHz,AMD,2021,2177.0,32,1792,GPU,7,11060000000,RDNA2 in a laptop  -- AMD Infinity Cache making 128-bit buses feel wide.,common,100.0
+nvidia_a40,NVIDIA A40,GA102-WS-1740MHz,Nvidia,2020,1740.0,32,10752,GPU,8,28300000000,Ampere datacenter/workstation hybrid with 48GB of GDDR6 and zero display outputs.,common,300.0
+amd_rx_vega64,Radeon RX Vega 64,Vega10-1546MHz,AMD,2017,1546.0,32,4096,GPU,14,12500000000,Runs hot loud and slightly angry; comes with free central heating for your server rack.,rare,295.0
+nvidia_titan_x_maxwell,NVIDIA TITAN X,GM200-400-1000MHz,Nvidia,2015,1000.0,32,3072,GPU,28,8000000000,Maxwell's crown jewel  -- the first GPU to break the 12GB barrier and cost like it.,common,250.0
+nvidia_gtx_980_ti,GeForce GTX 980 Ti,GM200-310-1000MHz,Nvidia,2015,1000.0,32,2816,GPU,28,8000000000,Maxwell's near-flagship  -- 6GB and cut-down GM200 for the price-sensitive enthusiast.,common,250.0
+nvidia_gtx_1070,GeForce GTX 1070,GP104-200-1683MHz,Nvidia,2016,1683.0,32,1920,GPU,16,7200000000,"Efficient little miner; hoarded in 2017, forgotten in 2023, reborn as dumpster treasure.",uncommon,150.0
+amd_rx_5600xt,Radeon RX 5600 XT,Navi10-XLE-1560MHz,AMD,2020,1560.0,32,2048,GPU,7,10300000000,RDNA1 mid-range that got a last-minute BIOS update to fend off competition.,common,150.0
+nvidia_rtx_a2000_12gb,RTX A2000 12GB,GA106-WS-1200MHz,Nvidia,2022,1200.0,32,3328,GPU,8,13250000000,"Compact Ampere workstation with 12GB ECC  -- single slot, serious compute.",common,70.0
+nvidia_rtx_a2000,RTX A2000,GA106-WS-1200MHz,Nvidia,2021,1200.0,32,3328,GPU,8,13250000000,Entry Ampere workstation  -- 6GB ECC in a low-profile package.,common,70.0
+nvidia_rtx_3060_laptop,GeForce RTX 3060 Laptop GPU,GA106-Laptop-1703MHz,Nvidia,2021,1703.0,32,3840,GPU,8,13250000000,"Ampere's laptop mainstream  -- 6GB VRAM, great for 1080p gaming on the move.",common,80.0
+amd_rx_vega56,Radeon RX Vega 56,Vega10-1471MHz,AMD,2017,1471.0,32,3584,GPU,14,12500000000,Vega's mid-flagship  -- HBM2 and a power draw your electric bill will remember.,common,210.0
+nvidia_l20,nVidia L20,AD102-DC-1950MHz,Nvidia,2023,1950.0,32,7424,GPU,5,76300000000,Ada datacenter mid-class  -- 48GB and no gamer has ever touched one.,common,350.0
+nvidia_tesla_p100,Tesla P100,GP100-1328MHz,Nvidia,2016,1328.0,32,3584,GPU,16,15300000000,Pascal's datacenter pioneer  -- HBM2 memory and a price tag that required procurement.,common,300.0
+amd_rx_6800m,Radeon RX 6800M,Navi22-Mobile-2300MHz,AMD,2021,2300.0,32,2560,GPU,7,17200000000,RDNA2 mobile flagship  -- the first AMD laptop GPU to genuinely scare Nvidia.,common,145.0
+amd_pro_w7900_dual_slot,Radeon PRO W7900 Dual Slot,Navi31-WS-DS-2200MHz,AMD,2024,2200.0,32,6144,GPU,5,57700000000,"W7900's dual-slot variant  -- same RDNA3 silicon, friendlier to neighboring PCIe slots.",common,295.0
+nvidia_rtx_3050_laptop,GeForce RTX 3050 Laptop GPU,GA107-Laptop-1740MHz,Nvidia,2021,1740.0,32,2048,GPU,8,13250000000,Ampere's budget laptop entry  -- RTX features at a price students can consider.,common,60.0
+amd_rx_7400,Radeon RX 7400,Navi33-XL-2321MHz,AMD,2025,2321.0,32,1536,GPU,6,13300000000,RDNA3 entry-level desktop  -- budget gaming without completely sacrificing features.,common,70.0
+nvidia_rtx_3050_oem,GeForce RTX 3050 OEM,GA106-OEM-1740MHz,Nvidia,2022,1740.0,32,2304,GPU,8,13250000000,The 3050 that never saw retail shelves  -- OEM exclusive with a confusing spec sheet.,common,90.0
+nvidia_gtx_1660,GeForce GTX 1660,TU116-300-1785MHz,Nvidia,2019,1785.0,32,1408,GPU,12,6600000000,Turing without the RT cores  -- for gamers who knew they'd never ray trace anyway.,common,120.0
+nvidia_tesla_p40,Tesla P40,GP102-DC-1531MHz,Nvidia,2016,1531.0,32,3840,GPU,16,15300000000,Pascal inference accelerator  -- 24GB GDDR5 that found a second life in mining rigs.,common,250.0
+nvidia_gtx_1660_super,GeForce GTX 1660 SUPER,TU116-300S-1785MHz,Nvidia,2019,1785.0,32,1408,GPU,12,6600000000,"No RT, no Tensor, no nonsense; quietly prints coins while newer cards chase ray-traced reflections.",common,125.0
+nvidia_gtx_1660_ti,GeForce GTX 1660 Ti,TU116-400-1770MHz,Nvidia,2019,1770.0,32,1536,GPU,12,6600000000,Turing without ray tracing but with GDDR6  -- the sweet spot of the 16-series.,common,120.0
+intel_arc_a750,Intel Arc A750,ACM-G10-2050MHz,Intel,2022,2050.0,32,3072,GPU,6,21700000000,Alchemist mid-range  -- 8GB and XeSS for developers brave enough to try Intel.,common,225.0
+nvidia_rtx_3050_8gb,GeForce RTX 3050 8GB,GA106-150-1777MHz,Nvidia,2022,1777.0,32,2560,GPU,8,13250000000,"Ampere's budget desktop entry  -- finally, RTX for the $250 crowd.",common,130.0
+intel_arc_a580,Intel Arc A580,ACM-G10-1700MHz,Intel,2023,1700.0,32,3072,GPU,6,21700000000,"Alchemist late arrival  -- better than an A750 at the price, theoretically.",common,185.0
+amd_rx_5600,Radeon RX 5600,Navi10-XLE-1375MHz,AMD,2020,1375.0,32,2048,GPU,7,10300000000,The 5600 XT's quieter sibling  -- OEM focused but still RDNA1 goodness.,common,150.0
+nvidia_rtx_a1000,RTX A1000,GA107-WS-1455MHz,Nvidia,2022,1455.0,32,2048,GPU,8,13250000000,Entry Ampere workstation  -- 8GB ECC for the budget-constrained professional.,common,50.0
+nvidia_rtx_3050_6gb,GeForce RTX 3050 6GB,GA107-150-1777MHz,Nvidia,2024,1777.0,32,2048,GPU,8,13250000000,The budget Ampere that makes you wonder if 6GB is actually enough anymore.,common,70.0
+amd_rx_5500xt,Radeon RX 5500 XT,Navi14-XT-1717MHz,AMD,2019,1717.0,32,1408,GPU,7,6400000000,RDNA1's budget entry  -- compact Navi 14 for mainstream 1080p gaming.,common,130.0
+amd_rx_5500,Radeon RX 5500,Navi14-XL-1569MHz,AMD,2019,1569.0,32,1408,GPU,7,6400000000,RDNA1 entry with OEM leanings  -- the cheaper Navi 14 variant.,common,110.0
+amd_r9_295x2,Radeon R9 295X2,Hawaii-Dual-1018MHz,AMD,2014,1018.0,32,5632,GPU,28,12800000000,Two Hawaii GPUs on one board with a liquid cooler. Excess was the aesthetic.,common,500.0
+nvidia_gtx_titan_z,GeForce GTX TITAN Z,GK110B-Dual-876MHz,Nvidia,2014,876.0,32,5760,GPU,28,14200000000,"Two Kepler dies, one ridiculous price tag, zero gaming wins at $3000.",common,375.0
+amd_radeon_pro_duo,Radeon Pro Duo,Fiji-Dual-1000MHz,AMD,2016,1000.0,32,8192,GPU,28,17100000000,Two Fiji GPUs for VR pioneers  -- AMD's dual-GPU answer that nobody quite asked for.,common,350.0
+amd_radeon_rx_8040s,Radeon RX 8040S,Navi48-Mobile-APU-1800MHz,AMD,2025,1800.0,32,2048,GPU,4,28300000000,RDNA4 mobile APU mid-tier  -- efficient integrated graphics for thin laptops.,common,30.0
+amd_radeon_780m,Radeon 780M,Phoenix-iGPU-2700MHz,AMD,2023,2700.0,32,768,GPU,4,25300000000,Ryzen 7000 series iGPU  -- RDNA3 integrated graphics that makes Intel Iris nervous.,common,15.0
+amd_radeon_680m,Radeon 680M,Rembrandt-iGPU-2400MHz,AMD,2022,2400.0,32,512,GPU,6,13300000000,Ryzen 6000 iGPU  -- RDNA2 integrated that actually ran games at launch.,common,15.0
+amd_radeon_860m,Radeon 860M,RDNA3-2300MHz,AMD,2024,2300.0,32,212,GPU,4,8000000000,"An RDNA3 integrated GPU for AMD's mid-range APUs, offering solid light gaming performance.",common,20.0
+amd_radeon_840m,Radeon 840M,RDNA3-2100MHz,AMD,2024,2100.0,32,181,GPU,4,8000000000,"A budget RDNA3 iGPU found in entry AMD APUs, capable of running esports titles at 1080p.",common,15.0
+amd_radeon_890m,Radeon 890M,RDNA3-2900MHz,AMD,2024,2900.0,32,280,GPU,4,8000000000,"The flagship RDNA3 iGPU in AMD's Strix Point APUs, delivering near-discrete 1080p gaming performance.",common,30.0
+amd_radeon_880m,Radeon 880M,RDNA3-2700MHz,AMD,2024,2700.0,32,285,GPU,4,8000000000,"A high-end RDNA3 integrated GPU in AMD's Strix Point lineup, ideal for gaming without a discrete card.",common,28.0
+amd_radeon_760m,Radeon 760M,RDNA3-2200MHz,AMD,2023,2200.0,32,265,GPU,4,25300000000,"A mid-range RDNA3 iGPU found in Ryzen 7040 series, capable of handling esports and older AAA titles.",common,20.0
+intel_arc_140v,Intel Arc 140V GPU,LNL-G4-2000MHz,Intel,2024,2000.0,32,257,GPU,3,14900000000,"Intel's Lunar Lake integrated GPU with Xe2 architecture, offering strong iGPU gaming in ultra-thin laptops.",common,17.0
+intel_arc_130v,Intel Arc 130V GPU,LNL-G2-1950MHz,Intel,2024,1950.0,32,231,GPU,3,14900000000,"Intel's entry Lunar Lake iGPU with Xe2 graphics, providing improved efficiency for everyday and light gaming use.",common,12.0
+amd_rx_7600m_xt,Radeon RX 7600M XT,Navi33-2615MHz,AMD,2024,2615.0,32,562,GPU,6,13300000000,"A refreshed RDNA3 laptop GPU with higher clocks and 8GB GDDR6, targeting mid-range gaming notebooks.",common,120.0
+amd_rx_7600m,Radeon RX 7600M,Navi33-2300MHz,AMD,2023,2300.0,32,478,GPU,6,13300000000,An RDNA3 mobile GPU for mainstream gaming laptops with 8GB GDDR6 and solid 1080p performance.,common,75.0
+amd_rx_7800m,Radeon RX 7800M,Navi32-2200MHz,AMD,2023,2200.0,32,761,GPU,5,28100000000,A high-end RDNA3 mobile GPU with 12GB GDDR6 for gaming laptops targeting 1440p performance.,common,120.0
+nvidia_geforce_mx570,GeForce MX570,GA107-1800MHz,Nvidia,2022,1800.0,32,322,GPU,8,13250000000,"An ultra-low power Ampere GPU for thin laptops, providing a discrete boost over integrated graphics.",common,25.0
+nvidia_geforce_mx550,GeForce MX550,GA107-1770MHz,Nvidia,2022,1770.0,32,251,GPU,8,13250000000,"A slim-notebook discrete GPU based on Ampere, offering light gaming capability in ultra-portable designs.",common,25.0
+nvidia_geforce_mx450,GeForce MX450,TU117-1580MHz,Nvidia,2020,1580.0,32,236,GPU,12,3600000000,"An entry Turing discrete GPU for thin-and-light laptops, stepping up from integrated graphics for casual gaming.",common,25.0
+qualcomm_adreno_x2_90,Qualcomm Adreno X2-90,X2-90-1300MHz,Qualcomm,2024,1300.0,32,545,GPU,3,19000000000,Qualcomm's flagship Snapdragon X Elite GPU delivering impressive performance for an ARM-based Windows PC.,common,23.0
+amd_ryzen_z1_extreme,AMD Ryzen Z1 Extreme,RDNA3-2700MHz,AMD,2023,2700.0,32,238,GPU,4,25300000000,"The integrated RDNA3 GPU inside the Ryzen Z1 Extreme SoC, designed for handheld gaming PCs like the ASUS ROG Ally.",common,20.0
+amd_radeon_ryzen_z2_go,Radeon Ryzen Z2 Go,RDNA2-1900MHz,AMD,2025,1900.0,32,252,GPU,6,13300000000,"The integrated GPU in the budget-tier Ryzen Z2 Go handheld SoC, offering entry-level portable gaming.",common,15.0
+nvidia_gtx_1060,GeForce GTX 1060,GP106-1708MHz,Nvidia,2016,1708.0,32,588,GPU,16,4400000000,Budget hero of 2016; still found in gamer rigs and very optimistic mining guides.,common,120.0
+nvidia_tesla_t4,Tesla T4,TU104-585MHz,Nvidia,2018,585.0,32,1690,GPU,12,13600000000,A low-power Turing inference GPU with 16GB GDDR6 designed for cloud AI workloads and virtualization.,common,70.0
+nvidia_gtx_970,GeForce GTX 970,GM204-1178MHz,Nvidia,2014,1178.0,32,817,GPU,28,5200000000,"Advertised 4 GB, actually 3.5 GB plus a grumpy annex; still good enough for budget coin dust.",common,145.0
+amd_rx_6500_xt,Radeon RX 6500 XT,Navi24-2815MHz,AMD,2022,2815.0,32,342,GPU,6,5400000000,A budget RDNA2 card with fast clocks but limited by its narrow 64-bit memory bus and 4GB GDDR6.,common,107.0
+amd_r9_fury_x,Radeon R9 Fury X,Fiji-1050MHz,AMD,2015,1050.0,32,909,GPU,28,8900000000,"AMD's first HBM GPU with a closed-loop water cooler, the Fury X was the fastest AMD card of 2015.",common,275.0
+amd_rx_590,Radeon RX 590,Polaris30-1545MHz,AMD,2018,1545.0,32,602,GPU,12,7100000000,A 12nm refresh of the Polaris architecture pushing higher clocks for improved 1080p gaming performance.,common,225.0
+nvidia_gtx_780_ti,GeForce GTX 780 Ti,GK110B-875MHz,Nvidia,2013,875.0,32,722,GPU,28,7100000000,"The fully unlocked Kepler flagship with 2880 CUDA cores, it dethroned the Titan at launch for less money.",common,250.0
+amd_r9_fury,Radeon R9 Fury,Fiji-1000MHz,AMD,2015,1000.0,32,954,GPU,28,8900000000,"The slightly cut-down Fiji GPU with HBM memory, offering strong compute at a lower price than the Fury X.",common,275.0
+nvidia_gtx_1050_ti,GeForce GTX 1050 Ti,GP107-1392MHz,Nvidia,2016,1392.0,32,456,GPU,14,3300000000,A budget Pascal GPU that became one of the most popular discrete GPUs ever due to its value and efficiency.,common,75.0
+intel_arc_a380,Intel Arc A380,ACM-G11-2000MHz,Intel,2022,2000.0,32,314,GPU,6,7200000000,"Intel's entry-level Alchemist GPU with 6GB GDDR6, marking Intel's return to discrete desktop graphics.",common,75.0
+nvidia_gtx_960,GeForce GTX 960,GM206-1178MHz,Nvidia,2015,1178.0,32,521,GPU,28,2940000000,A popular Maxwell mid-range GPU offering good 1080p performance with impressively low power draw.,common,120.0
+amd_r9_380x,Radeon R9 380X,Antigua-970MHz,AMD,2015,970.0,32,632,GPU,28,5080000000,"A refreshed Tonga GPU with full shader count unlocked, targeting solid 1080p and entry 1440p gaming.",common,190.0
+amd_r9_280x,Radeon R9 280X,Tahiti-1000MHz,AMD,2013,1000.0,32,608,GPU,28,4313000000,"A rebadged Tahiti chip delivering strong 1080p performance, became a popular mining GPU.",common,250.0
+nvidia_gtx_770,GeForce GTX 770,GK104-1046MHz,Nvidia,2013,1046.0,32,569,GPU,28,3540000000,"A rebadged GTX 680 with faster clocks and higher memory bandwidth, a solid 1080p performer.",common,230.0
+nvidia_rtx_a400,RTX A400,GA107-1740MHz,Nvidia,2023,1740.0,32,345,GPU,8,13250000000,A compact entry professional Ampere GPU in a low-profile form factor for light workstation tasks.,common,50.0
+nvidia_tesla_m60,Tesla M60,GM204-1178MHz,Nvidia,2015,1178.0,32,594,GPU,28,5200000000,A dual-GPU Maxwell server card for GPU-accelerated virtual desktop infrastructure.,common,300.0
+nvidia_quadro_p2000,Quadro P2000,GP106-1468MHz,Nvidia,2017,1468.0,32,476,GPU,16,4400000000,A Pascal professional GPU with 5GB GDDR5 ECC in a single-slot form factor for compact workstations.,common,75.0
+amd_rx_480,Radeon RX 480,Polaris10-1266MHz,AMD,2016,1266.0,32,674,GPU,14,5700000000,"The Polaris launch card that brought Vulkan and DX12 to the mainstream, a great value proposition.",common,150.0
+amd_r9_290,Radeon R9 290,Hawaii-947MHz,AMD,2013,947.0,32,860,GPU,28,6200000000,"A cut-down Hawaii GPU that often matched the 290X when pushed, with a 512-bit memory bus.",common,275.0
+nvidia_gtx_780,GeForce GTX 780,GK110-863MHz,Nvidia,2013,863.0,32,920,GPU,28,7100000000,"Kepler's consumer flagship with the GK110 die, offering professional-tier performance for gamers.",common,250.0
+nvidia_gtx_1650,GeForce GTX 1650,TU117-1590MHz,Nvidia,2019,1590.0,32,496,GPU,12,4700000000,"A budget Turing entry GPU without ray tracing, powering countless prebuilt PCs with its low power draw.",common,75.0
+amd_rx_470,Radeon RX 470,Polaris10-1206MHz,AMD,2016,1206.0,32,657,GPU,14,5700000000,Once lived 24/7 in a smoky warehouse; now retired to your trash-to-treasure mining contraption.,common,120.0
+amd_rx_460,Radeon RX 460,Polaris11-1200MHz,AMD,2016,1200.0,32,342,GPU,14,3000000000,"A budget Polaris 11 card with very low power draw, popular for HTPC builds and entry gaming.",common,75.0
+nvidia_gtx_750_ti,GeForce GTX 750 Ti,GM107-1020MHz,Nvidia,2014,1020.0,32,384,GPU,28,1870000000,Early Maxwell efficiency demo; perfect for ultra-budget rigs and very patient miners.,common,60.0
+amd_rx_560,Radeon RX 560,Polaris11-1275MHz,AMD,2017,1275.0,32,289,GPU,14,3000000000,A refreshed Polaris 11 budget card with full shader units enabled.,common,80.0
+nvidia_gtx_660,GeForce GTX 660,GK106-980MHz,Nvidia,2012,980.0,32,414,GPU,28,2540000000,A mainstream Kepler GPU offering solid 1080p performance with a cut-down GK106 chip.,common,140.0
+nvidia_gtx_660_ti,GeForce GTX 660 Ti,GK104-915MHz,Nvidia,2012,915.0,32,483,GPU,28,3540000000,"A cut-down GK104 sitting between the GTX 660 and 670, with strong compute for its tier.",common,150.0
+nvidia_quadro_p1000,Quadro P1000,GP107-1519MHz,Nvidia,2017,1519.0,32,297,GPU,14,3300000000,A compact low-profile Pascal professional GPU for entry workstation deployments.,common,47.0
+nvidia_gtx_950,GeForce GTX 950,GM206-1024MHz,Nvidia,2015,1024.0,32,522,GPU,28,2940000000,An efficient Maxwell mid-range card offering good 1080p gaming at low power.,common,90.0
+intel_arc_a310,Intel Arc A310,ACM-G11-2000MHz,Intel,2022,2000.0,32,273,GPU,6,7200000000,"Intel's entry Alchemist budget GPU, a step up from integrated graphics.",common,30.0
+nvidia_tesla_k80,Tesla K80,GK210-562MHz,Nvidia,2014,562.0,32,513,GPU,28,14200000000,"A dual-GK210 HPC card with 24GB GDDR5, a workhorse for cloud compute and deep learning.",common,300.0
+nvidia_gtx_670,GeForce GTX 670,GK104-915MHz,Nvidia,2012,915.0,32,587,GPU,28,3540000000,A cut-down GTX 680 offering 90% of the performance at a meaningfully lower price.,common,170.0
+amd_hd_7990,Radeon HD 7990,Tahiti-950MHz,AMD,2013,950.0,32,586,GPU,28,8626000000,A dual-Tahiti monster packing two HD 7970 GPUs on one PCB for maximum performance.,common,375.0
+nvidia_gtx_760,GeForce GTX 760,GK104-980MHz,Nvidia,2013,980.0,32,493,GPU,28,3540000000,A mainstream Kepler card offering strong 1080p performance at a compelling price.,common,170.0
+amd_r9_270x,Radeon R9 270X,Curacao-1050MHz,AMD,2013,1050.0,32,465,GPU,28,2800000000,"A rebadged Pitcairn GPU with slightly higher clocks, a popular affordable 1080p gaming option.",common,180.0
+amd_hd_7870,Radeon HD 7870,Pitcairn-1000MHz,AMD,2012,1000.0,32,457,GPU,28,2800000000,A mainstream Pitcairn GPU and debut of AMD's GCN architecture in the mainstream market.,common,175.0
+amd_hd_7850,Radeon HD 7850,Pitcairn-860MHz,AMD,2012,860.0,32,454,GPU,28,2800000000,"A cut-down Pitcairn card with great overclocking headroom, a favorite budget overclocker's GPU.",common,130.0
+nvidia_gtx_570,GeForce GTX 570,GF110-732MHz,Nvidia,2010,732.0,32,537,GPU,40,3000000000,"A cut-down Fermi card with excellent performance per dollar at launch, though still power-hungry.",common,219.0
+amd_rx_5700_50th,Radeon RX 5700 XT 50th Anniversary,Navi10-1605MHz,AMD,2019,1605.0,32,828,GPU,7,10300000000,AMD's 50th anniversary RDNA1 card with boosted clocks and a unique gold-accented design.,common,225.0
+nvidia_quadro_p6000,Quadro P6000,GP102-1506MHz,Nvidia,2016,1506.0,32,1032,GPU,16,12000000000,Pascal's workstation flagship with 24GB GDDR5X ECC for immense compute and visualization.,common,250.0
+amd_firepro_w9100,FirePro W9100,Hawaii-930MHz,AMD,2014,930.0,32,832,GPU,28,6200000000,AMD's professional Hawaii GPU with 16GB GDDR5 ECC for high-end workstation visualization.,common,275.0
+amd_radeon_pro_wx_7100,Radeon Pro WX 7100,Polaris10-1243MHz,AMD,2016,1243.0,32,619,GPU,14,5700000000,A professional Polaris GPU with 8GB GDDR5 ECC targeting mid-range workstation deployments.,common,130.0
+nvidia_t1000,T1000,TU117-1455MHz,Nvidia,2021,1455.0,32,526,GPU,12,4700000000,A compact Turing entry workstation GPU with 8GB GDDR6 ECC in low-profile form.,common,50.0
+nvidia_t600,T600,TU117-1455MHz,Nvidia,2021,1455.0,32,438,GPU,12,4700000000,A budget Turing workstation card for light CAD and office visualization.,common,40.0
+nvidia_t400,T400,TU117-1395MHz,Nvidia,2021,1395.0,32,260,GPU,12,4700000000,Entry Turing workstation GPU in ultra-compact low-profile form for SFF workstations.,common,30.0
+amd_hd_7950,Radeon HD 7950,Tahiti-800MHz,AMD,2012,800.0,32,597,GPU,28,4313000000,A cut-down Tahiti GPU with excellent overclocking potential at a lower price than the 7970.,common,200.0
+nvidia_tesla_k20x,Tesla K20X,GK110-732MHz,Nvidia,2012,732.0,32,645,GPU,28,7100000000,"A high-compute Kepler HPC GPU with 6GB GDDR5 ECC, used in the Titan supercomputer.",common,235.0
+nvidia_tesla_k40c,Tesla K40c,GK110B-745MHz,Nvidia,2013,745.0,32,603,GPU,28,7100000000,A Kepler HPC card with 12GB GDDR5 ECC for data center compute tasks.,common,235.0
+nvidia_quadro_k4200,Quadro K4200,GK104-784MHz,Nvidia,2014,784.0,32,555,GPU,28,3540000000,A mid-range Kepler workstation card with 4GB GDDR5 ECC for professional visualization.,common,108.0
+nvidia_quadro_k5200,Quadro K5200,GK104-784MHz,Nvidia,2014,784.0,32,789,GPU,28,3540000000,A higher-end Kepler workstation GPU with 8GB GDDR5 ECC for demanding 3D applications.,common,150.0
+nvidia_quadro_k5000,Quadro K5000,GK104-706MHz,Nvidia,2012,706.0,32,566,GPU,28,3540000000,An early Kepler workstation GPU with 4GB GDDR5 ECC and strong double-precision compute.,common,122.0
+nvidia_quadro_k2200,Quadro K2200,GM107-1124MHz,Nvidia,2014,1124.0,32,319,GPU,28,1870000000,A compact Maxwell workstation GPU with 4GB GDDR5 ECC in a low-profile form factor.,common,68.0
+nvidia_quadro_p620,Quadro P620,GP107-1354MHz,Nvidia,2017,1354.0,32,274,GPU,14,3300000000,A low-profile Pascal workstation GPU for compact professional desktop deployments.,common,40.0
+nvidia_quadro_p4000,Quadro P4000,GP104-1480MHz,Nvidia,2017,1480.0,32,772,GPU,16,7200000000,A single-slot Pascal workstation GPU with 8GB GDDR5 ECC for excellent visualization.,common,105.0
+amd_radeon_pro_580,Radeon Pro 580,Polaris20-1366MHz,AMD,2017,1366.0,32,568,GPU,14,5700000000,"Apple's iMac Polaris GPU, a workstation-certified version of the RX 580.",common,175.0
+amd_radeon_pro_580x,Radeon Pro 580X,Polaris20-1500MHz,AMD,2019,1500.0,32,503,GPU,14,5700000000,An updated Polaris workstation GPU for Apple's iMac with higher clocks.,common,175.0
+nvidia_gtx_1650_super,GeForce GTX 1650 SUPER,TU116-1725MHz,Nvidia,2019,1725.0,32,591,GPU,12,6600000000,A Turing mid-range card with GDDR6 that significantly outperformed the base 1650.,common,100.0
+nvidia_l4,L4,AD104-795MHz,Nvidia,2023,795.0,32,1276,GPU,5,35800000000,A low-power 72W Ada inference GPU with 24GB GDDR6 for efficient AI inference in data centers.,common,72.0
+nvidia_gtx_880m,GeForce GTX 880M,GK104-954MHz,Nvidia,2014,954.0,32,401,GPU,28,3540000000,A high-end Kepler mobile GPU for gaming laptops of its era.,common,100.0
+nvidia_gtx_780m,GeForce GTX 780M,GK104-823MHz,Nvidia,2013,823.0,32,473,GPU,28,3540000000,"The flagship Kepler laptop GPU, bringing near-desktop performance to premium gaming notebooks.",common,100.0
+nvidia_gtx_980m,GeForce GTX 980M,GM204-1127MHz,Nvidia,2014,1127.0,32,656,GPU,28,5200000000,"Maxwell's top mobile GPU, delivering desktop GTX 970 performance in a laptop.",common,100.0
+nvidia_gtx_970m,GeForce GTX 970M,GM204-924MHz,Nvidia,2014,924.0,32,618,GPU,28,5200000000,A capable Maxwell mobile GPU making gaming laptops competitive with desktop mid-range cards.,common,75.0
+nvidia_gtx_870m,GeForce GTX 870M,GK104-941MHz,Nvidia,2014,941.0,32,377,GPU,28,3540000000,A mid-high Kepler laptop GPU offering good 1080p performance for its generation.,common,75.0
+nvidia_gtx_965m,GeForce GTX 965M,GM204-1038MHz,Nvidia,2015,1038.0,32,373,GPU,28,5200000000,A Maxwell laptop GPU balancing performance and battery efficiency.,common,60.0
+nvidia_gtx_690,GeForce GTX 690,GK104-915MHz,Nvidia,2012,915.0,32,595,GPU,28,7080000000,"A dual-GK104 engineering showcase, the fastest single-card GPU of 2012.",common,300.0
+nvidia_quadro_k6000,Quadro K6000,GK110-901MHz,Nvidia,2013,901.0,32,891,GPU,28,7100000000,"The Kepler workstation flagship with 12GB GDDR5 ECC, top professional card of its generation.",common,225.0
+nvidia_tesla_p4,Tesla P4,GP104-1063MHz,Nvidia,2016,1063.0,32,863,GPU,16,7200000000,A compact 75W Pascal inference GPU for cloud AI workloads.,common,75.0
+amd_radeon_pro_w5500,Radeon Pro W5500,Navi14-1733MHz,AMD,2019,1733.0,32,516,GPU,7,6400000000,AMD's entry RDNA1 professional workstation card with 8GB GDDR6 ECC.,common,125.0
+intel_arc_b390,Intel Arc B390,BMG-G21-2100MHz,Intel,2025,2100.0,32,431,GPU,5,18700000000,A mid-range Battlemage GPU with strong 1080p gaming value.,common,100.0
+nvidia_gtx_titan_black,GeForce GTX TITAN Black,GK110B-889MHz,Nvidia,2014,889.0,32,1033,GPU,28,7100000000,The fully unlocked Kepler monster with 6GB GDDR5 and all compute features enabled.,common,250.0

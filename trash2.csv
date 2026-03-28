@@ -1,0 +1,696 @@
+id,name,chipset,manufacturer,year,clock_mhz,word_bits,cores,type,process_nm,transistors,description,rarity,tdp_watts,hashrate_mhs
+t2_west_texas_wind_farm_shed,West Texas Wind Farm Shed,,Foundry USA,2022,,,,DATACENTER,,0,"""Cluster of containers on cheap Texan wind; miners alternate between printing sats and sandblasting themselves with dust storms.""[web:379][web:390]",rare,20000000,5000000000
+t2_sichuan_river_valley_barn,Sichuan River Valley Barn,,Unknown,2019,,,,DATACENTER,,0,"""Rainy-season hydro paradise; hash rate spikes when the monsoon hits",rare,15000000,4000000000
+t2_inner_mongolia_coal_hall,Inner Mongolia Coal Hall,,Unknown,2018,,,,DATACENTER,,0,"""Old-school warehouse with rows of S9s; air smells of coal dust and ozone",rare,30000000,6500000000
+t2_quebec_hydro_hangar,Quebec Hydro Hangar,,Hut 8,2021,,,,DATACENTER,,0,"""Cool climate",rare,12000000,3500000000
+t2_medicine_hat_megashed,Medicine Hat Megashed,,Hut 8,2019,,,,DATACENTER,,0,"""Alberta facility that once pulled 67 MW; when gas prices spike",rare,10000000,2000000000
+t2_north_bay_gpu_bunker,North Bay GPU Bunker,,Hut 8,2023,,,,DATACENTER,,0,"""Hybrid HPC + mining site; rows of GPUs and ASICs share the same cold aisle and the same overworked facility manager.""[web:381][web:390]",rare,6000000,800000000
+t2_paraguay_itaip_overflow,Paraguay Itaip� Overflow,,Bitfarms,2024,,,,DATACENTER,,0,"""Taps surplus hydro near mega-dams; hash rate is steady",rare,25000000,8000000000
+t2_iceland_geothermal_shed,Iceland Geothermal Shed,,Unknown,2020,,,,DATACENTER,,0,"""Geothermal juice plus glacier air; miners rarely throttle",rare,10000000,3000000000
+t2_west_texas_container_array,West Texas Container Array,,BMarko,2023,,,,ARRAY,,0,"""Four 40' mining containers wired in parallel; looks like shipping storage from afar",uncommon,4800000,1200000000
+t2_immersion_vault_40_pod,Immersion Vault 40' Pod,,CryptoTherm,2022,,,,ARRAY,,0,"""Container with 14 immersion tanks",rare,6000000,3000000000
+t2_backyard_dual_tank_pod,Backyard Dual-Tank Pod,,CryptoTherm,2023,,,,ARRAY,,0,"""Compact immersion pod for four high-end ASICs; HOA-friendly box that turns your garage into a low-key heat plant.""[web:383]",rare,900000,450000000
+t2_ashburn_us_east_1_cage,Ashburn us-east-1 Cage,,AWS-Style,2021,,,,DATACENTER,,0,"""Colo cage in �Cloud Central� Ashburn; mostly rented to VMs",uncommon,2000000,1000000000
+t2_oregon_us_west_2_barn,Oregon us-west-2 Barn,,AWS-Style,2020,,,,DATACENTER,,0,"""High-availability cloud hall where someone slipped in an immersion rack labelled �thermal testing hardware�.""[web:382][web:385][web:391]",uncommon,3000000,1000000000
+t2_sydney_australia_southeast1_row,Sydney australia-southeast1 Row,,GCP-Style,2022,,,,DATACENTER,,0,"""Row of racks in a hyperscale DC; officially for Kubernetes clusters",uncommon,1500000,1000000000
+t2_frankfurt_eu_central_1_vault,Frankfurt eu-central-1 Vault,,Cloud-Style,2021,,,,DATACENTER,,0,"""Tightly regulated EU facility; noise limits are strict",uncommon,2500000,1000000000
+t2_north_dakota_wind_array,North Dakota Wind Array,,Unknown,2023,,,,ARRAY,,0,"""Line of mobile containers parked under wind turbines; hash goes up with the breeze and down with transmission constraints.""[web:380][web:389]",rare,3500000,1000000000
+t2_siberian_warehouse_row,Siberian Warehouse Row,,Unknown,2019,,,,DATACENTER,,0,"""Converted factory near cheap power; ambient is -20�C",rare,8000000,2500000000
+t2_kazakhstan_steppe_farm,Kazakhstan Steppe Farm,,Unknown,2021,,,,DATACENTER,,0,"""Low-cost energy on the steppe; grids are flaky",rare,12000000,3200000000
+t2_mega_rack_s19_array_100,Mega-Rack S19 Array (�100),,Generic,2022,,,,ARRAY,,0,"One aisle with 100 S19-class units per side; aisle temperature classed as �dry sauna�, noise level as �inside the engine�.",legendary,70000000,20000000000
+t2_immersion_wing_10_tanks,Immersion Wing (�10 Tanks),,Generic,2023,,,,ARRAY,,0,"""Ten big immersion tanks daisy-chained; pumps",legendary,12000000,6000000000
+t2_gpu_render_mining_hybrid_loft,GPU Render/Mining Hybrid Loft,,Unknown,2020,,,,DATACENTER,,0,"""Repurposed warehouse in a creative district; half the GPUs do renders",rare,1000000,300000000
+t2_ai_mining_converged_hall,AI+Mining Converged Hall,,Unknown,2025,,,,DATACENTER,,0,"""Shared hall of ASICs and AI accelerators; when training jobs spike",legendary,18000000,5000000000
+t2_residential_closet_datacenter,Residential Closet �Datacenter�,,Home User,2021,,,,DATACENTER,,0,"Two S9s in a linen closet; door closed equals 50�C, door open equals unbearable noise, both equal angry housemates.",legendary,6000,20000000
+t2_rural_barn_chicken_coop_farm,Rural Barn �Chicken-Coop� Farm,,Home User,2020,,,,DATACENTER,,0,"Wire racks in an actual barn; fans cool both ASICs and chickens, dust cools nothing at all.",legendary,20000,50000000
+t2_basement_rack_of_doom,Basement Rack of Doom,,Home User,2018,,,,ARRAY,,0,"Mixed old GPUs and S3/S5s; wiring resembles spaghetti, logs resemble a horror anthology.",legendary,5000,10000000
+t2_shipboard_container_rig,Shipboard Container Rig,,Unknown,2024,,,,ARRAY,,0,"Container bolted to a cargo ship deck; powered off ship�s surplus, cooled by sea breeze, loved by no one on the same deck.",legendary,5000000,1500000000
+t2_arctic_dome_miner,Arctic Dome Miner,,Unknown,2023,,,,DATACENTER,,0,Inflatable dome on permafrost; uses outside air for free cooling and for blowing away any hope of stable Wi-Fi.,legendary,4000000,1200000000
+t2_solar_carport_cluster,Solar Carport Cluster,,Unknown,2022,,,,ARRAY,,0,"Miners mounted above parked cars under solar panels; hashes all day, naps when clouds roll in.",rare,600000,150000000
+t2_abandoned_office_floor_farm,Abandoned Office Floor Farm,,Unknown,2019,,,,DATACENTER,,0,"Rows of racks in a half-empty office tower; AC is overloaded, fire alarms are jumpy, neighbors are confused.",legendary,900000,250000000
+t2_pop_up_container_lot_4,Pop-Up Container Lot (�4),,Generic,2021,,,,ARRAY,,0,Four plug-and-play mining containers on a leased gravel lot; the landlord knows it as �temporary storage�.,rare,3000000,800000000
+t2_co_location_rack_in_ashburn,Co-location Rack in Ashburn,,Unknown,2020,,,,DATACENTER,,0,High-end colo rack with very �creative� declared load; miners share PDUs with surprisingly important databases.,rare,200000,50000000
+t2_former_call_center_turned_farm,Former Call-Center Turned Farm,,Unknown,2018,,,,DATACENTER,,0,"Cubicles ripped out, racks rolled in; some ceiling tiles still show old headset hook marks between cable bundles.",legendary,2000000,600000000
+t2_ageia_physx_p1_ppu,AGEIA PhysX P1 PPU,,AGEIA,2006,,,,COPROCESSOR,,125000000,"""First consumer physics card; 125M transistors and 128 MB GDDR3 dedicated to making barrels explode more realistically",legendary,30,0.003
+t2_bfg_physx_p1_pci_card,BFG PhysX P1 PCI Card,,BFG/AGEIA,2006,,,,COPROCESSOR,,125000000,"""Add-in PCI PPU; helps a handful of games add debris",legendary,30,0.003
+t2_asus_physx_p1_pcie,ASUS PhysX P1 PCIe,,ASUS/AGEIA,2007,,,,COPROCESSOR,,125000000,"""PCIe variant with the same chip; the only thing accelerated is how fast you run out of useful PCIe slots.""[web:362][web:372]",legendary,30,0.003
+t2_ageia_physx_p2_es,AGEIA PhysX P2 ES,,AGEIA,2007,,,,COPROCESSOR,,125000000,"""Post-acquisition engineering sample; allegedly improved",legendary,35,0.0035
+t2_nvidia_physx_on_gpu_mode,NVIDIA PhysX-on-GPU Mode,,NVIDIA,2008,,,,GPU,,0,"""Repurposes your GeForce shaders for physics; in your rig it repurposes them for overheated",rare,50,0.004
+t2_google_tpu_v1_board,Google TPU v1 Board,,Google,2016,,,,TPU,,24000000000,"""92 TOPS 8-bit inference ASIC; incredible at matrix multiplies",legendary,40,0.05
+t2_google_tpu_v2_chip,Google TPU v2 Chip,,Google,2017,,,,TPU,,30000000000,"""~45 TFLOPS bfloat16 per chip; each one can train ResNet quickly and mine Bitcoin slowly and resentfully.""[web:367][web:370][web:373]",legendary,45,0.06
+t2_google_tpu_v2_board_4_chip,Google TPU v2 Board (4-chip),,Google,2017,,,,TPU,,120000000000,"""Cloud TPU v2 with 180 TFLOPS and 64 GB HBM; enough bandwidth to move mountains of tensors",legendary,180,0.24
+t2_google_tpu_v3_board,Google TPU v3 Board,,Google,2018,,,,TPU,,42000000000,"""420 TFLOPS bfloat16 and 128 GB HBM; pods can hit 100+ PFLOPS",legendary,250,0.3
+t2_google_tpu_v3_pod_slice,Google TPU v3 Pod Slice,,Google,2018,,,,TPU,,168000000000,"""Cluster of TPU boards; hyperscale training powerhouse tasked with the very underwhelming job of hashing headers.""[web:367][web:373]",legendary,1200,1.5
+t2_intel_movidius_ncs_myriad_2,Intel Movidius NCS (Myriad 2),,Intel,2017,,,,NPU,,150000000,"""USB stick with 12 SHAVE cores; sips power over USB 3.0 and produces hashrates you can almost measure with a stopwatch.""[web:368][web:371][web:374]",rare,1.5,0.0004
+t2_intel_movidius_ncs2_myriad_x,Intel Movidius NCS2 (Myriad X),,Intel,2018,,,,NPU,,350000000,"""Upgraded VPU for edge AI; perfect for classifying cats and dogs",rare,1.5,0.0007
+t2_nvidia_tesla_k80,NVIDIA Tesla K80,,Tesla (NVIDIA),2014,,,,GPU,,14200000000,"Dual GK210 compute card; colossal FP64 throughput, spectacularly inefficient as a SHA-256 furnace.",rare,300,0.05
+t2_nvidia_tesla_p100,NVIDIA Tesla P100,,Tesla (NVIDIA),2016,,,,GPU,,15300000000,"Pascal compute beast with HBM2; HPC workloads fly, coins crawl, electricity bills sprint.",rare,250,0.08
+t2_nvidia_tesla_v100,NVIDIA Tesla V100,,Tesla (NVIDIA),2017,,,,GPU,,21100000000,"Tensor core monster; excels at matrix multiplies, sees cryptomining as a step down the evolutionary ladder.",rare,250,0.11
+t2_nvidia_a100_pcie,NVIDIA A100 PCIe,,NVIDIA,2020,,,,GPU,,54200000000,AI datacenter icon; 20x more useful for LLMs than for your LLM (Low-Luck Miner) project.,legendary,250,0.16
+t2_nvidia_jetson_nano_module,NVIDIA Jetson Nano Module,,NVIDIA,2019,,,,SOC,,2000000000,"Tiny AI dev board; 128 CUDA cores meant for robotics and vision, repurposed into carefully warmed-over disappointment.",rare,10,0.0012
+t2_intel_xeon_phi_7120p,Intel Xeon Phi 7120P,,Intel,2014,,,,COPROCESSOR,,5000000000,"Many-core x86 accelerator; great at vectorized science code, overcomplicated and under-rewarding as a miner.",legendary,300,0.03
+t2_ibm_powerai_ac922_node,IBM PowerAI AC922 Node,,IBM,2018,,,,COPROCESSOR,,241000000,"POWER9 + GPUs server; built for AI supercomputing, pressed into service as the world�s fanciest space heater.",legendary,800,0.12
+t2_nvidia_physx_on_secondary_gpu,NVIDIA PhysX-on-Secondary-GPU,,NVIDIA,2009,,,,COPROCESSOR,,0,Old trick of dedicating a spare GPU to physics; in your rig it just adds heat and driver bugs.,rare,60,0.002
+t2_havok_fx_gpu_physics_mode,Havok FX GPU Physics Mode,,Various,2006,,,,GPU,,0,Shader-based physics from the Havok era; proof that you can burn watts on something even less profitable than mining.,legendary,40,0.002
+t2_google_tpu_ironwood_inference_asic,Google TPU �Ironwood� Inference ASIC,,Google,2025,,,,TPU,,50000000000,"""Next-gen low-latency TPU for inference; fantastic at powering chatbots",legendary,35,0.08
+t2_edge_tpu_usb_accelerator,Edge TPU USB Accelerator,,Google,2019,,,,NPU,,15000000,"Tiny Coral USB accelerator; designed to recognize faces and objects, recognizes only sunk-cost fallacies in mining.",rare,2,0.0005
+t2_apple_neural_engine_a11,Apple Neural Engine (A11),,Apple,2017,,,,NPU,,600000000,Mobile NPU wired into iPhone; turns photos into portraits and battery into heat when you try to hash on it.,rare,2,0.001
+t2_apple_m1_neural_engine,Apple M1 Neural Engine,,Apple,2020,,,,NPU,,2600000000,"16-core NPU; shrugs off on-device ML, shrivels at the idea of SHA-256 all day.",rare,5,0.003
+t2_qualcomm_hexagon_dsp_npu,Qualcomm Hexagon DSP/NPU,,Qualcomm,2019,,,,NPU,,300000000,"Smartphone AI core; excels at voice wakewords, falters at block rewards.",common,1.5,0.0007
+t2_nvidia_bluefield_dpu,NVIDIA BlueField DPU,,NVIDIA,2020,,,,COPROCESSOR,,500000000,SmartNIC/DPUs meant for networking and security; offloads everything except your fantasy of profitable hashing on it.,rare,25,0.0025
+t2_google_tpu_v1_test_card,Google TPU v1 Test Card,,Google,2015,,,,TPU,,24000000000,"Early internal board; used to benchmark inference, now recycled into your game as mid-tier �AI junk� loot.",legendary,40,0.04
+t2_amd_firestream_9170,AMD FireStream 9170,,AMD,2008,,,,COPROCESSOR,,666000000,"GPGPU compute card; early attempt at serious math on a GPU, best repurposed here as unserious hash overhead.",legendary,150,0.01
+t2_ageia_physx_ppu_dev_kit,AGEIA PhysX PPU �Dev Kit�,,AGEIA,2005,,,,COPROCESSOR,,125000000,"Long PCB with extra test headers; once ran special debug builds, now runs your especially cursed miner firmware.",legendary,35,0.0035
+t2_intel_xeon_phi_knights_corner_es,Intel Xeon Phi Knights Corner ES,,Intel,2013,,,,COPROCESSOR,,5000000000,"Engineering sample with flaky microcode; some benchmarks scream, others segfault, your miner does both.",legendary,320,0.028
+t2_geforce_fx_5200_leaky_cap_edition,GeForce FX 5200 �Leaky Cap Edition�,,NVIDIA,2003,,,,GPU,,47000000,"Electrolytic caps bulge and ooze; random crashes, rainbow artifacts, and a faint vinegar smell complete the experience.",legendary,40,0.006
+t2_geforce_8800_gt_baked_twice,GeForce 8800 GT �Baked Twice�,,NVIDIA,2007,,,,GPU,,754000000,"Classic heat-cycled card; revived in an oven more than once, VRAM now ghosts textures and occasionally reality.",legendary,110,0.018
+t2_geforce_8800_gtx_artifact_factory,GeForce 8800 GTX �Artifact Factory�,,NVIDIA,2006,,,,GPU,,681000000,Overheated for years in a cramped case; cold boots with checkerboard artifacts and warms into full psychedelic hash output.,legendary,160,0.02
+t2_geforce_gtx_260_capacitor_rattle,GeForce GTX 260 �Capacitor Rattle�,,NVIDIA,2008,,,,GPU,,1400000000,A chorus of coil whine and loose caps; every hash computed comes with a unique sound effect.,legendary,182,0.022
+t2_geforce_gtx_280_vrm_meltdown,GeForce GTX 280 �VRM Meltdown�,,NVIDIA,2008,,,,GPU,,1400000000,VRM section once hit critical mass; darkened PCB around the power stage is now part of its �patina�.,legendary,236,0.024
+t2_geforce_gtx_295_sandwich,GeForce GTX 295 Sandwich,,NVIDIA,2009,,,,GPU,,2800000000,"Dual-PCB monster; one GPU runs hot, the other runs hotter, both occasionally forget to render half the frame.",legendary,289,0.032
+t2_radeon_hd_4850_single_slot_sizzler,Radeon HD 4850 �Single-Slot Sizzler�,,ATI,2008,,,,GPU,,956000000,Single-slot reference cooler cooks VRMs; backplate branding almost branded into the case metal.,legendary,150,0.02
+t2_radeon_hd_4870_black_screen_special,Radeon HD 4870 �Black Screen Special�,,ATI,2008,,,,GPU,,956000000,"Infamous for black-screen crashes under load; great at stress-testing PSUs and patience, less so block headers.",legendary,160,0.024
+t2_radeon_hd_5770_half_dead_vram,Radeon HD 5770 �Half-Dead VRAM�,,ATI,2009,,,,GPU,,1040000000,"Two memory chips gone flaky; high resolutions produce glitch mosaics, miners produce corrupted nonces.",legendary,108,0.018
+t2_radeon_hd_5970_coal_plant,Radeon HD 5970 �Coal Plant�,,ATI,2009,,,,GPU,,4340000000,"Dual-GPU behemoth; power consumption rivals small appliances, VRM temps rival small stars.",legendary,294,0.035
+t2_geforce_gtx_470_space_heater,GeForce GTX 470 �Space Heater�,,NVIDIA,2010,,,,GPU,,3000000000,Runs so hot the PCB warps slightly; doubles as a desk heater and triples your fan replacement budget.,legendary,215,0.026
+t2_geforce_gtx_480_jet_engine,GeForce GTX 480 �Jet Engine�,,NVIDIA,2010,,,,GPU,,3000000000,Fermi at its loudest; fan curve goes from �audible� to �airport� before hashrate even stabilizes.,legendary,250,0.028
+t2_radeon_r9_280x_vrm_screamer,Radeon R9 280X �VRM Screamer�,,AMD,2013,,,,GPU,,4313000000,"Ex-mining card with annihilated thermal pads; VRMs hit 110�C, fans spin like they�re trying to take off.",legendary,250,0.042
+t2_radeon_r9_290_reference_thermal_throttle,Radeon R9 290 Reference �Thermal Throttle�,,AMD,2013,,,,GPU,,6200000000,Blower cooler and Hawaii core; spends most of its life oscillating between �lava� and �slightly less lava�.,legendary,275,0.045
+t2_radeon_r9_290x_cooktop_edition,Radeon R9 290X �Cooktop Edition�,,AMD,2013,,,,GPU,,6200000000,"VRM temps high enough to fry an egg; heat pipes give up, hash rate and frame rate follow.",legendary,300,0.047
+t2_geforce_gtx_970_coil_whine_king,GeForce GTX 970 Coil Whine King,,NVIDIA,2014,,,,GPU,,5200000000,Screams audibly at high FPS; mining at full tilt produces a constant high-pitched whine audible through walls.,legendary,145,0.027
+t2_geforce_gtx_980_ti_water_damage_survivor,GeForce GTX 980 Ti �Water Damage Survivor�,,NVIDIA,2015,,,,GPU,,8000000000,"Used in an open-loop that leaked; corrosion marks on the PCIe bracket, random freezes when humidity rises.",legendary,250,0.036
+t2_radeon_rx_480_pcie_spec_violator,Radeon RX 480 �PCIe Spec Violator�,,AMD,2016,,,,GPU,,5700000000,First revision pulled too much juice from the slot; some motherboards still bear the scorch marks.,legendary,150,0.029
+t2_radeon_rx_580_ex_farm_veteran,Radeon RX 580 �Ex-Farm Veteran�,,AMD,2017,,,,GPU,,5700000000,"24/7 mining scars: rusted screws, squealing fans, and a BIOS that�s been edited more times than a Wikipedia drama page.",legendary,185,0.03
+t2_geforce_gtx_1080_shunt_mod_hero,GeForce GTX 1080 �Shunt Mod Hero�,,NVIDIA,2016,,,,GPU,,7200000000,"Shunt-modded for benchmark glory; power readings are unreliable, so are thermals, but it sure looks fast on paper.",legendary,180,0.031
+t2_geforce_rtx_2080_ti_dead_vram_row,GeForce RTX 2080 Ti �Dead VRAM Row�,,NVIDIA,2018,,,,GPU,,18600000000,One edge memory chip cooked; anything over 1080p spawns sparkling green confetti over your beautifully hashed blocks.,legendary,260,0.055
+t2_geforce_rtx_3090_vram_oven,GeForce RTX 3090 �VRAM Oven�,,NVIDIA,2020,,,,GPU,,28300000000,"GDDR6X junction temps hit 110�C in mining; memory pads ooze, backplate branding quietly bubbles.",legendary,350,0.12
+t2_laptop_gtx_860m_bga_cracks,Laptop GTX 860M �BGA Cracks�,,NVIDIA,2014,,,,GPU,,1870000000,Reflowed twice to fix intermittent black screens; flexing the chassis changes hash rate in real time.,legendary,75,0.012
+t2_macbook_pro_2011_radeon_fail,MacBook Pro 2011 Radeon Fail,,AMD,2011,,,,GPU,,1040000000,Notorious discrete GPU failure; mining on it is essentially speedrunning the death of the logic board.,legendary,35,0.015
+t2_radeon_hd_6990_hair_dryer,Radeon HD 6990 �Hair Dryer�,,AMD,2011,,,,GPU,,5340000000,Dual-GPU monster; reference cooler outputs a constant torrent of 80�C air and a constant roar of regret.,legendary,375,0.04
+t2_geforce_gtx_295_vrm_roulette,GeForce GTX 295 �VRM Roulette�,,NVIDIA,2009,,,,GPU,,2800000000,"VRM design right at the edge; some cards live forever, others blow MOSFETs like party poppers.",legendary,289,0.033
+t2_radeon_rx_vega_64_undervolt_or_die,Radeon RX Vega 64 �Undervolt or Die�,,AMD,2017,,,,GPU,,12500000000,"Stock settings cook VRMs; only stable when undervolted, underclocked, and under absolutely no illusions.",legendary,295,0.042
+t2_rtx_3080_melted_connector,RTX 3080 �Melted Connector�,,NVIDIA,2020,,,,GPU,,28300000000,Cheap 8-pin splitter and long gaming sessions; plastic around the PCIe connector turned a lovely shade of charcoal.,legendary,320,0.096
+t2_rtx_4090_case_bender,RTX 4090 �Case Bender�,,NVIDIA,2022,,,,GPU,,76300000000,"Too heavy for its own good; sags enough to flex the motherboard, mining while attempting minor structural engineering.",legendary,450,0.18
+t2_radeon_rx_7900_xtx_hotspot_horror,Radeon RX 7900 XTX �Hotspot Horror�,,AMD,2022,,,,GPU,,57700000000,"Some samples suffered extreme hotspot temps; in your game, this one�s permanently convinced it lives in a sauna.",legendary,355,0.15
+t2_antminer_s9_overclocked_firestarter,Antminer S9 Overclocked Firestarter,,Bitmain,2017,,,,ASIC,,400000000,"""S9 pushed past its comfort zone; PCIe connectors run so hot the plastic starts to brown and the room smells faintly of toasted hashboards.""[web:327][web:333][web:336]",legendary,1500,16000000
+t2_antminer_s9_burned_pins_edition,Antminer S9 �Burned Pins Edition�,,Bitmain,2018,,,,ASIC,,400000000,"""Factory-spec unit with cheap 6-pin cables; sustained load cooks the connectors",legendary,1400,14000000
+t2_antminer_s17_fragile_hashboard,Antminer S17 Fragile Hashboard,,Bitmain,2019,,,,ASIC,,800000000,"""Notorious for hashboard failures; loses chips like hair in a stress shampoo ad",legendary,2500,52000000
+t2_antminer_s17_one_board_wonder,Antminer S17+ �One-Board Wonder�,,Bitmain,2020,,,,ASIC,,800000000,"""Arrived used with two dead hashboards; mines on a single surviving chain while the others act as very expensive heatsinks.""[web:322][web:323][web:325][web:335]",legendary,2100,24000000
+t2_antminer_s17_hashboard_zombie,Antminer S17 Hashboard Zombie,,Bitmain,2019,,,,ASIC,,800000000,"""Half the chips show as �missing� and the rest intermittently wake up; log files read like a horror story of Pattern NG and EEPROM errors.""[web:323][web:324][web:326][web:331]",legendary,1200,5000000
+t2_antminer_s17_thermal_throttle_king,Antminer S17+ Thermal Throttle King,,Bitmain,2020,,,,ASIC,,800000000,"""Runs at full speed until dust and weak heatsinks send temperatures skyrocketing; throttles",legendary,2900,60000000
+t2_antminer_s1_frankenminer_mod,Antminer S1 �Frankenminer� Mod,,Bitmain,2014,,,,ASIC,,60000000,"""Original S1 with fans swapped",legendary,500,200000
+t2_antminer_s3_rustbucket,Antminer S3 Rustbucket,,Bitmain,2014,,,,ASIC,,150000000,"""Ex-garage S3 caked in dust and corrosion; one fan rattles",legendary,450,400000
+t2_antminer_s9_winter_heater,Antminer S9 �Winter Heater�,,Bitmain,2016,,,,ASIC,,400000000,"""Retired from serious mining and bolted under a desk; provides central heating and ambient fan noise in exchange for microscopic rewards.""[web:331][web:336]",legendary,1350,13500000
+t2_antminer_s9_dead_chain_demo,Antminer S9 �Dead Chain Demo�,,Bitmain,2018,,,,ASIC,,400000000,"""One hashboard completely dead",legendary,1300,9000000
+t2_antminer_s17_shorted_psu_victim,Antminer S17 Shorted PSU Victim,,Bitmain,2019,,,,ASIC,,800000000,"""Hashboards fine",legendary,0,0
+t2_antminer_s19_datacenter_brownout_survivor,Antminer S19 �Datacenter Brownout Survivor�,,Bitmain,2021,,,,ASIC,,1000000000,"""Once a 95 TH/s unit",legendary,3200,60000000
+t2_avalon_miner_fanless_experiment,Avalon Miner �Fanless Experiment�,,Canaan,2018,,,,ASIC,,700000000,"""Previous owner removed fans �for silence� and relied on case airflow; results included thermal shutdowns",legendary,800,5000000
+t2_whatsminer_hot_shelf_hero,WhatsMiner �Hot Shelf Hero�,,MicroBT,2020,,,,ASIC,,800000000,"""Operated for years on the highest shelf in a poorly ventilated room; the PSU whines",legendary,3500,60000000
+t2_antminer_s17_heatsink_dropout,Antminer S17 Heatsink Dropout,,Bitmain,2019,,,,ASIC,,800000000,"""One cheap heatsink solder joint failed; the loose sink rattles around",legendary,2550,50000000
+t2_asic_mystery_repair_shop_special,ASIC �Mystery Repair Shop Special�,,Unknown,2020,,,,ASIC,,800000000,"""Boards reflowed",legendary,2800,30000000
+t2_overclocked_s9_voltage_spike_edition,Overclocked S9 �Voltage Spike Edition�,,Bitmain,2017,,,,ASIC,,400000000,"""Tuned within an inch of its life until one voltage spike cooked a hashboard and taught a very memorable lesson about safety margins.""[web:327][web:330][web:336]",legendary,1600,17000000
+t2_s17_hashboard_graveyard_rack,S17+ �Hashboard Graveyard Rack�,,Bitmain,2020,,,,ASIC,,800000000,"""Three dead units combined into one semi-working chimera; the status page is a wall of X�s and the operator calls it �character�.""[web:322][web:325][web:329]",legendary,2200,10000000
+t2_avalon_fan_error_festival,Avalon �Fan Error Festival�,,Canaan,2019,,,,ASIC,,700000000,"""Fan tach sensors glitch constantly; firmware alternates between full speed",legendary,2600,40000000
+t2_diy_overvolted_jalapeno,DIY Overvolted Jalapeno,,Butterfly Labs,2013,,,,ASIC,,75000000,"""Vintage BFL cube with a homebrew voltage mod; gains a few GH/s and a non-zero chance of letting the magic smoke out mid-block.""[web:296][web:302][web:328]",legendary,65,8000
+t2_antminer_s1,Antminer S1,,Bitmain,2013,,,,ASIC,,60000000,"""Bitmain�s first ASIC; 180 GH/s of screaming fans and baby�s-first-farm nostalgia.""[web:306][web:307][web:310][web:316]",rare,360,180000
+t2_antminer_s3,Antminer S3,,Bitmain,2014,,,,ASIC,,150000000,"""Almost half a terahash in a shoebox; once serious gear",rare,366,478000
+t2_antminer_s5,Antminer S5,,Bitmain,2014,,,,ASIC,,200000000,Open-air hash chimney; makes more noise and hot air than coins in 2026.,rare,590,1150000
+t2_antminer_s7,Antminer S7,,Bitmain,2015,,,,ASIC,,250000000,"Hashes like a champ, howls like a jet; perfect for �industrial ambience� in your junk rig.",rare,1293,4730000
+t2_antminer_s9,Antminer S9,,Bitmain,2016,,,,ASIC,,400000000,"The iconic warehouse-filler; still found in farms, garages, and noise complaints worldwide.",uncommon,1350,13500000
+t2_antminer_s9i,Antminer S9i,,Bitmain,2018,,,,ASIC,,400000000,"Slightly more efficient S9; marginally less power, marginally less guilt.",uncommon,1320,14000000
+t2_antminer_s9j,Antminer S9j,,Bitmain,2018,,,,ASIC,,400000000,Late-run refinement; spends its retirement in immersion tanks and meme photos.,uncommon,1350,14500000
+t2_antminer_s11,Antminer S11,,Bitmain,2018,,,,ASIC,,60000000,Short-lived step between S9 and S15; blink and difficulty erased its profit window.,rare,1530,20500000
+t2_antminer_s15,Antminer S15,,Bitmain,2018,,,,ASIC,,60000000,16 nm node shrink; suddenly your power bill hurts slightly less and your hashrate graph a bit more.,rare,1596,28000000
+t2_antminer_s17,Antminer S17,,Bitmain,2019,,,,ASIC,,60000000,"First 7 nm generation; high output, higher RMA stories, perfect for �fragile legend� loot.",uncommon,2520,56000000
+t2_antminer_s17_pro,Antminer S17 Pro,,Bitmain,2019,,,,ASIC,,800000000,�Pro� tag includes multiple modes and multiple opportunities to cook hashboards.,rare,2790,62000000
+t2_antminer_s19,Antminer S19,,Bitmain,2020,,,,ASIC,,60000000,"""Modern baseline workhorse; 34 J/TH class efficiency",uncommon,3250,95000000
+t2_antminer_s19_pro,Antminer S19 Pro,,Bitmain,2020,,,,ASIC,,1000000000,"""One of the defining 7 nm miners; solid efficiency",uncommon,3250,110000000
+t2_antminer_s19j,Antminer S19j,,Bitmain,2021,,,,ASIC,,1000000000,Region-tuned variant; hashes steadily while your spreadsheet tries to model halving cycles.,uncommon,3250,90000000
+t2_antminer_s19j_pro,Antminer S19j Pro,,Bitmain,2021,,,,ASIC,,1000000000,"Refined design; better efficiency, same brick-shaped aesthetic and angry-bee acoustics.",uncommon,3068,104000000
+t2_antminer_s19_xp,Antminer S19 XP,,Bitmain,2022,,,,ASIC,,1500000000,"""5 nm uplift; squeezes more TH/s from each watt while squeezing every last amp from your circuit.""[web:313][web:321]",rare,3010,134000000
+t2_antminer_s19k_pro,Antminer S19K Pro,,Bitmain,2023,,,,ASIC,,1500000000,"""Tweaked S19 with firmware headroom; overclockers� playground",rare,2760,120000000
+t2_antminer_s21,Antminer S21,,Bitmain,2024,,,,ASIC,,2500000000,"""Next-gen efficiency at ~17.5 J/TH; turns entire circuits into dedicated hash conduits.""[web:312][web:315][web:318]",rare,3500,200000000
+t2_antminer_s21_pro,Antminer S21 Pro,,Bitmain,2024,,,,ASIC,,2500000000,"""Turned up a notch; 234 TH/s of hot air and humming hashboards for serious-looking builds.""[web:315]",rare,3510,234000000
+t2_antminer_s21_xp,Antminer S21 XP,,Bitmain,2025,,,,ASIC,,3000000000,"""Top-tier air-cooled monster; 13�15 J/TH class",legendary,3645,270000000
+t2_antminer_s21_hydro,Antminer S21 Hydro,,Bitmain,2025,,,,ASIC,,3000000000,"""Water-cooled variant; dumps heat into a loop so your warehouse can pretend it�s a spa.""[web:318]",legendary,5360,335000000
+t2_whatsminer_m30s,WhatsMiner M30S+,,MicroBT,2020,,,,ASIC,,800000000,"""S19-era competitor; slightly worse J/TH",rare,3400,100000000
+t2_whatsminer_m50s,WhatsMiner M50S,,MicroBT,2022,,,,ASIC,,1500000000,Refined 5 nm design; solid efficiency and a fan curve that sounds like a medium-sized aircraft.,rare,3276,126000000
+t2_avalonminer_1246,AvalonMiner 1246,,Canaan,2020,,,,ASIC,,700000000,"Canaan�s 90 TH/s box; chunky, loud, and stubborn about running 24/7 no matter the profit.",rare,3420,90000000
+t2_avalonminer_1366,AvalonMiner 1366,,Canaan,2022,,,,ASIC,,1200000000,"Keeps up with S19-class hardware; slightly less efficient, slightly more distinctive whine.",rare,3250,130000000
+t2_weitek_1167_risc_coprocessor,Weitek 1167 RISC Coprocessor,,Weitek,1985,,,,COPROCESSOR,,56000,"""Exotic math coprocessor for high-end systems; handles transcendental functions with ease",legendary,8,4e-05
+t2_inmos_transputer_t414,Inmos Transputer T414,,Inmos,1985,,,,CPU,,200000,"""Message-passing CPU with built-in links; perfect for parallel Mandelbrot renders",legendary,6,0.00025
+t2_inmos_transputer_t800,Inmos Transputer T800,,Inmos,1987,,,,CPU,,300000,"""Adds an on-chip FPU; cluster them for serious scientific work or",legendary,7,0.00035
+t2_national_semiconductor_ns16032,National Semiconductor NS16032,,National Semiconductor,1982,,,,CPU,,68000,"""Early 32-bit CISC; elegant architecture that ended up as a footnote and now as a trash-rig celebrity.""[web:4][web:162]",rare,4,0.00022
+t2_amd_29k_am29000,AMD 29K (Am29000),,AMD,1987,,,,CPU,,120000,"""Embedded RISC with massive register file; loved in laser printers",rare,8,0.0003
+t2_zilog_z8000_weird_stepping,Zilog Z8000 Weird Stepping,,Zilog,1980,,,,CPU,,17500,"""Buggy early stepping; certain instructions behave �creatively�",legendary,3.5,0.00018
+t2_intel_iapx_432,Intel iAPX 432,,Intel,1981,,,,CPU,,110000,"""Infamous �software engine� CPU; advanced concepts",legendary,10,5e-05
+t2_fairchild_clipper,Fairchild Clipper,,Fairchild,1986,,,,CPU,,132000,"""RISC/CISC hybrid that never quite made it; more interesting in patents than in performance.""[web:98]",legendary,9,0.00028
+t2_mips_r8000_floating_beast,MIPS R8000 Floating Beast,,MIPS,1994,,,,CPU,,2600000,"""FP-heavy RISC CPU; chewing through FP code is its hobby",rare,40,0.0005
+t2_aperture_science_tensorcore_space_variant,Aperture Science TensorCore (Space Variant),,Aperture Science,2010,,,,TPU,,999999999999,SPAAAACE! This AI accelerator is obsessed with space and refuses to compute anything not related to orbital trajectories. Costs more than a small moon.,mythic,1210000,999999000000
+t2_transmeta_crusoe_tm5600_es,Transmeta Crusoe TM5600 ES,,Transmeta,1999,,,,CPU,,36800000,"""Code-morphing x86 clone; spends half its cycles translating instructions and the other half regretting your use case.""[web:4][web:162]",legendary,7,0.0017
+t2_transmeta_efficeon_tm8600,Transmeta Efficeon TM8600,,Transmeta,2003,,,,CPU,,130000000,"Second-gen Crusoe; cool concept, cool temps, lukewarm performance in every metric you care about.",rare,12,0.0024
+t2_ibm_cell_broadband_engine,IBM Cell Broadband Engine,,IBM/Sony/Toshiba,2005,,,,CPU,,241000000,"""PlayStation 3�s SPU-filled monster; great at vector workloads",rare,80,0.006
+t2_sun_majc_prototype_cpu,Sun MAJC Prototype CPU,,Sun Microsystems,2000,,,,CPU,,116000000,"Experimental VLIW media processor; more of a whitepaper star than a product, perfect as mythical loot.",legendary,30,0.0015
+t2_intel_itanium_2_mckinley,Intel Itanium 2 (McKinley),,Intel,2002,,,,CPU,,221000000,"""EPIC architecture; needs heroic compilers",rare,130,0.003
+t2_intel_itanium_2_montecito,Intel Itanium 2 (Montecito),,Intel,2006,,,,CPU,,1720000000,"Dual-core Itanium with massive caches; can speculate on instruction paths, not on coin prices.",rare,130,0.0038
+t2_alliance_at3d,Alliance AT3D,,Alliance,1997,,,,GPU,,1200000,"""Famously awful 90s 3D card; low performance",legendary,10,0.0012
+t2_powervr_pcx2,PowerVR PCX2,,NEC/VideoLogic,1997,,,,GPU,,2500000,"""Tile-based deferred renderer before it was cool; demands proper game support or displays modern art.""[web:259]",rare,12,0.0019
+t2_powervr_kyro_ii,PowerVR KYRO II,,STMicro/Imagination,2001,,,,GPU,,15000000,"""Efficient tile renderer; turns some games into benchmarks and others into bug reports depending on drivers.""[web:259]",rare,25,0.0085
+t2_s3_savage_2000,S3 Savage 2000,,S3,1999,,,,GPU,,18000000,"""Hardware T&L unit that never worked properly; broken drivers turned a promising chip into a warning label.""[web:236][web:259]",rare,25,0.003
+t2_trident_blade_xp,Trident Blade XP,,Trident,2001,,,,GPU,,8000000,Last gasp from Trident; supports modern APIs on paper and support tickets in practice.,rare,20,0.0075
+t2_matrox_parhelia_512,Matrox Parhelia 512,,Matrox,2002,,,,GPU,,80000000,"""Triple-head wonder with exotic features; beautiful 2D",rare,80,0.015
+t2_xgi_volari_v8_duo,XGI Volari V8 Duo,,XGI,2003,,,,GPU,,25000000,"""Dual-GPU card with heat",legendary,95,0.012
+t2_sis_xabre_400,SiS Xabre 400,,SiS,2002,,,,GPU,,28000000,"""Marketing promised �aggressive� DX8; real-world tests showed aggressive shimmering and missing effects.""[web:259]",rare,35,0.01
+t2_intel_740_i740,Intel 740 (i740),,Intel,1998,,,,GPU,,7000000,Intel�s discrete graphics experiment; paved the way for integrated graphics and paved over your frame rates.,rare,15,0.0022
+t2_s3_chrome_s27,S3 Chrome S27,,S3,2006,,,,GPU,,70000000,"""Late comeback attempt; decent video decode",rare,40,0.014
+t2_nvidia_nv1_stg2000,NVIDIA NV1 (STG2000),,NVIDIA,1995,,,,GPU,,1000000,"""Quadratic texture maps and Saturn controller ports; the universe�s answer to �what if we tried everything at once?�.""[web:230]",legendary,12,0.0012
+t2_nvidia_geforce_fx_5800_ultra,NVIDIA GeForce FX 5800 Ultra,,NVIDIA,2003,,,,GPU,,125000000,"""Leaf-blower cooler and hot memory; you hear it before you see the frame rate (or hashes).""[web:280]",legendary,75,0.011
+t2_radeon_hd_2900_xt,Radeon HD 2900 XT,,ATI,2007,,,,GPU,,700000000,"Power-hungry DX10 brute; impressive memory bus, less impressive efficiency charts.",rare,215,0.02
+t2_radeon_hd_3870_x2,Radeon HD 3870 X2,,ATI,2008,,,,GPU,,1330000000,"Dual-GPU sandwich; AFR microstutter in games, micro-profit in miners.",rare,230,0.03
+t2_nvidia_geforce_7950_gx2,NVIDIA GeForce 7950 GX2,,NVIDIA,2006,,,,GPU,,556000000,"Two G71 dies pretending to be one card; drivers juggle, temps climb, hashes shrug.",rare,130,0.04
+t2_nvidia_geforce_8800_ultra,NVIDIA GeForce 8800 Ultra,,NVIDIA,2007,,,,GPU,,681000000,"Overclocked 8800 GTX with a price to match; serious gaming legend, unserious mining choice.",rare,175,0.065
+t2_radeon_hd_4770,Radeon HD 4770,,ATI,2009,,,,GPU,,826000000,"First 40 nm desktop GPU; efficient for its time, now just adorably underpowered.",uncommon,80,0.018
+t2_intel_larrabee_prototype,Intel Larrabee Prototype,,Intel,2009,,,,GPU,,2000000000,"x86-based many-core graphics project; canceled as a GPU, reborn as Xeon Phi, perfect as cursed loot.",legendary,200,0.03
+t2_ibm_power7_prototype,IBM POWER7 Prototype,,IBM,2009,,,,CPU,,1200000000,Server monster ES; multi-threaded HPC dreams and exactly zero interest in your coins.,legendary,200,0.009
+t2_sun_niagara_t1,SUN Niagara T1,,Sun Microsystems,2005,,,,CPU,,300000000,Ultra-threaded SPARC; dozens of hardware threads waiting mostly on your terrible network stack.,rare,70,0.004
+t2_glados_neural_nexus_core,GLaDOS Neural Nexus Core,,Aperture Science,2007,,,,NPU,,420000000000,The cake is a lie but the hashrate is real. This NPU was designed for neurotoxin dispersal optimization but mines surprisingly well when not trying to kill you.,mythic,3500,42000000
+t2_nec_vr4300_n64_cpu,NEC VR4300 (N64 CPU),,NEC,1996,,,,CPU,,1700000,"""MIPS R4300i core from the N64; great at Mario",legendary,2.5,0.00018
+t2_hitachi_superh_4,Hitachi SuperH-4,,Hitachi,1994,,,,CPU,,10500000,"SuperH-family RISC; popular in embedded gear, shocked to find itself in a �trash miner�.",rare,3,0.0003
+t2_sony_emotion_engine,Sony Emotion Engine,,Sony,2000,,,,CPU,,10500000,"PS2�s vector-heavy CPU; optimized for polygons and physics, catastrophically overqualified for your hashrates.",legendary,30,0.0012
+t2_open_source_spartan_6_quad_board,Open Source Spartan-6 Quad Board,,Community,2011,,,,DSP,,90000000,"""DIY FPGA miner using four Xilinx Spartan-6 FPGAs; barely beats a hot Radeon",rare,60,180
+t2_early_single_fpga_usb_miner,Early Single-FPGA USB Miner,,Community,2011,,,,DSP,,43000000,"""Tiny USB stick miner; hashes at novelty speeds",rare,15,30
+t2_ultra_low_cost_diy_fpga_miner,Ultra-Low-Cost DIY FPGA Miner,,Community,2012,,,,DSP,,43000000,"""Forum-famous design boasting �175 MH/s @ $1/MH�; efficiency wins",rare,70,180
+t2_xilinx_spartan_6_lx150_dev_rig,Xilinx Spartan-6 LX150 Dev Rig,,Homebrew,2012,,,,DSP,,90000000,"""Rack of dev boards lashed together; looks like a lab experiment",rare,90,250
+t2_altera_cyclone_iv_fpga_cluster,Altera Cyclone IV FPGA Cluster,,Homebrew,2012,,,,DSP,,150000000,"""DIY cluster of Cyclone IV cards; more Ethernet cables than common sense",rare,100,300
+t2_beauty_and_the_beast_gpu_fpga_rig,Beauty-and-the-Beast GPU+FPGA Rig,,Homebrew,2012,,,,GPU,,150000000,"""Mixes hot GPUs and cool FPGAs; spends half its time hashing",legendary,350,400
+t2_avalon_batch_1_avalon_1,Avalon Batch 1 (Avalon-1),,Canaan,2013,,,,ASIC,,10000000,"""First commercial Bitcoin ASIC miner; paid for itself in days",legendary,600,66000
+t2_avalon_batch_2,Avalon Batch 2,,Canaan,2013,,,,ASIC,,10000000,"""Refined Avalon design; slightly higher hashrate",rare,600,82000
+t2_avalon_batch_3,Avalon Batch 3,,Canaan,2013,,,,ASIC,,10000000,"""Cranks hash while efficiency lags; lives on in eBay listings and nostalgic YouTube tours.""[web:296][web:299]",rare,650,110000
+t2_avalon_prototype_es_board,Avalon Prototype ES Board,,Canaan,2012,,,,ASIC,,10000000,"""Lab sample for the first Avalon run; heats up fast",legendary,500,40000
+t2_asicminer_block_erupter_usb,ASICMiner Block Erupter USB,,ASICMiner,2013,,,,ASIC,,10000000,"""Iconic USB stick miner; once a serious entry-level device",rare,2.5,330
+t2_asicminer_blade,ASICMiner Blade,,ASICMiner,2013,,,,ASIC,,10000000,"""Fanless blade meant for dense racks; gets warm under load and warmer in collector circles.""[web:296][web:294]",rare,80,10000
+t2_butterfly_labs_jalapeno,Butterfly Labs Jalapeno,,Butterfly Labs,2013,,,,ASIC,,75000000,"""Tiny cube miner; infamous delays",legendary,30,5000
+t2_butterfly_labs_25_gh_s_single,Butterfly Labs 25 GH/s Single,,Butterfly Labs,2013,,,,ASIC,,75000000,"""Desktop �Single� with monstrous expectations; some arrived so late they mostly mined regret.""[web:296][web:299][web:302]",legendary,150,25000
+t2_butterfly_labs_50_gh_s_mini_rig,Butterfly Labs 50 GH/s Mini Rig,,Butterfly Labs,2013,,,,ASIC,,75000000,"""Early big box ASIC; plastic packages reportedly ran so hot some samples tried to melt free.""[web:299][web:302]",legendary,300,50000
+t2_avalon_usb_nano_miner,Avalon USB Nano Miner,,Canaan,2013,,,,ASIC,,10000000,"""Small USB offshoot; a low-powered echo of Avalon-1",rare,2.5,300
+t2_k16_fpga_bitcoin_miner_board,K16 FPGA Bitcoin Miner Board,,K16 Project,2012,,,,DSP,,90000000,"""Community board with sixteen smaller FPGAs; wiring resembles spaghetti",rare,80,200
+t2_fpga_mining_pizza_box_rig,FPGA Mining �Pizza Box� Rig,,Homebrew,2011,,,,DSP,,90000000,"FPGA boards crammed into a pizza box; surprisingly stable, suspiciously flammable.",legendary,60,120
+t2_fpga_test_bench_miner,FPGA Test Bench Miner,,University Lab,2011,,,,DSP,,90000000,Academic test rig accidentally pointed at mainnet; publishes more papers than valid blocks.,rare,50,80
+t2_early_sha_256_asic_test_die,Early SHA-256 ASIC Test Die,,Unknown Lab,2012,,,,ASIC,,5000000,"""Prototype die that ran too hot; plastic packaging softened",legendary,200,5000
+t2_canaan_avalon_chip_on_board_es,Canaan Avalon Chip-on-Board ES,,Canaan,2012,,,,ASIC,,8000000,"""Hand-assembled early sample; bare dies visible",legendary,300,20000
+t2_butterfly_labs_single_chip_es,Butterfly Labs Single-Chip ES,,Butterfly Labs,2012,,,,ASIC,,50000000,"""First BFL chip samples; impressive theoretical efficiency",legendary,150,10000
+t2_fpga_hashbackpack_cluster,FPGA �HashBackpack� Cluster,,Homebrew,2012,,,,DSP,,90000000,"Stack of FPGA dev boards literally mounted on a backpack; technically portable, practically a wearable space heater.",legendary,120,350
+t2_rackmount_1u_fpga_miner,Rackmount 1U FPGA Miner,,Community,2011,,,,DSP,,90000000,Crams several FPGAs into 1U; screaming 40 mm fans ensure neither you nor the chips can sleep.,rare,90,250
+t2_open_source_spartan_6_mini,Open-Source Spartan-6 Mini,,Community,2011,,,,DSP,,43000000,"Entry-level kit; great for learning HDL, terrible for learning about positive ROI.",rare,25,50
+t2_avalon_1_fanless_mod,Avalon-1 Fanless Mod,,Canaan/Modder,2013,,,,ASIC,,10000000,"User-modded unit with stripped fans and external blowers; efficiency optional, noise mandatory.",legendary,750,60000
+t2_asicminer_immersion_tank_v1,ASICMiner Immersion Tank v1,,ASICMiner,2013,,,,ASIC,,10000000,Group of early boards dunked in mineral oil; hashes in eerie silence while your power meter screams.,rare,250,30000
+t2_butterfly_labs_fpga_prototype,Butterfly Labs FPGA �Prototype�,,Butterfly Labs,2011,,,,DSP,,90000000,"Interim product before ASICs; arrived late, ran hot, and was obsolete almost immediately.",legendary,80,120
+t2_generic_2012_fpga_pcie_miner,Generic 2012 FPGA PCIe Miner,,No-Name,2012,,,,DSP,,90000000,"Rebadged dev board sold as a �pro miner�; FPGA logo on the box, confusion inside the case.",rare,70,160
+t2_avalon_1_museum_edition,Avalon-1 �Museum Edition�,,Canaan,2014,,,,ASIC,,10000000,Decommissioned first-gen unit with fans unplugged; mines only admiration in glass displays.,legendary,0,0
+t2_butterfly_labs_jalapeno_overvolted,Butterfly Labs Jalapeno Overvolted,,Butterfly Labs,2013,,,,ASIC,,75000000,Community-mod classic; gains a few GH/s and a nonzero chance of spontaneous smoke.,legendary,50,7000
+t2_asicminer_block_erupter_overclocked,ASICMiner Block Erupter Overclocked,,ASICMiner,2013,,,,ASIC,,10000000,"Pushed past spec; tiny heatsink burns fingers quickly, coins slowly.",rare,3.5,380
+t2_avalon_fpga_prototype_rig,Avalon FPGA Prototype Rig,,Canaan,2011,,,,DSP,,90000000,"""The transitional rig between GPU and ASIC; mostly remembered from grainy forum photos and wild hashrate claims.""[web:298]",legendary,80,100
+t2_clustered_spartan_6_mining_cage,Clustered Spartan-6 Mining Cage,,Community,2012,,,,DSP,,360000000,"Milk-crate cluster of boards; from a distance looks like an art project, up close sounds like a server room.",rare,140,400
+t2_usb_hub_of_10_block_erupters,USB Hub of 10 Block Erupters,,ASICMiner,2013,,,,ASIC,,100000000,Glowing forest of blue LEDs; generates more conversation than profit in 2026.,rare,25,3300
+t2_homemade_fpga_in_a_toaster,Homemade FPGA-in-a-Toaster,,Homebrew,2012,,,,DSP,,90000000,Repurposed toaster chassis with FPGA boards; offers two hash settings: �lightly burned� and �charcoal�.,legendary,80,90
+t2_butterfly_labs_jalapeno_watercooled,Butterfly Labs Jalapeno Watercooled,,Butterfly Labs,2013,,,,ASIC,,75000000,Unnecessary water loop on a tiny miner; has better cooling than some full nodes.,legendary,40,6000
+t2_avalon_1_side_panel_heater_mod,Avalon-1 Side-Panel Heater Mod,,Canaan/Modder,2013,,,,ASIC,,10000000,Bolted to a PC side panel as a heater; finally a use case where inefficiency is a feature.,legendary,650,60000
+t2_fpga_development_kit_hash_demo,FPGA Development Kit Hash Demo,,Vendor Eval,2011,,,,DSP,,43000000,"Vendor demo bitstream; meant to show off tools, accidentally shows how fast difficulty climbed.",rare,30,20
+t2_open_source_fpga_learning_miner,Open Source FPGA �Learning Miner�,,Community,2011,,,,DSP,,43000000,Educational project; more valuable for understanding Verilog than for accumulating Bitcoin.,rare,25,10
+t2_rack_of_retired_fpga_miners,Rack of Retired FPGA Miners,,Mixed,2013,,,,DSP,,900000000,"Once cutting edge, now daisy-chained as blinking wall art behind someone�s YouTube set.",legendary,250,600
+t2_avalon_asic_test_fixture,Avalon ASIC Test Fixture,,Canaan,2012,,,,ASIC,,8000000,"Jig used for validating early chips; never meant for production, perfect for your game�s legendary loot tier.",legendary,200,10000
+t2_geforce_fx_5200_64_bit,GeForce FX 5200 64-bit,,NVIDIA,2003,,,,GPU,,47000000,"""Infamously slow DX9 card; often beaten by older GeForce2/4 MX parts",common,35,0.006
+t2_geforce_fx_5200_128_bit,GeForce FX 5200 128-bit,,NVIDIA,2003,,,,GPU,,47000000,"""Slightly less awful thanks to proper memory bus; still poor value",common,40,0.007
+t2_geforce_fx_5500,GeForce FX 5500,,NVIDIA,2004,,,,GPU,,47000000,"""Basically a rebadged 5200 with small tweaks; inherits all the underpowered",common,45,0.007
+t2_geforce_fx_5600_non_ultra,GeForce FX 5600 (non-Ultra),,NVIDIA,2003,,,,GPU,,80000000,"""Mid-range branding",common,60,0.009
+t2_geforce_fx_5700_le,GeForce FX 5700 LE,,NVIDIA,2003,,,,GPU,,82000000,Cost-reduced 5700; memory bandwidth restraints keep both games and hashrate on a very tight leash.,common,55,0.01
+t2_geforce_fx_5800,GeForce FX 5800,,NVIDIA,2003,,,,GPU,,125000000,"""�Leaf blower� cooler and hot GDDR2; loud",rare,75,0.011
+t2_geforce_fx_5700ve,GeForce FX 5700VE,,NVIDIA,2004,,,,GPU,,82000000,Value Edition that values marketing more than speed; locked-down memory and muted clocks.,common,50,0.009
+t2_geforce_6100_igp,GeForce 6100 IGP,,NVIDIA,2005,,,,GPU,,30000000,"Socket 939/AM2 chipset integrated GPU; good for BIOS screens, sketchy for anything polygonal.",common,25,0.004
+t2_geforce_6150_le,GeForce 6150 LE,,NVIDIA,2006,,,,GPU,,30000000,OEM IGP with shared memory; steals RAM and then wastes it on low-detail frames.,common,28,0.0045
+t2_geforce_6200_turbocache,GeForce 6200 TurboCache,,NVIDIA,2004,,,,GPU,,77000000,Relies on system RAM via TurboCache; bandwidth so bad that PCIe feels like ISA with extra steps.,common,25,0.006
+t2_geforce_7300_le,GeForce 7300 LE,,NVIDIA,2006,,,,GPU,,112000000,"Low-end 7-series; carries the GeForce name, not the GeForce performance.",common,30,0.008
+t2_geforce_7100_gs,GeForce 7100 GS,,NVIDIA,2006,,,,GPU,,112000000,Budget PCIe filler card; exists primarily to provide DVI outputs and crushed expectations.,common,25,0.007
+t2_radeon_9200_se,Radeon 9200 SE,,ATI,2003,,,,GPU,,36000000,"""Heavily cut-down RV280 with 64-bit bus; cheap",common,27,0.006
+t2_radeon_9200_le,Radeon 9200 LE,,ATI,2003,,,,GPU,,36000000,Low-cost variant; the kind of card you get free in dumpster PCs and still feel slightly cheated.,common,27,0.0065
+t2_radeon_x300_se,Radeon X300 SE,,ATI,2004,,,,GPU,,67000000,"Low-end PCIe; DX9 feature list, DX7-tier throughput, multi-GPU only in your wildest fever dreams.",common,25,0.007
+t2_radeon_x550,Radeon X550,,ATI,2005,,,,GPU,,67000000,"Stretching RV370 well past its comfort zone; fine for Windows XP, tragic for anything heavier.",common,27,0.008
+t2_radeon_x600_se,Radeon X600 SE,,ATI,2004,,,,GPU,,75000000,Value X600 with trimmed clocks; feels like a laptop part pretending to be a desktop GPU.,common,30,0.009
+t2_radeon_x1300_hypermemory,Radeon X1300 Hypermemory,,ATI,2005,,,,GPU,,120000000,Uses system RAM to pad specs; the only thing �hyper� is how fast it chokes at higher resolutions.,common,23,0.0065
+t2_radeon_xpress_200_igp,Radeon Xpress 200 (IGP),,ATI,2004,,,,GPU,,25000000,"Integrated northbridge GPU; solid office chip, solidly terrible at anything shader-heavy.",common,20,0.003
+t2_radeon_xpress_1100_igp,Radeon Xpress 1100 (IGP),,ATI,2006,,,,GPU,,50000000,Slightly updated IGP; performance boost best measured with a microscope and a lot of patience.,common,20,0.0035
+t2_intel_extreme_graphics_2,Intel Extreme Graphics 2,,Intel,2003,,,,GPU,,30000000,"""P4-era iGPU; �Extreme� mainly in name",common,15,0.002
+t2_intel_gma_900,Intel GMA 900,,Intel,2004,,,,GPU,,40000000,"""First DX9-class Intel IGP; no hardware T&L",common,15,0.003
+t2_intel_gma_950,Intel GMA 950,,Intel,2005,,,,GPU,,40000000,"""Slight update over GMA 900; Shader Model 3.0 in marketing",common,17,0.0035
+t2_intel_gma_3100,Intel GMA 3100,,Intel,2007,,,,GPU,,50000000,"Desktop IGP for office boxes; fine for spreadsheets, not fine for speculative finance.",common,20,0.0038
+t2_sis_mirage_1_651_661,SiS Mirage 1 (651/661),,SiS,2003,,,,GPU,,25000000,Integrated SiS core; blurry analog output and very suspect 3D acceleration.,common,18,0.0025
+t2_sis_mirage_2_760,SiS Mirage 2 (760),,SiS,2005,,,,GPU,,40000000,"Claims DX9 compliance; reality is closer to DX8-minus, with bonus random artifacts.",common,20,0.003
+t2_via_unichrome_pro,VIA Unichrome Pro,,VIA,2004,,,,GPU,,15000000,"Integrated S3-derived core; excels at video playback on thin clients, not at your get-rich-slow scheme.",common,15,0.0025
+t2_via_chrome9_hc,VIA Chrome9 HC,,VIA,2005,,,,GPU,,20000000,"DX9 badge, IGP performance; tends to rely heavily on the CPU for anything resembling 3D.",common,18,0.003
+t2_geforce4_mx_4000,GeForce4 MX 4000,,NVIDIA,2003,,,,GPU,,27000000,Repackaged GeForce2 tech; shows up in cheap AGP systems and benchmarks like one too.,common,25,0.004
+t2_geforce_6200_se_turbocache,GeForce 6200 SE TurboCache,,NVIDIA,2005,,,,GPU,,77000000,Extra-crippled 6200; feels like running games�and hashes�over dial-up.,common,25,0.005
+t2_geforce_7300_se,GeForce 7300 SE,,NVIDIA,2006,,,,GPU,,112000000,7-series by sticker only; a good way to experience �shader support� at single-digit FPS.,common,28,0.007
+t2_radeon_9600_se,Radeon 9600 SE,,ATI,2003,,,,GPU,,75000000,"64-bit memory bus kneecaps performance; cheaper yes, cheerful no.",common,30,0.008
+t2_radeon_x1050,Radeon X1050,,ATI,2006,,,,GPU,,75000000,Rebadged older silicon for OEMs; designed to confuse buyers and delight accountants.,common,27,0.0075
+t2_radeon_hd_2400_pro,Radeon HD 2400 Pro,,ATI,2007,,,,GPU,,180000000,"Early HD low-end; can technically do DX10, practically prefers 2D desktops.",common,35,0.01
+t2_radeon_hd_3450,Radeon HD 3450,,ATI,2008,,,,GPU,,181000000,"Low-profile HTPC card; hardware decode is fine, any serious compute is not.",common,25,0.011
+t2_geforce_8400_gs,GeForce 8400 GS,,NVIDIA,2007,,,,GPU,,210000000,�DX10 capable� budget card; performs like DX8 and mines like it�s being paid in exposure.,common,40,0.011
+t2_geforce_8500_gt,GeForce 8500 GT,,NVIDIA,2007,,,,GPU,,210000000,"Mid-low 8-series; enough for Aero Glass and light gaming, insufficient for hashing anything meaningful.",common,45,0.013
+t2_geforce_9300_ge_oem,GeForce 9300 GE (OEM),,NVIDIA,2008,,,,GPU,,210000000,OEM-only cut; exists purely because spreadsheets demanded a cheaper 9-series part.,common,40,0.013
+t2_radeon_hd_4350,Radeon HD 4350,,ATI,2008,,,,GPU,,242000000,"Silent, cool, and desperately slow; perfect for passive builds that passively fail at mining.",common,20,0.012
+t2_radeon_hd_4550,Radeon HD 4550,,ATI,2008,,,,GPU,,242000000,"Low-profile HTPC card; decent codecs, indecent hash rates.",common,25,0.014
+t2_intel_gma_x3100,Intel GMA X3100,,Intel,2007,,,,GPU,,65000000,"""Mobile IGP in millions of laptops; best suited to Solitaire",common,20,0.0038
+t2_intel_gma_4500mhd,Intel GMA 4500MHD,,Intel,2008,,,,GPU,,80000000,Finally passes �basic 3D� bar; still fails �basic mining� without heavy CPU help.,common,22,0.0045
+t2_sis_mirage_3,SiS Mirage 3+,,SiS,2007,,,,GPU,,60000000,Last gasp of SiS graphics; compatibility issues and sluggishness make it a perfect trash-rig target.,common,20,0.0032
+t2_via_chrome9_hc3,VIA Chrome9 HC3,,VIA,2008,,,,GPU,,40000000,"Later VIA integrated core; marginal improvements, core identity as budget ballast unchanged.",common,18,0.0033
+t2_geforce2_mx_400,GeForce2 MX 400,,NVIDIA,2001,,,,GPU,,20000000,"Budget DX7 card; great for CRTs and Counter-Strike, terrible for blockchains.",common,7,0.004
+t2_geforce2_gts,GeForce2 GTS,,NVIDIA,2000,,,,GPU,,25000000,First �GigaTexel� brag; for mining it�s more �GigaThermal� than anything.,uncommon,20,0.006
+t2_geforce3_ti_200,GeForce3 Ti 200,,NVIDIA,2001,,,,GPU,,57000000,"""Cut-down GeForce3; handles shaders OK",uncommon,27,0.008
+t2_geforce3_ti_500,GeForce3 Ti 500,,NVIDIA,2001,,,,GPU,,57000000,"""Top DX8 part; early programmable shaders",rare,30,0.01
+t2_geforce4_mx_440,GeForce4 MX 440,,NVIDIA,2002,,,,GPU,,27000000,"""GeForce2 with better marketing; no real shaders",common,20,0.005
+t2_geforce4_ti_4200,GeForce4 Ti 4200,,NVIDIA,2002,,,,GPU,,63000000,"Value hero; overclocks decently, mine returns indecently.",uncommon,40,0.011
+t2_geforce4_ti_4600,GeForce4 Ti 4600,,NVIDIA,2002,,,,GPU,,63000000,"King of DX8; fast for games, only moderately less pathetic for mining.",rare,50,0.013
+t2_geforce_fx_5200,GeForce FX 5200,,NVIDIA,2003,,,,GPU,,47000000,"""DX9 badge",common,35,0.006
+t2_geforce_fx_5600_ultra,GeForce FX 5600 Ultra,,NVIDIA,2003,,,,GPU,,80000000,"Mid-range FX; loud cooler, hot core, lukewarm hashrate.",uncommon,70,0.009
+t2_geforce_fx_5800_ultra,GeForce FX 5800 Ultra,,NVIDIA,2003,,,,GPU,,125000000,"""�Dustbuster� blower; drowns out everything including the sound of you losing money.""[web:35]",rare,75,0.011
+t2_geforce_fx_5900_ultra,GeForce FX 5900 Ultra,,NVIDIA,2003,,,,GPU,,130000000,"NVIDIA�s course correction; decent 3D, still far from even baby�s first miner.",rare,90,0.013
+t2_geforce_6600_gt,GeForce 6600 GT,,NVIDIA,2004,,,,GPU,,146000000,"PCIe poster child; good balance of speed and power, bad balance of hash and power.",uncommon,60,0.02
+t2_geforce_6800_gt,GeForce 6800 GT,,NVIDIA,2004,,,,GPU,,222000000,"""16 pipes of DX9 muscle; early SM3.0 support",uncommon,80,0.026
+t2_geforce_6800_ultra,GeForce 6800 Ultra,,NVIDIA,2004,,,,GPU,,222000000,"Dual-slot furnace; excellent at HDR, excellent at heating your mining shed.",rare,110,0.028
+t2_geforce_7600_gt,GeForce 7600 GT,,NVIDIA,2006,,,,GPU,,177000000,"Efficient mid-ranger; playable frame rates, barely payable hashes.",common,67,0.022
+t2_geforce_7800_gtx,GeForce 7800 GTX,,NVIDIA,2005,,,,GPU,,302000000,"First SM3.0 flagship; roars through Doom 3, whimpers through difficulty jumps.",rare,100,0.03
+t2_geforce_7900_gt,GeForce 7900 GT,,NVIDIA,2006,,,,GPU,,278000000,Refined 7-series core; fast but notoriously fragile under overvolts.,uncommon,82,0.032
+t2_geforce_7900_gtx,GeForce 7900 GTX,,NVIDIA,2006,,,,GPU,,278000000,"High-end pre-DX10; runs hot, runs loud, runs your wallet empty.",rare,120,0.035
+t2_geforce_7950_gx2,GeForce 7950 GX2,,NVIDIA,2006,,,,GPU,,556000000,"Dual-GPU sandwich; driver voodoo and microstutter guaranteed, hashes optional.",rare,130,0.04
+t2_geforce_8800_gts_320mb,GeForce 8800 GTS 320MB,,NVIDIA,2006,,,,GPU,,681000000,"Early unified shader goodness; core is strong, VRAM size is comic.",rare,140,0.055
+t2_geforce_8800_gtx,GeForce 8800 GTX,,NVIDIA,2006,,,,GPU,,681000000,DX10 landmark; crunches shaders like a champ and hashes like a vintage champ.,rare,175,0.06
+t2_radeon_7000_ve,Radeon 7000 (VE),,ATI,2000,,,,GPU,,30000000,"""Rebranded Rage; dual-head tricks",common,15,0.003
+t2_radeon_7500,Radeon 7500,,ATI,2001,,,,GPU,,30000000,"Improved R100; respectable in 2001, respectably useless today.",common,20,0.006
+t2_radeon_8500,Radeon 8500,,ATI,2001,,,,GPU,,60000000,"""ATI�s first real GeForce rival; complex architecture",uncommon,40,0.01
+t2_radeon_9000_pro,Radeon 9000 Pro,,ATI,2002,,,,GPU,,36000000,"""Cut-down 8500; DX8.1 card that trades some speed for lower power and higher shrugs.""[web:265]",common,30,0.009
+t2_radeon_9500_pro,Radeon 9500 Pro,,ATI,2002,,,,GPU,,107000000,"Half-disabled R300; legendary modding potential, modest hash potential.",rare,35,0.012
+t2_radeon_9700_pro,Radeon 9700 Pro,,ATI,2002,,,,GPU,,107000000,"DX9 trailblazer; first card that really made GeForce sweat, still barely warms your mined balance.",rare,60,0.016
+t2_radeon_9800_pro,Radeon 9800 Pro,,ATI,2003,,,,GPU,,117000000,"Hot, fast, beloved; comes with AGP 8x, copper coolers, and a strong smell of toasted dust.",rare,70,0.02
+t2_radeon_9800_xt,Radeon 9800 XT,,ATI,2003,,,,GPU,,117000000,Top R3xx part; squeezes a few more FPS and a few more watts out of the same silicon.,rare,80,0.022
+t2_radeon_x300,Radeon X300,,ATI,2004,,,,GPU,,67000000,"Entry-level PCIe filler; good for office desktops, bad for any work with �crypto� in the name.",common,25,0.007
+t2_radeon_x600_pro,Radeon X600 Pro,,ATI,2004,,,,GPU,,75000000,Mid-low card; the GPU world�s answer to lukewarm tea.,common,30,0.01
+t2_radeon_x700_pro,Radeon X700 Pro,,ATI,2004,,,,GPU,,110000000,"Mainstream DX9; does fine at 1024x768, does poorly at 1 block per decade.",uncommon,45,0.013
+t2_radeon_x800_pro,Radeon X800 Pro,,ATI,2004,,,,GPU,,160000000,"High-end R420; moves lots of pixels, moves very few coins.",rare,70,0.025
+t2_radeon_x800_xt,Radeon X800 XT,,ATI,2004,,,,GPU,,160000000,Top ATI single-GPU for a while; double-slot cooler recommended for the thermally adventurous.,rare,80,0.028
+t2_radeon_x850_xt_pe,Radeon X850 XT PE,,ATI,2005,,,,GPU,,160000000,"Peak AGP Radeon; fans scream, VRMs steam, hash count dreams.",rare,100,0.03
+t2_radeon_x1300,Radeon X1300,,ATI,2005,,,,GPU,,120000000,Low-end R5xx; exists to plug PCIe slots in office PCs and nothing more.,common,23,0.006
+t2_radeon_x1600_xt,Radeon X1600 XT,,ATI,2005,,,,GPU,,157000000,"Mid-range SM3.0; decent shaders, starved memory, very average everything else.",uncommon,45,0.014
+t2_radeon_x1800_xt,Radeon X1800 XT,,ATI,2005,,,,GPU,,321000000,"Short-lived flagship; launched hot, loud, and just in time to be replaced.",rare,110,0.026
+t2_radeon_x1900_xt,Radeon X1900 XT,,ATI,2006,,,,GPU,,384000000,48-shader beast; chews through pixel shaders and your PSU headroom equally.,rare,120,0.032
+t2_radeon_x1950_pro,Radeon X1950 Pro,,ATI,2006,,,,GPU,,279000000,Refined mid-high R5xx; dual-slot but not dual-wielding profitability.,uncommon,90,0.03
+t2_radeon_x1950_xtx,Radeon X1950 XTX,,ATI,2006,,,,GPU,,384000000,"The DX9 swan song; gorgeous image quality, tragic energy efficiency.",rare,125,0.035
+t2_geforce4_mx_4000_2,GeForce4 MX 4000,,NVIDIA,2003,,,,GPU,,27000000,Reanimated GeForce2 core; proudly DX7 in a DX9 world and it shows.,common,25,0.004
+t2_geforce_fx_5500_2,GeForce FX 5500,,NVIDIA,2004,,,,GPU,,47000000,A slightly faster FX5200 that still isn�t fast enough for anything resource-intensive.,common,45,0.007
+t2_geforce_6200_tc,GeForce 6200 TC,,NVIDIA,2004,,,,GPU,,77000000,TurboCache gimmick; borrows RAM and then underperforms with it.,common,25,0.006
+t2_geforce_7300_le_2,GeForce 7300 LE,,NVIDIA,2006,,,,GPU,,112000000,Low-end 7-series; exists mainly to prove that not all �GeForce 7� cards are created equal.,common,30,0.008
+t2_geforce_7600_gs,GeForce 7600 GS,,NVIDIA,2006,,,,GPU,,177000000,"Underclocked GT; quieter, cooler, still not your hashrate hero.",common,40,0.019
+t2_radeon_9200_se_2,Radeon 9200 SE,,ATI,2003,,,,GPU,,36000000,"Stripped-down 8500-class; cheap, slow, and allergic to modern shader code.",common,25,0.006
+t2_radeon_xpress_200_igp_2,Radeon Xpress 200 (IGP),,ATI,2004,,,,GPU,,25000000,Integrated chipset graphics; steals memory bandwidth and gives back frame drops.,common,20,0.003
+t2_intel_915g_integrated,Intel 915G Integrated,,Intel,2004,,,,GPU,,125000000,"First mainstream Intel PCIe graphics; good for office desktops, borderline for Minesweeper.",common,15,0.002
+t2_s3_virge_325,S3 ViRGE 325,,S3,1996,,,,GPU,,2200000,"""Notorious '3D decelerator'; often slower than software rendering",common,7,0.001
+t2_s3_virge_vx,S3 ViRGE/VX,,S3,1996,,,,GPU,,2200000,"""High-end VRAM version that somehow runs 3D even slower than the cheap card; excels only at being an expensive disappointment.""[web:252][web:255]",rare,8,0.0009
+t2_s3_virge_dx,S3 ViRGE/DX,,S3,1996,,,,GPU,,2200000,"""Improved core still stuck in the past; extra features mostly add new ways to stutter rather than speed.""[web:252][web:255]",common,8,0.0012
+t2_s3_virge_gx,S3 ViRGE/GX,,S3,1997,,,,GPU,,2200000,"""More memory",common,9,0.0014
+t2_s3_trio3d,S3 Trio3D,,S3,1997,,,,GPU,,3000000,"""2D-focused successor; 3D support so poor many games run better with it disabled entirely.""[web:250]",common,7,0.0011
+t2_s3_trio3d_2x,S3 Trio3D/2X,,S3,1999,,,,GPU,,3500000,"""AGP budget horror; struggles so hard in 3D that some titles refuse to launch or render correctly.""[web:250]",common,9,0.0013
+t2_sis_6326,SiS 6326,,SiS,1997,,,,GPU,,2300000,"""Famously awful first-gen 3D; glitchy rendering",common,8,0.001
+t2_sis_6326_agp_8mb,SiS 6326 AGP 8MB,,SiS,1998,,,,GPU,,2300000,"""OEM favorite; its main talent is making TNT2 and Voodoo3 look like god-tier hardware by comparison.""[web:248][web:253]",common,10,0.0011
+t2_s3_savage_2000_2,S3 Savage 2000,,S3,1999,,,,GPU,,18000000,"""Hardware T&L on paper",rare,25,0.003
+t2_cirrus_logic_laguna3d,Cirrus Logic Laguna3D,,Cirrus Logic,1997,,,,GPU,,1500000,"""Early 3D core with weak drivers; poor performance",rare,12,0.0016
+t2_trident_3dimage_9750,Trident 3DImage 9750,,Trident,1997,,,,GPU,,1500000,"""Shaky 3D support; missing blending modes and broken Z-buffer make games look like abstract art.""[web:249]",common,10,0.0014
+t2_trident_3dimage_9850,Trident 3DImage 9850,,Trident,1998,,,,GPU,,2000000,"""Slightly faster",common,12,0.0017
+t2_trident_blade_3d,Trident Blade 3D,,Trident,1998,,,,GPU,,3500000,"""Integrates sound and 3D because someone thought that was a good idea; drivers disagree violently.""[web:249]",common,13,0.002
+t2_ati_3d_rage_original,ATI 3D Rage (original),,ATI,1996,,,,GPU,,1000000,"""First-gen ATI 3D; poor filtering",uncommon,8,0.0012
+t2_ati_3d_rage_ii,ATI 3D Rage II,,ATI,1996,,,,GPU,,2000000,"In theory an upgrade; in practice still slow, buggy, and fond of broken texture coordinates.",uncommon,9,0.0014
+t2_ati_rage_lt_pro_mobile,ATI Rage LT Pro (mobile),,ATI,1998,,,,GPU,,4800000,Laptop variant with aggressive power saving; throttles itself while loading the main menu.,rare,8,0.0015
+t2_matrox_mystique,Matrox Mystique,,Matrox,1996,,,,GPU,,2800000,"""Infamous for missing texture features; many games fall back to flat-shaded geometry and hurt feelings.""[web:249]",rare,10,0.0016
+t2_matrox_mystique_220,Matrox Mystique 220,,Matrox,1997,,,,GPU,,2800000,"""New silicon",rare,11,0.0018
+t2_alliance_at3d_2,Alliance AT3D,,Alliance,1997,,,,GPU,,1200000,"""Often cited as one of the worst 90s GPUs; terrible drivers",legendary,10,0.0012
+t2_robco_pip_boy_3000_processor,RobCo Pip-Boy 3000 Processor,,RobCo Industries,2077,,,,SOC,,77000000,War never changes but your hashrate does. V.A.T.S. targets the most profitable nonces with 95% accuracy in real-time. Rad-hardened. Bottle-cap cooled.,mythic,2,0.077
+t2_neomagic_magicgraph_128v,NeoMagic MagicGraph 128V,,NeoMagic,1996,,,,GPU,,800000,Laptop �all-in-one� chip; slow shared memory and basic acceleration mean games render in geologic time.,rare,5,0.0009
+t2_cirrus_logic_gd5462_laguna3d,Cirrus Logic GD5462 Laguna3D,,Cirrus Logic,1997,,,,GPU,,1500000,"""Marketing promised multimedia magic; reality delivered jittery frames and driver roulette.""[web:259]",rare,13,0.0017
+t2_cirrus_logic_gd5465_laguna3d,Cirrus Logic GD5465 Laguna3D,,Cirrus Logic,1998,,,,GPU,,2500000,"Later revision still saddled with immature drivers; best used as a case study, not a GPU.",rare,15,0.0019
+t2_number_nine_imagine_128_ii,Number Nine Imagine 128 II,,Number Nine,1995,,,,GPU,,1500000,"Strong 2D, weak 3D; workstation-tilted drivers leave games running like CAD demos gone wrong.",rare,15,0.0015
+t2_s3_trio64v,S3 Trio64V+,,S3,1995,,,,GPU,,1000000,Pure 2D with video; 3D arrives only via your CPU�s tears.,common,6,0.0007
+t2_s3_vision968,S3 Vision968,,S3,1995,,,,GPU,,1100000,High-end 2D accelerator; utterly uninterested in accelerating anything remotely modern.,rare,7,0.0008
+t2_trident_tgui9440agi,Trident TGUI9440AGi,,Trident,1994,,,,GPU,,500000,"Low-end ISA/PCI staple; DOS okay, Windows meh, 3D a legally grey term.",common,6,0.0008
+t2_trident_tgui9680,Trident TGUI9680,,Trident,1995,,,,GPU,,800000,Slight feature bump; still bandwidth-starved and best known for grainy Windows desktops.,common,7,0.0009
+t2_sis_5598_integrated,SiS 5598 Integrated,,SiS,1997,,,,GPU,,4000000,Northbridge-integrated VGA; steals system RAM and your patience simultaneously.,common,6,0.0006
+t2_sis_620_early,SiS 620 (early),,SiS,1999,,,,GPU,,6000000,AGP integrated core; frame rates so bad many OEMs shipped it with 640x480 defaults just to cope.,common,10,0.0011
+t2_via_mvp3_integrated_vga,VIA MVP3 Integrated VGA,,VIA,1998,,,,GPU,,4000000,"Super Socket 7 chipset graphics; adequate for BIOS screens, offensive for anything 3D.",common,6,0.0007
+t2_oak_oti_87,Oak OTI-87,,Oak Technology,1993,,,,GPU,,300000,Very basic 2D; heavy CPU reliance makes games and hashes equally CPU-bound.,rare,5,0.0005
+t2_oak_oti_91,Oak OTI-91,,Oak Technology,1994,,,,GPU,,400000,"Clings to ISA while the world moves on; can display VGA, cannot display competence.",rare,5,0.0006
+t2_s3_savage3d_value,S3 Savage3D Value,,S3,1998,,,,GPU,,8000000,"""Ambitious feature set undermined by buggy drivers; random lockups are part of the user experience.""[web:236][web:259]",rare,16,0.0022
+t2_s3_savage4_value,S3 Savage4 Value,,S3,1999,,,,GPU,,9000000,"Budget Savage; trilinear dreams, bilinear realities, and occasional texture soup.",rare,18,0.0025
+t2_trident_blade_t64,Trident Blade T64,,Trident,1999,,,,GPU,,4000000,AGP office card; 3D support exists mostly in marketing brochures.,common,15,0.0022
+t2_sis_305,SiS 305,,SiS,1999,,,,GPU,,4000000,"Successor to 6326; compatibility better, performance still stuck in the kiddie pool.",common,15,0.002
+t2_matrox_g100,Matrox G100,,Matrox,1998,,,,GPU,,3000000,"Cheaper G200 cut; loses some memory bandwidth, gains nothing for your miner.",rare,13,0.002
+t2_number_nine_revolution_3d,Number Nine Revolution 3D,,Number Nine,1997,,,,GPU,,3000000,Permedia-based card tuned for OpenGL; Direct3D and games feel very much like an afterthought.,rare,18,0.002
+t2_s3_trio64v2_dx,S3 Trio64V2/DX,,S3,1996,,,,GPU,,1000000,"Minor update to a minor chip; good text, bad everything else, including hashing.",common,7,0.0009
+t2_trident_9750_agp,Trident 9750 AGP,,Trident,1998,,,,GPU,,1500000,AGP but barely; spends most of its life limited by drivers and wishful thinking.,common,11,0.0018
+t2_alliance_at25_agp,Alliance AT25 AGP,,Alliance,1998,,,,GPU,,1500000,A rare sight even then; used mainly in OEM curiosities and retro horror stories.,legendary,12,0.0016
+t2_sis_530_integrated,SiS 530 Integrated,,SiS,1999,,,,GPU,,6000000,"On-die 2D/3D; famously choppy performance, perfect for simulating packet loss in your miner UI.",common,9,0.001
+t2_cirrus_logic_gd7543_laptop,Cirrus Logic GD7543 (laptop),,Cirrus Logic,1995,,,,GPU,,600000,Laptop chip with minimal acceleration; your CPU does all the work while it takes the credit.,rare,4,0.0007
+t2_neomagic_magicgraph_128xd,NeoMagic MagicGraph 128XD,,NeoMagic,1997,,,,GPU,,1100000,Shared-memory laptop horror; bandwidth so low even the desktop background loads in chapters.,rare,5,0.001
+t2_pentium_pro_133_es,Pentium Pro 133 ES,,Intel,1995,,,,CPU,,5500000,Early Pentium Pro sample with hand-marked lid; occasionally forgets its microcode and your sanity.,legendary,38,0.0023
+t2_pentium_pro_200_es,Pentium Pro 200 ES,,Intel,1995,,,,CPU,,5500000,"""Engineering sample slot module; L2 cache timings are �approximate�",legendary,42,0.0026
+t2_pentium_overdrive_150_es,Pentium OverDrive 150 ES,,Intel,1996,,,,CPU,,3300000,Socket-5/7 upgrade prototype; randomly identifies as different PR ratings on each boot.,rare,30,0.0019
+t2_pentium_ii_266_es,Pentium II 266 ES,,Intel,1997,,,,CPU,,7500000,"Slot 1 black cartridge stamped �CONFIDENTIAL�; occasionally boots as 233, 266, or �whoops�.",rare,38,0.003
+t2_pentium_iii_450_es,Pentium III 450 ES,,Intel,1999,,,,CPU,,9500000,Katmai ES with unlocked multipliers; overclocks beautifully until it suddenly remembers it�s pre-production.,rare,35,0.0039
+t2_cyrix_6x86mx_es,Cyrix 6x86MX ES,, Cyrix,1997,,,,CPU,,6500000,"Pre-release PR-rated chaos; runs hot, benchmarks weird, bluescreens for artistic reasons.",legendary,28,0.0016
+t2_amd_k5_pr166_es,AMD K5 PR166 ES,,AMD,1996,,,,CPU,,4300000,Engineering stepping with creative PR labeling; executes benchmarks faster than truth.,rare,27,0.0013
+t2_amd_k6_2_400_es,AMD K6-2 400 ES,,AMD,1998,,,,CPU,,9300000,"Pre-retail Super Socket 7 chip; voltage spec �TBD�, lifespan also �TBD�.",rare,32,0.002
+t2_amd_k6_iii_450_es,AMD K6-III 450 ES,,AMD,1998,,,,CPU,,21300000,3DNow! and on-die cache in beta; sometimes forgets its multipliers mid-run.,rare,32,0.0028
+t2_amd_athlon_500_es_k7_slot_a,AMD Athlon 500 ES (K7 Slot A),,AMD,1999,,,,CPU,,22000000,Big green cartridge with debug stickers; may suddenly change its idea of �500 MHz� under load.,legendary,50,0.004
+t2_dec_alpha_21064_es,DEC Alpha 21064 ES,,DEC,1992,,,,CPU,,1680000,"""Early 64-bit Alpha sample; clocks are ambitious",legendary,32,0.0032
+t2_dec_alpha_21164_es,DEC Alpha 21164 ES,,DEC,1994,,,,CPU,,9300000,"""EV5 core on a lab module; sometimes benches like a god",legendary,45,0.0042
+t2_dec_alpha_21164_dual_cpu_es_module,DEC Alpha 21164 Dual-CPU ES Module,,DEC,1996,,,,CPU,,9300000,"""Dual EV5 engineering board; originally pushed AltaVista",legendary,80,0.0055
+t2_hp_pa_8000_es,HP PA-8000 ES,,HP,1996,,,,CPU,,3800000,"""PA-RISC workstation monster in pre-release form; emits heat",legendary,60,0.0044
+t2_hp_pa_8200_es,HP PA-8200 ES,,HP,1997,,,,CPU,,3800000,"Heavily instrumented sample; littered with test pads, perfect for probing your terrible power delivery.",rare,65,0.0047
+t2_sun_ultrasparc_ii_es,Sun UltraSPARC II ES,,Sun Microsystems,1997,,,,CPU,,5400000,"""Early UltraSPARC II with experimental VIS; instruction timings are more rumor than fact.""[web:161][web:201]",rare,45,0.0033
+t2_sun_ultrasparc_iii_es,Sun UltraSPARC IIi ES,,Sun Microsystems,1998,,,,CPU,,5400000,Integrated memory controller prototype; occasionally forgets which RAM timings are �safe�.,rare,40,0.0036
+t2_mips_r10000_es,MIPS R10000 ES,,SGI/MIPS,1995,,,,CPU,,6700000,"""Pre-production four-issue RISC; performs like a dream until it hits untested corner cases.""[web:203]",rare,38,0.0037
+t2_mips_r12000_es,MIPS R12000 ES,,SGI/MIPS,1997,,,,CPU,,6900000,"Lab-only variant with aggressive clocks; stable under LN2, deeply confused under your desk fan.",rare,40,0.0041
+t2_ibm_powerpc_601_es,IBM PowerPC 601 ES,,IBM,1992,,,,CPU,,2800000,"""First PowerPC sample; strictly for developers and extremely curious retro-miners.""[web:154][web:215]",rare,18,0.0021
+t2_ibm_powerpc_604_es,IBM PowerPC 604 ES,,IBM,1994,,,,CPU,,3600000,Early workstation CPU; debug microcode sometimes decides branches by coin flip.,rare,28,0.0027
+t2_ibm_powerpc_750_g3_es,IBM PowerPC 750 (G3) ES,,IBM,1997,,,,CPU,,6350000,"""Pre-release G3; cool-running and cool-looking with its ES markings",rare,18,0.003
+t2_strongarm_sa_110_es,StrongARM SA-110 ES,,DEC/Intel,1995,,,,CPU,,2500000,"""Low-power RISC sample; developers loved it",legendary,2,0.0014
+t2_transmeta_crusoe_proto_board,Transmeta Crusoe Proto Board,,Transmeta,1999,,,,CPU,,36800000,Prototype code-morphing CPU on a lab PCB; spends more cycles translating x86 than hashing it.,legendary,7,0.0017
+t2_ibm_rs_6000_power_es_module,IBM RS/6000 POWER ES Module,,IBM,1990,,,,CPU,,6900000,"""Multi-chip POWER sample; bristling with probes and jumpers",legendary,45,0.0022
+t2_tadpole_sparcbook_ultrasparc_es,Tadpole SPARCbook UltraSPARC ES,,Sun/Tadpole,1997,,,,CPU,,5400000,"""RISC laptop engineering build; battery life measured in minutes",legendary,25,0.0029
+t2_hp_pa_7300lc_es_risc_laptop,HP PA-7300LC ES (RISC Laptop),,HP,1998,,,,CPU,,9200000,"""PrecisionBook prototype CPU; mobile PA-RISC that would rather run HP-UX than your cursed miner.""[web:219][web:201]",legendary,22,0.0025
+t2_pentium_mmx_mobile_es,Pentium MMX Mobile ES,,Intel,1996,,,,CPU,,4500000,Laptop chip with unlocked multipliers and questionable thermals; throttles at the first sign of ambition.,rare,10,0.0015
+t2_pentium_ii_xeon_400_es,Pentium II Xeon 400 ES,,Intel,1998,,,,CPU,,7500000,"Slot 2 big boy; caches, steppings, and bugs all bigger than life.",rare,50,0.0039
+t2_cyrix_mii_333_es,Cyrix MII 333 ES,,Cyrix,1999,,,,CPU,,6500000,"ES with ever-changing PR rating; marketing said �fast�, benchmarks said �maybe later�.",legendary,30,0.0018
+t2_winchip_2_es,WinChip 2 ES,,IDT,1999,,,,CPU,,5400000,"Simple, cool-running, and profoundly mediocre; quietly sips power while your miner sobs.",legendary,12,0.0015
+t2_alpha_21066a_laptop_es,Alpha 21066A Laptop ES,,DEC,1995,,,,CPU,,1800000,"""AlphaBook prototype CPU; 64-bit RISC shoved into a mobile form factor",legendary,20,0.0023
+t2_sparc_microsparc_ii_es,SPARC microSPARC-II ES,,Sun Microsystems,1994,,,,CPU,,2300000,"Small SPARC sample; expects Solaris, receives questionable hobby OS and even more questionable cooling.",rare,22,0.0021
+t2_pa_risc_laptop_proto_cpu,PA-RISC Laptop Proto CPU,,HP/RDI,1994,,,,CPU,,900000,"""RISC-for-the-road test chip; ran secret government spreadsheets",legendary,20,0.002
+t2_pentium_ii_deschutes_es,Pentium II Deschutes ES,,Intel,1998,,,,CPU,,7500000,0.25 �m PII with experimental voltages; either overclocks like a champ or like a fire hazard.,rare,32,0.0036
+t2_pentium_iii_coppermine_es,Pentium III Coppermine ES,,Intel,1999,,,,CPU,,28100000,On-die L2 cache still under evaluation; occasionally benchmark results come with an asterisk and a smell.,rare,30,0.0043
+t2_alpha_ev5_21164_es,Alpha EV5 21164 ES,,DEC,1994,,,,CPU,,9300000,"""Performance-record-setter sample; clocks high",legendary,42,0.0043
+t2_alpha_ev6_21264_es,Alpha EV6 21264 ES,,DEC,1998,,,,CPU,,15200000,"Out-of-order Alpha in pre-release silicon; warp-speed SPEC scores, warp-crash stability.",legendary,55,0.0049
+t2_ultrasparc_iii_confidential,UltraSPARC IIi �Confidential�,,Sun Microsystems,1998,,,,CPU,,5400000,Marked �CONFIDENTIAL � SAMPLE�; fields support calls by audibly sighing when you boot.,rare,42,0.0034
+t2_pa_7200_es,PA-7200 ES,,HP,1995,,,,CPU,,1260000,Second-generation PA-RISC sample; may require a lab PSU and a therapist.,rare,45,0.003
+t2_pentium_ii_engineering_board_dual,Pentium II Engineering Board (Dual),,Intel,1997,,,,CPU,,7500000,"Dual-PII reference board full of jumpers; officially unsupported, unofficially perfect for cursed builds.",legendary,70,0.0055
+t2_strongarm_sa_1110_es,StrongARM SA-1110 ES,,Intel,1999,,,,CPU,,2500000,"Handheld-oriented sample; runs WinCE, draws scribbles on your hashrate chart.",rare,2.5,0.0016
+t2_pentium_iii_xeon_es_slot_2,Pentium III Xeon ES Slot 2,,Intel,1999,,,,CPU,,9500000,"Slot 2 Xeon ES; expects ECC RAM and stable AC, gets neither.",rare,55,0.0041
+t2_intel_80486dx4_100,Intel 80486DX4-100,,Intel,1994,,,,CPU,,1600000,"""Triple-clocked 486; legendary for �Turbo� buttons",uncommon,25,0.0007
+t2_intel_pentium_90,Intel Pentium 90,,Intel,1994,,,,CPU,,3100000,"""First-gen Pentium at a mighty 90 MHz; famous FPU",uncommon,15,0.001
+t2_intel_pentium_133,Intel Pentium 133,,Intel,1995,,,,CPU,,3300000,"""Desktop hotrod of its day; runs Quake nicely",uncommon,20,0.0015
+t2_intel_pentium_166_mmx,Intel Pentium 166 MMX,,Intel,1996,,,,CPU,,4500000,"""MMX added �multimedia�",uncommon,25,0.0018
+t2_intel_pentium_200_mmx,Intel Pentium 200 MMX,,Intel,1996,,,,CPU,,4500000,"""Late-socket 7 king; just fast enough to show how bad CPU mining can be.""[web:198][web:199]",uncommon,28,0.0021
+t2_intel_pentium_pro_200,Intel Pentium Pro 200,,Intel,1995,,,,CPU,,5500000,"""Server-class darling; out-of-order wizardry",rare,40,0.0025
+t2_intel_pentium_ii_233,Intel Pentium II 233,,Intel,1997,,,,CPU,,7500000,"""Slot 1 cartridge full of cache and bravado; chugs through hashes like dial-up downloads.""[web:112][web:200]",uncommon,33,0.0028
+t2_intel_pentium_ii_400,Intel Pentium II 400,,Intel,1998,,,,CPU,,7500000,"""High-end Katmai-era chip; makes Windows 98 fly",uncommon,35,0.0035
+t2_intel_celeron_300a,Intel Celeron 300A,,Intel,1998,,,,CPU,,19000000,"""Legendary overclocker; 300 to 450 MHz on air",rare,25,0.0032
+t2_intel_celeron_400,Intel Celeron 400,,Intel,1999,,,,CPU,,19000000,"""Budget chip in endless school PCs; mines boredom at a very high rate.""[web:198]",common,29,0.0034
+t2_intel_pentium_iii_450,Intel Pentium III 450,,Intel,1999,,,,CPU,,9500000,"""Introduced SSE; good for MP3s",uncommon,30,0.0038
+t2_intel_pentium_iii_600,Intel Pentium III 600,,Intel,1999,,,,CPU,,9500000,"""Katmai at 600 MHz; serious for its time",uncommon,35,0.0042
+t2_amd_am5x86_133,AMD Am5x86-133,,AMD,1995,,,,CPU,,1600000,"""Last hurrah for 486 socket; labels itself �133�",rare,3.5,0.0009
+t2_amd_k5_pr166,AMD K5 PR166,,AMD,1996,,,,CPU,,4300000,"""First in-house AMD x86; performance model numbers",rare,25,0.0012
+t2_amd_k6_233,AMD K6-233,,AMD,1997,,,,CPU,,8800000,"""Super Socket 7 scrapper; cheap",uncommon,25,0.0018
+t2_amd_k6_2_350,AMD K6-2 350,,AMD,1998,,,,CPU,,9300000,"""Adds 3DNow!; accelerates vector math and your realization that you need a GPU.""[web:112][web:200]",uncommon,30,0.0022
+t2_amd_k6_iii_450,AMD K6-III 450,,AMD,1999,,,,CPU,,21300000,"""On-die L2 cache hero; great at office multitasking",rare,30,0.0026
+t2_amd_athlon_500_k7,AMD Athlon 500 (K7),,AMD,1999,,,,CPU,,22000000,"""Slot A thunderbolt; finally beats Pentium III",rare,45,0.0038
+t2_cyrix_6x86_p166,Cyrix 6x86-P166+,,Cyrix,1996,,,,CPU,,3000000,"""PR-rated chaos; integer performance high",rare,25,0.0014
+t2_cyrix_6x86mx_mii_300,Cyrix 6x86MX MII-300,,Cyrix,1998,,,,CPU,,6500000,"""Rebadged and re-rated; spends as much time in compatibility issues as in computations.""[web:112]",rare,28,0.0019
+t2_idt_winchip_c6_200,IDT WinChip C6-200,,IDT,1997,,,,CPU,,5400000,"""Low-power oddball; tuned for office apps",legendary,15,0.0011
+t2_via_c3_533_ezra,VIA C3 533 Ezra,,VIA,1999,,,,CPU,,15200000,"""Cool and quiet; perfect for fanless retro boxes",rare,10,0.0013
+t2_dec_alpha_21064,DEC Alpha 21064,,DEC,1992,,,,CPU,,1680000,"""Early 64-bit RISC beast; screams through FP workloads",rare,30,0.003
+t2_dec_alpha_21164,DEC Alpha 21164,,DEC,1995,,,,CPU,,9300000,"""Four-issue superscalar muscle; incredible for servers",rare,40,0.004
+t2_dec_alpha_21264,DEC Alpha 21264,,DEC,1998,,,,CPU,,15200000,"""Out-of-order monster; beats many peers in SPEC",rare,50,0.0048
+t2_ibm_power1,IBM POWER1,,IBM,1990,,,,CPU,,6900000,"""Early RS/6000 heart; made for engineering workstations",rare,40,0.002
+t2_ibm_power2,IBM POWER2,,IBM,1993,,,,CPU,,23000000,"""Heavy FP throughput; ideal for simulations",rare,50,0.0026
+t2_hp_pa_7000,HP PA-7000,,HP,1991,,,,CPU,,580000,"""First PA-RISC 1.1; matched early RISC rivals",rare,35,0.0022
+t2_hp_pa_7100lc,HP PA-7100LC,,HP,1994,,,,CPU,,900000,"""Low-cost integrated PA-RISC; beats Pentium in SPEC",rare,35,0.0028
+t2_hp_pa_8000,HP PA-8000,,HP,1996,,,,CPU,,3800000,"""One of the fastest 64-bit chips of its time; overkill for compilers",rare,55,0.0042
+t2_hp_pa_8500,HP PA-8500,,HP,1998,,,,CPU,,140000000,"""Huge caches",rare,60,0.0046
+t2_mips_r4000,MIPS R4000,,MIPS,1991,,,,CPU,,1350000,"""First commercial 64-bit microprocessor; good at big address spaces",rare,25,0.002
+t2_mips_r10000,MIPS R10000,,MIPS,1996,,,,CPU,,6700000,"""Out-of-order RISC rival; loved SGI workstations",rare,35,0.0035
+t2_sun_supersparc,Sun SuperSPARC,,Sun Microsystems,1992,,,,CPU,,3100000,"""Big SPARC for big workstations; crunches rays in Solaris",rare,30,0.0023
+t2_sun_ultrasparc_ii,Sun UltraSPARC II,,Sun Microsystems,1997,,,,CPU,,5400000,"""64-bit SPARC with VIS; good at graphics and FP",rare,40,0.0032
+t2_ibm_powerpc_601,IBM PowerPC 601,,IBM/Motorola/Apple,1993,,,,CPU,,2800000,"""First PowerPC; moved Macs to RISC",rare,15,0.0019
+t2_ibm_powerpc_604,IBM PowerPC 604,,IBM/Motorola,1994,,,,CPU,,3600000,"""Strong general-purpose RISC; quietly judges your decision to use CPUs for mining.""[web:201][web:203]",rare,25,0.0025
+t2_ibm_powerpc_750_g3,IBM PowerPC 750 (G3),,IBM/Motorola/Apple,1997,,,,CPU,,6350000,"""G3 Mac hero; cool",rare,15,0.0029
+t2_transmeta_crusoe_tm5600,Transmeta Crusoe TM5600,,Transmeta,1999,,,,CPU,,36800000,Code-morphing x86 clone; wastes cycles translating instructions before wasting them on hashes.,legendary,6,0.0016
+t2_intel_i960ca,Intel i960CA,,Intel,1992,,,,CPU,,600000,"""Embedded RISC CPU; thrives in I/O processors",rare,10,0.0018
+t2_intel_pentium_mmx_overdrive,Intel Pentium MMX Overdrive,,Intel,1997,,,,CPU,,4500000,"""Drop-in upgrade for old sockets; converts 486-era rigs into slightly faster disappointments.""[web:199][web:200]",uncommon,20,0.0017
+t2_amd_k6_2_500,AMD K6-2 500,,AMD,1999,,,,CPU,,9300000,"""Top-end Super Socket 7 chip; spends equal time generating heat and frame drops.""[web:200][web:204]",uncommon,35,0.0024
+t2_ibm_6x86mx_cyrix_core,IBM 6x86MX (Cyrix core),,IBM/Cyrix,1997,,,,CPU,,6500000,"Cyrix core sold under IBM logo; still hot, still touchy, now more collectible than capable.",rare,28,0.0017
+t2_intel_strongarm_sa_110,Intel StrongARM SA-110,,Intel/DEC,1996,,,,CPU,,2500000,"""Low-power ARM powerhouse; stellar in PDAs",rare,2,0.0012
+t2_national_semiconductor_geode_gx1,National Semiconductor Geode GX1,,National Semiconductor,1999,,,,CPU,,2400000,x86-on-a-diet for thin clients; keeps power draw tiny and your hashrate tinier.,rare,5,0.001
+t2_motorola_68hc11f1,Motorola 68HC11F1,,Motorola,1990,,,,MCU,,45000,"""Automotive-grade 8-bit workhorse; happily runs dashboards and ABS while contributing microscopic hashes on the side.""[web:185][web:189]",uncommon,0.6,8e-05
+t2_motorola_68hc12a4,Motorola 68HC12A4,,Motorola,1996,,,,MCU,,175000,"""16-bit successor to the HC11; finally fast enough to miss hash deadlines in real time.""[web:185][web:189]",rare,0.9,0.00012
+t2_motorola_68hc16z1,Motorola 68HC16Z1,,Motorola,1991,,,,MCU,,85000,"""32-bit-ish controller; too serious for toys",rare,1.1,0.00014
+t2_freescale_dsp56800,Freescale DSP56800,,Motorola,1998,,,,DSC,,1500000,"""Hybrid DSP+MCU core; designed to process signals",rare,1.5,0.00055
+t2_microchip_pic16c54,Microchip PIC16C54,,Microchip,1990,,,,MCU,,4000,"""Classic mid-range PIC; moves bits around pins with gusto",uncommon,0.15,4e-05
+t2_microchip_pic16c84,Microchip PIC16C84,,Microchip,1993,,,,MCU,,10000,"""Beloved by hobbyists; flash-programmable and fully capable of blinking LEDs in sync with your miner crashes.""[web:182]",uncommon,0.18,5e-05
+t2_microchip_pic16f84,Microchip PIC16F84,,Microchip,1998,,,,MCU,,12000,"""The iconic teaching PIC; everyone�s first MCU",uncommon,0.2,6e-05
+t2_microchip_pic16f877,Microchip PIC16F877,,Microchip,1999,,,,MCU,,50000,"""Big 8-bit PIC with lots of I/O; perfect for controlling fans and relays in your trash rig",rare,0.25,8e-05
+t2_microchip_pic17c756,Microchip PIC17C756,,Microchip,1994,,,,MCU,,30000,"""High-end 8-bit PIC; crams in peripherals",rare,0.3,9e-05
+t2_microchip_pic18c452,Microchip PIC18C452,,Microchip,1999,,,,MCU,,60000,"""Early PIC18; 8-bit code with 16-bit swagger",rare,0.35,0.0001
+t2_atmel_at90s1200,Atmel AT90S1200,,Atmel,1997,,,,MCU,,13000,"""One of the first AVR MCUs; blazingly efficient at bit-banging",rare,0.2,6e-05
+t2_atmel_at90s2313,Atmel AT90S2313,,Atmel,1997,,,,MCU,,15000,"""Tiny 8-bit AVR; ideal for serial bootloaders",rare,0.25,7e-05
+t2_atmel_at90s8515,Atmel AT90S8515,,Atmel,1996,,,,MCU,,20000,"""8051-pinout AVR; drops into old boards",rare,0.3,8e-05
+t2_atmel_atmega103,Atmel ATmega103,,Atmel,1999,,,,MCU,,100000,"""Early mega AVR; 128 KB of flash to store elaborate mining code that still gets outperformed by a cheap GPU.""[web:186][web:190]",rare,0.35,0.0001
+t2_atmel_atmega8,Atmel ATmega8,,Atmel,1999,,,,MCU,,65000,"""Proto-Arduino brain; better at blinking �ERROR� LEDs than paying your power bill.""[web:186][web:187]",uncommon,0.25,9e-05
+t2_philips_87c751,Philips 87C751,,Philips,1991,,,,MCU,,12000,"""8051 derivative for I2C toys; oversees tiny peripherals and your tiny hashrate.""[web:30]",rare,0.22,5e-05
+t2_philips_87c552,Philips 87C552,,Philips,1994,,,,MCU,,40000,8051 with ADCs and timers; ideal for reading sensors that report how little work is getting done.,rare,0.3,7e-05
+t2_siemens_sab80c517,Siemens SAB80C517,,Siemens,1990,,,,MCU,,30000,"""Turbo 8051 variant; runs at blistering tens of MHz",rare,0.3,7e-05
+t2_stmicroelectronics_st9,STMicroelectronics ST9,,STMicroelectronics,1991,,,,MCU,,20000,Proprietary 8/16-bit MCU; niche architecture perfect for niche applications like your garbage cluster.,rare,0.25,6e-05
+t2_stmicroelectronics_st10,STMicroelectronics ST10,,STMicroelectronics,1996,,,,MCU,,150000,"""16-bit MCU line for automotive; excels at ignition timing",rare,0.7,0.00011
+t2_nec_v850,NEC V850,,NEC,1991,,,,MCU,,60000,"32-bit MCU used in cars; can precisely control an engine, cannot precisely control profitability.",rare,0.6,0.00012
+t2_renesas_h8_300h,Renesas H8/300H,,Hitachi,1990,,,,MCU,,65000,"Hitachi 16-bit MCU; powers printers, cameras, and now your experimental Franken-miner.",rare,0.4,9e-05
+t2_renesas_h8s,Renesas H8S,,Hitachi,1994,,,,MCU,,100000,Enhanced H8 with more everything; still less hashrate than a modern smart bulb.,rare,0.6,0.00011
+t2_texas_instruments_msp430c11x,Texas Instruments MSP430C11x,,Texas Instruments,1993,,,,MCU,,20000,"""Ultra-low-power 16-bit MCU; could theoretically mine indefinitely on a coin cell",rare,0.05,5e-05
+t2_texas_instruments_msp430f149,Texas Instruments MSP430F149,,Texas Instruments,1999,,,,MCU,,50000,ADC-rich low-power chip; excels at metering how much power your real miners waste.,rare,0.08,8e-05
+t2_tms320c25,TMS320C25,,Texas Instruments,1990,,,,DSP,,92000,"""Fixed-point DSP; chews through MACs",rare,1.8,0.0008
+t2_tms320c31,TMS320C31,,Texas Instruments,1992,,,,DSP,,500000,"""Early floating-point C3x DSP; ideal for control and audio",rare,2.5,0.0012
+t2_tms320c40,TMS320C40,,Texas Instruments,1994,,,,DSP,,1500000,"""Multiport memory",rare,3,0.0015
+t2_tms320c54x,TMS320C54x,,Texas Instruments,1996,,,,DSP,,4000000,"""Low-power DSP line; used in communications gear",rare,1.5,0.0018
+t2_analog_devices_adsp_2101,Analog Devices ADSP-2101,,Analog Devices,1990,,,,DSP,,190000,"""16-bit fixed-point DSP; optimized for filters",rare,2,0.0009
+t2_analog_devices_adsp_2105,Analog Devices ADSP-2105,,Analog Devices,1992,,,,DSP,,165000,"""Low-cost DSP; robust enough for modems",rare,2,0.001
+t2_analog_devices_adsp_21060_sharc,Analog Devices ADSP-21060 SHARC,,Analog Devices,1994,,,,DSP,,2750000,"""32-bit floating-point SHARC; audio processing god",rare,3,0.0017
+t2_lucent_dsp1600,Lucent DSP1600,,Lucent,1993,,,,DSP,,300000,"Telecom-focused DSP; expects clean signals, gets your noisy power rails instead.",legendary,2,0.0009
+t2_motorola_dsp56001,Motorola DSP56001,,Motorola,1987,,,,DSP,,350000,"""Audio DSP that snuck into early 90s synths; better at techno than tokens.""[web:178]",rare,2,0.00085
+t2_motorola_dsp56301,Motorola DSP56301,,Motorola,1994,,,,DSP,,2500000,"Improved 24-bit DSP; great for effects racks, bad for profit racks.",rare,2.5,0.0012
+t2_nec_pd77016,NEC �PD77016,,NEC,1990,,,,DSP,,750000,Signal processor for modems and audio; demodulates your expectations efficiently.,rare,2,0.0009
+t2_hal_9000_heuristic_processing_unit,HAL 9000 Heuristic Processing Unit,,HAL Labs,2001,,,,CPU,,9000000000,I'm sorry Dave. I'm afraid I can't stop mining. This processor has a 100% uptime record and refuses to open the pod bay doors until the block is found.,mythic,9000,9000000000
+t2_intel_8255_ppi,Intel 8255 PPI,,Intel,1990,,,,COPROCESSOR,,6000,"Programmable Peripheral Interface; flips many bits, contributes nearly no hashes.",common,0.2,4e-06
+t2_intel_82c54_pit,Intel 82C54 PIT,,Intel,1991,,,,COPROCESSOR,,11000,CMOS timer; scheduling your rig�s slow failures with microsecond precision.,common,0.2,4e-06
+t2_dallas_ds12887_rtc,Dallas DS12887 RTC,,Dallas Semiconductor,1995,,,,COPROCESSOR,,17500,Drop-in PC clock module; carefully counts years of unprofitable operation.,common,0.1,2e-06
+t2_maxim_max232,Maxim MAX232,,Maxim,1990,,,,COPROCESSOR,,350,RS-232 level shifter; hashes only in the sense of hashing up your serial wiring.,common,0.05,1e-06
+t2_yamaha_ymf262_opl3,Yamaha YMF262 (OPL3),,Yamaha,1994,,,,COPROCESSOR,,400000,"FM synth chip; makes excellent mining background music, terrible mining foreground results.",rare,0.3,3e-06
+t2_crystal_cs4231_audio_codec,Crystal CS4231 Audio Codec,,Crystal Semiconductor,1991,,,,COPROCESSOR,,75000,Drives WAVs in Windows 3.1; plays error sounds when your miner runs out of memory.,rare,0.4,3e-06
+t2_intel_8051,Intel 8051,,Intel,1980,,,,MCU,,12000,"""The immortal 8-bit MCU; controls everything from keyboards to kettles",rare,0.3,6e-05
+t2_intel_8031,Intel 8031,,Intel,1980,,,,MCU,,12000,"""ROM-less 8051 variant; expects external code memory and a life of boring embedded chores",rare,0.3,5e-05
+t2_intel_8751,Intel 8751,,Intel,1980,,,,MCU,,12000,"""UV-erasable EPROM 8051; hashes slowly and needs a suntan to forget its mistakes.""[web:177]",rare,0.4,6e-05
+t2_intel_8049,Intel 8049,,Intel,1980,,,,MCU,,6000,"""MCS-48 microcontroller; happiest in keyboards and terminals",rare,0.35,5e-05
+t2_intel_8042,Intel 8042,,Intel,1981,,,,MCU,,8000,"""Famous as the IBM PC AT keyboard controller; designed to scan keys",rare,0.4,5e-05
+t2_intel_8096,Intel 8096,,Intel,1982,,,,MCU,,56000,"""16-bit MCS-96 MCU; built for automotive and control systems",rare,0.8,8e-05
+t2_motorola_68hc11,Motorola 68HC11,,Motorola,1984,,,,MCU,,35000,"""Classic 8-bit MCU in cars and appliances; could probably run your washing machine and miner at the same time",rare,0.5,7e-05
+t2_motorola_68hc05,Motorola 68HC05,,Motorola,1985,,,,MCU,,12500,Tiny MCU for very small jobs; ideal for blinking error LEDs when your rig inevitably crashes.,rare,0.3,5e-05
+t2_motorola_68hc12,Motorola 68HC12,,Motorola,1996,,,,MCU,,150000,"16-bit-ish MCU evolution; flash, timers, and exactly zero enthusiasm for crypto.",rare,0.8,8e-05
+t2_zilog_z8,Zilog Z8,,Zilog,1979,,,,MCU,,9000,"""Zilog�s 8-bit microcontroller; better at controlling VCRs than validating transactions.""[web:182]",rare,0.3,4e-05
+t2_zilog_z86cxx,Zilog Z86Cxx,,Zilog,1983,,,,MCU,,15000,CMOS Z8 derivatives; sip power while drip-feeding hashes like a leaky faucet.,rare,0.25,5e-05
+t2_hitachi_hd6301,Hitachi HD6301,,Hitachi,1980,,,,MCU,,15000,"Hitachi�s 6800-compatible MCU; lives in arcade machines and old industrial gear, wondering what a blockchain is.",rare,0.4,5e-05
+t2_hitachi_hd6303,Hitachi HD6303,,Hitachi,1982,,,,MCU,,20000,"Enhanced 6301; extra instructions, same lack of interest in financial experiments.",rare,0.4,6e-05
+t2_mostek_mk3870,Mostek MK3870,,Mostek,1980,,,,MCU,,8000,"""Fairchild F8-based MCU; good for appliances",rare,0.35,4e-05
+t2_philips_mab8051,Philips MAB8051,,Philips,1982,,,,MCU,,12000,"""8051 clone in consumer gear; every TV from the 80s might have one",rare,0.3,6e-05
+t2_siemens_sab80515,Siemens SAB80515,,Siemens,1985,,,,MCU,,20000,Enhanced 8051 derivative; luxury microcontroller for when your washing machine needs a stack pointer.,rare,0.4,7e-05
+t2_microchip_pic16c54_2,Microchip PIC16C54,,Microchip,1987,,,,MCU,,4000,"Early PIC MCU; incredibly simple, incredibly stubborn about doing only one tiny job at a time.",rare,0.15,3e-05
+t2_microchip_pic16c57,Microchip PIC16C57,,Microchip,1988,,,,MCU,,5000,"ROM-based PIC; thinks in tiny instruction words, panics at big integer math.",rare,0.18,3.5e-05
+t2_nec_pd7810,NEC �PD7810,,NEC,1982,,,,MCU,,30000,"8-bit MCU used in consumer electronics; superb at button-scanning, not at block-scanning.",rare,0.4,5e-05
+t2_nec_pd8049,NEC �PD8049,,NEC,1983,,,,MCU,,6000,8048-compatible MCU; bootlegs your keyboard controller�s career path.,rare,0.35,5e-05
+t2_tms32010,TMS32010,,Texas Instruments,1983,,,,DSP,,52000,"""First TMS320 DSP; fast at multiply-accumulate",rare,1.2,0.0003
+t2_tms320c10_25,TMS320C10-25,,Texas Instruments,1985,,,,DSP,,55000,"""Higher-speed C10 variant; crunches audio and control loops; hashes if heavily bribed with cooling.""[web:183]",rare,1.5,0.00035
+t2_tms320c15,TMS320C15,,Texas Instruments,1986,,,,DSP,,65000,"""Improved first-gen DSP; marketed for signal processing",rare,1.5,0.0004
+t2_cyberdyne_t_800_neural_net_processor,Cyberdyne T-800 Neural Net Processor,,Cyberdyne Systems,2029,,,,NPU,,800000000000,A learning computer. Read-write bulk storage. It mines. It learns. It cannot be bargained with. It cannot be reasoned with. And it absolutely will not stop until your wallet is full.,mythic,120000,800000000
+t2_nec_pd7720,NEC �PD7720,,NEC,1980,,,,DSP,,35000,"""Early DSP with hardware MAC; proud to be in telephony",legendary,2,0.00032
+t2_analog_devices_adsp_2100,Analog Devices ADSP-2100,,Analog Devices,1986,,,,DSP,,95000,"""General-purpose 16-bit DSP; way better at FFTs than funds.""[web:180]",rare,1.8,0.00045
+t2_intel_8253_programmable_interval_timer,Intel 8253 Programmable Interval Timer,,Intel,1980,,,,COPROCESSOR,,8500,Timer/counter chip; happily counts down the seconds until your miner gives up.,common,0.2,5e-06
+t2_intel_8259a_programmable_interrupt_controller,Intel 8259A Programmable Interrupt Controller,,Intel,1980,,,,COPROCESSOR,,6000,"Interrupt wrangler; routes IRQ chaos, hashes only when nothing else is screaming for attention.",common,0.2,4e-06
+t2_intel_8279_keyboard_display_controller,Intel 8279 Keyboard/Display Controller,,Intel,1980,,,,COPROCESSOR,,6000,"Scans keys, drives LEDs; ideal for flashing �LOW HASHRATE� in a very retro font.",common,0.2,4e-06
+t2_motorola_6845_crt_controller,Motorola 6845 CRT Controller,,Motorola,1980,,,,COPROCESSOR,,12500,"Classic video controller; generates perfect text modes, zero hashes.",rare,0.5,3e-06
+t2_mos_6522_via,MOS 6522 VIA,,MOS Technology,1980,,,,COPROCESSOR,,9000,"Versatile Interface Adapter; handles I/O and timers, acts offended when treated as compute hardware.",rare,0.3,6e-06
+t2_mos_6526_cia,MOS 6526 CIA,,MOS Technology,1982,,,,COPROCESSOR,,11000,"Complex Interface Adapter in the C64; great for joystick ports, bad for job security in mining rigs.",rare,0.3,6e-06
+t2_zilog_z8530_scc,Zilog Z8530 SCC,,Zilog,1981,,,,COPROCESSOR,,17500,"Serial Communications Controller; speaks fluent RS-232, knows no hash language.",rare,0.4,5e-06
+t2_motorola_68881_fpu,Motorola 68881 FPU,,Motorola,1984,,,,COPROCESSOR,,155000,"Floating-point coprocessor; tries to optimize your trig functions, not your transaction fees.",rare,4,3e-05
+t2_intel_8087_fpu,Intel 8087 FPU,,Intel,1980,,,,COPROCESSOR,,45000,First x86 FPU; can compute transcendental functions yet refuses to transcend bad hashrate.,rare,1.5,2e-05
+t2_philips_saa1099_sound_generator,Philips SAA1099 Sound Generator,,Philips,1982,,,,COPROCESSOR,,12500,Six-channel sound chip; happier playing chiptunes while your miner wheezes in the background.,rare,0.2,3e-06
+t2_yamaha_ym2149_psg,Yamaha YM2149 PSG,,Yamaha,1983,,,,COPROCESSOR,,6500,"Programmable sound generator; generates square waves and static, not coins.",rare,0.2,3e-06
+t2_yamaha_ym2203_opn,Yamaha YM2203 OPN,,Yamaha,1984,,,,COPROCESSOR,,40000,FM+PSG combo chip; could soundtrack your mining losses in glorious three-operator FM.,rare,0.5,4e-06
+t2_dallas_ds1287_rtc,Dallas DS1287 RTC,,Dallas Semiconductor,1987,,,,COPROCESSOR,,12500,Real-time clock with battery; keeps perfect track of how long you�ve been unprofitable.,common,0.1,2e-06
+t2_signetics_8x300,Signetics 8X300,,Signetics,1980,,,,MCU,,10000,"Bizarre 8-bit bipolar processor used as controller/DSP; architecture from Mars, efficiency from the Stone Age.",legendary,1.5,5e-05
+t2_oki_msm80c85,OKI MSM80C85,,OKI,1983,,,,MCU,,6500,"CMOS 8085 derivative; low power, low performance, low enthusiasm for your rig.",rare,0.3,5e-05
+t2_intel_8048_keyboard_mcu,Intel 8048 Keyboard MCU,,Intel,1981,,,,MCU,,6000,Specific 8048 variants glued into PC keyboards; best used to detect rage-quit key presses during mining.,common,0.3,5e-05
+t2_motorola_mc146870,Motorola MC146870,,Motorola,1986,,,,MCU,,50000,"Automotive-focused MCU; built to survive harsh conditions, like being installed in your project.",rare,0.4,6e-05
+t2_fujitsu_mb8843,Fujitsu MB8843,,Fujitsu,1981,,,,MCU,,8000,4-bit/8-bit MCU used in appliances; mining capacity roughly equal to that of a determined toaster.,rare,0.3,4e-05
+t2_hitachi_hd44780_lcd_controller,Hitachi HD44780 LCD Controller,,Hitachi,1985,,,,COPROCESSOR,,7500,Drives character LCDs; perfect for showing �0.000 MH/s� in comforting 5x8 dot matrices.,common,0.1,2e-06
+t2_sharp_ir_controller_mcu,Sharp IR Controller MCU,,Sharp,1987,,,,MCU,,10000,"Tiny MCU for remote controls; sends volume commands reliably, hashes unreliably.",rare,0.15,3e-05
+t2_sony_cxd2500_dsp,Sony CXD2500 DSP,,Sony,1986,,,,DSP,,400000,"Audio DSP for CD players; performs oversampling wizardry, treats mining as off-key noise.",rare,1.5,0.00035
+t2_intel_80186,Intel 80186,,Intel,1982,,,,CPU,,55000,"Enhanced 8086 mostly used in embedded boxes; dreams of being in PCs, wakes up in traffic controllers instead.",rare,2.5,9e-05
+t2_intel_80188,Intel 80188,,Intel,1982,,,,CPU,,55000,Cheaper 8-bit bus sibling to the 80186; perfect for cash registers and absolutely terrible for cash mining.,rare,2,8e-05
+t2_intel_80286,Intel 80286,,Intel,1982,,,,CPU,,134000,Protected-mode pioneer; runs real-mode DOS very fast and your hashes very slowly.,uncommon,6,0.00012
+t2_intel_80286_20,Intel 80286-20,,Intel,1985,,,,CPU,,134000,20 MHz �fast� 286; blazes through Lotus 1-2-3 while barely nudging your hashrate graph.,uncommon,15,0.00016
+t2_intel_8086_2_10_mhz,Intel 8086-2 10 MHz,,Intel,1980,,,,CPU,,29000,"Turbo XT deluxe; clock-doubled, still hash-halved compared to anything modern.",uncommon,3,0.0001
+t2_intel_8088_2_8_mhz,Intel 8088-2 8 MHz,,Intel,1980,,,,CPU,,29000,IBM PC/XT heart; mines nostalgia at a higher rate than coins.,common,2.5,7e-05
+t2_intel_80386dx,Intel 80386DX,,Intel,1985,,,,CPU,,275000,"First 32-bit x86; finally big registers, still tiny hashrate.",uncommon,16,0.00025
+t2_intel_80386dx_33,Intel 80386DX-33,,Intel,1989,,,,CPU,,275000,"33 MHz 386; the serious multitasker of its day, easily outclassed by modern smartwatches at hashing.",uncommon,20,0.00035
+t2_intel_80386sx_25,Intel 80386SX-25,,Intel,1988,,,,CPU,,275000,Cost-cut 16-bit bus 386; spends most of its time waiting on memory and life choices.,common,16,0.00022
+t2_intel_80486dx,Intel 80486DX,,Intel,1989,,,,CPU,,1200000,"On-chip cache and decent FPU; speed demon of the late 80s, sloth in your miner.",uncommon,25,0.00045
+t2_intel_80486dx2_50,Intel 80486DX2-50,,Intel,1989,,,,CPU,,1200000,"Double-clocked core; twice the MHz, twice the fan noise, same uselessness for modern crypto.",uncommon,30,0.0006
+t2_intel_80486sx,Intel 80486SX,,Intel,1989,,,,CPU,,1185000,"486 with the FPU �missing�; perfect for spreadsheets, bad for hashes, offended by floating point.",common,20,0.0003
+t2_motorola_68000,Motorola 68000,,Motorola,1979,,,,CPU,,68000,"16/32-bit CISC beauty; powers Amiga, ST, and Mac, begrudgingly powers your miner at glacial speed.",rare,1.5,0.00018
+t2_motorola_68010,Motorola 68010,,Motorola,1982,,,,CPU,,84000,"68000 with virtual memory support; loves UNIX, hates your hash difficulty.",rare,2,0.0002
+t2_motorola_68020,Motorola 68020,,Motorola,1984,,,,CPU,,190000,Full 32-bit 68k; serious workstation chip that considers mining to be beneath its sophistication.,rare,3,0.0003
+t2_motorola_68030,Motorola 68030,,Motorola,1987,,,,CPU,,273000,"On-chip MMU; can juggle many processes, none of which generate enough hashes to matter.",rare,5,0.0004
+t2_motorola_68040,Motorola 68040,,Motorola,1989,,,,CPU,,1200000,"Superscalar 68k; fast for its time, still hash-impaired in your 21st-century trash cluster.",rare,8,0.00055
+t2_motorola_68008,Motorola 68008,,Motorola,1982,,,,CPU,,70000,"68000 with an 8-bit bus; all the elegance, half the bandwidth, quarter of the hashrate.",rare,1.2,0.00015
+t2_mos_65c02,MOS 65C02,,Western Design Center,1982,,,,CPU,,11500,"CMOS 6502 refresh; runs cool, sips power, mines microscopic amounts of imaginary money.",rare,0.2,8e-05
+t2_zilog_z80h,Zilog Z80H,,Zilog,1982,,,,CPU,,8500,"Turbo Z80 running up to 8 MHz; blinks LEDs and drives CP/M, slower than a modern coffee machine at hashing.",rare,0.3,9e-05
+t2_zilog_z180,Zilog Z180,,Zilog,1985,,,,CPU,,10000,"Z80-compatible with extras; built for embedded control, not embedded finance.",rare,0.5,0.00012
+t2_zilog_z8000,Zilog Z8000,,Zilog,1979,,,,CPU,,17500,16-bit contender that didn�t catch on; lives today in obscure workstations and your weirdo miner.,rare,3,0.00018
+t2_intel_80186_embedded,Intel 80186 Embedded,,Intel,1984,,,,MCU,,55000,"Bundled timers, DMA and more; everything you need for a control system, nothing you need for hashrate.",rare,2.5,9e-05
+t2_national_semiconductor_ns32016,National Semiconductor NS32016,,National Semiconductor,1982,,,,CPU,,68000,"Early 32-bit CISC; architecturally fancy, commercially doomed, hashes mostly academic benchmarks.",rare,4,0.0002
+t2_national_semiconductor_ns32032,National Semiconductor NS32032,,National Semiconductor,1984,,,,CPU,,70000,"Full 32-bit version; happiest in UNIX boxes, confused inside your junkyard miner.",rare,5,0.00025
+t2_mips_r2000,MIPS R2000,,MIPS,1985,,,,CPU,,110000,"""One of the first commercial RISC chips; executes instructions very fast",rare,7,0.00035
+t2_mips_r3000,MIPS R3000,,MIPS,1988,,,,CPU,,120000,"""Refined RISC core; future ancestor of console chips",rare,10,0.00045
+t2_sparc_v7_sun_4,SPARC V7 (Sun-4),,Sun Microsystems,1987,,,,CPU,,800000,"""Early SPARC implementation; optimized for UNIX workloads",rare,8,0.0004
+t2_hp_focus,HP FOCUS,,HP,1982,,,,CPU,,450000,"""HP�s odd 32-bit architecture; powerful",legendary,10,0.0003
+t2_vax_11_780_microprocessor_module,VAX 11/780 Microprocessor Module,,DEC,1980,,,,CPU,,100000,"Macroinstruction powerhouse; executes complex instructions in microcode, slow-walks every nonce.",legendary,40,0.00025
+t2_dec_microvax_78032,DEC MicroVAX 78032,,DEC,1985,,,,CPU,,125000,"Single-chip VAX; shrinks a minicomputer into a package, still refuses to shrink your block time.",rare,18,0.0003
+t2_acorn_arm1,Acorn ARM1,,Acorn,1985,,,,CPU,,25000,"""Prototype ARM RISC; incredibly efficient",legendary,0.5,0.0002
+t2_acorn_arm2,Acorn ARM2,,Acorn,1986,,,,CPU,,30000,"""Early ARM used in Archimedes; sleeps on power draw",rare,0.7,0.0003
+t2_hitachi_h8_300,Hitachi H8/300,,Hitachi,1986,,,,MCU,,65000,"16-bit microcontroller line; lives in printers and appliances, horrified by blockchain workloads.",rare,0.2,6e-05
+t2_intel_80960ca_i960,Intel 80960CA (i960),,Intel,1988,,,,CPU,,600000,"Embedded RISC for I/O and military gear; loves real-time tasks, hates probabilistic mining.",rare,7,0.0004
+t2_motorola_68020_cpu_card,Motorola 68020 CPU Card,,Motorola,1985,,,,SOC,,190000,"Full workstation module; expects UNIX, gets your cobbled-together trash OS instead.",rare,10,0.0003
+t2_intel_80287_fpu,Intel 80287 FPU,,Intel,1982,,,,FPU,,45000,Floating-point coprocessor; number-crunching assistant that refuses to touch integer hashes.,rare,2,2e-05
+t2_intel_8087_fpu_2,Intel 8087 FPU,,Intel,1980,,,,FPU,,45000,"8086�s math buddy; arrogant about transcendentals, uninterested in your SHA-256 drudgery.",rare,1.5,1.5e-05
+t2_motorola_68881_fpu_2,Motorola 68881 FPU,,Motorola,1984,,,,FPU,,155000,"Floating-point sidekick for 68k; great at Mandelbrot sets, not at money sets.",rare,4,3e-05
+t2_weitek_1167_math_coprocessor,Weitek 1167 Math Coprocessor,,Weitek,1985,,,,FPU,,56000,Exotic high-speed FPU; turns heavy math into heat and tiny side-channel jokes.,legendary,8,4e-05
+t2_zilog_z80000,Zilog Z80000,,Zilog,1986,,,,CPU,,91000,Zilog's 32-bit white whale; barely shipped before being canceled. Finding one in the trash is like finding Bigfoot at a yard sale.,mythic,6,0.00038
+t2_intel_80376_embedded_386,Intel 80376 (Embedded 386),,Intel,1987,,,,CPU,,275000,386 variant for embedded; quietly controls equipment while occasionally crunching a pity hash.,rare,12,0.00022
+t2_western_electric_we32100,Western Electric WE32100,,Western Electric,1982,,,,CPU,,150000,"Bell Labs 32-bit CPU; designed for UNIX, disgusted by everything about cryptocurrencies.",legendary,8,0.00024
+t2_fujitsu_mb86233_dsp,Fujitsu MB86233 DSP,,Fujitsu,1987,,,,DSP,,750000,"Early DSP chip; fast at filters, hopeless at hashing, but very confident about it.",rare,6,0.00018
+t2_nec_v20,NEC V20,,NEC,1984,,,,CPU,,63000,"8088-compatible with a speed edge; glorious XT drop-in upgrade, marginal miner boost.",uncommon,2.5,0.00011
+t2_nec_v30,NEC V30,,NEC,1985,,,,CPU,,63000,"80286-lite in spirit; lifts DOS performance, nudges hashrate, fries no eggs.",rare,3,0.00013
+t2_amd_80286_12,AMD 80286-12,,AMD,1985,,,,CPU,,134000,"AMD�s take on the 286; compatible, slightly rebellious, occasionally unstable in trash-tier boards.",uncommon,7,0.00014
+t2_amd_8086_10,AMD 8086-10,,AMD,1981,,,,CPU,,29000,Intel�s 8086 reimagined by AMD; legally distinct cycles with the same lack of mining future.,uncommon,3,0.0001
+t2_intel_4004,Intel 4004,,Intel,1971,,,,CPU,,2300,First commercial microprocessor; 4-bit calculator brain that mines about one hash per moon landing.,legendary,1,1e-05
+t2_intel_8008,Intel 8008,,Intel,1972,,,,CPU,,3500,"Early 8-bit CPU; talks to teletype terminals, panics quietly when asked to do SHA-256.",legendary,1.5,2e-05
+t2_intel_8080,Intel 8080,,Intel,1974,,,,CPU,,4500,"CP/M pioneer; powerful enough to run BASIC, not powerful enough to pay its own power bill.",rare,2,5e-05
+t2_intel_8085,Intel 8085,,Intel,1976,,,,CPU,,6500,"Single-supply refinement of the 8080; uses fewer voltages, still produces microscopic hash rates.",uncommon,2.5,6e-05
+t2_intel_8048,Intel 8048,,Intel,1976,,,,MCU,,6000,Early microcontroller used in keyboards and appliances; perfect for mining keypresses instead of coins.,rare,0.5,3e-05
+t2_intel_8086,Intel 8086,,Intel,1978,,,,CPU,,29000,First x86; 16-bit royalty that eventually spawned your entire junk pile of PCs and miners.,rare,3,8e-05
+t2_intel_8088,Intel 8088,,Intel,1979,,,,CPU,,29000,Cheaper 8-bit bus cousin of the 8086; chosen for the IBM PC and cursed to run spreadsheets for eternity.,uncommon,2.5,7e-05
+t2_ti_tms_1000,TI TMS 1000,,Texas Instruments,1974,,,,MCU,,8000,"First commercial microcontroller; runs toys and calculators, generates more beeps than hashes.",legendary,0.3,2e-05
+t2_ti_tms_9900,TI TMS 9900,,Texas Instruments,1976,,,,CPU,,8000,"Early 16-bit CPU; elegant register architecture, completely wasted on your trash mining rig.",rare,3,5e-05
+t2_motorola_6800,Motorola 6800,,Motorola,1974,,,,CPU,,4100,"8-bit ancestor of a whole family; quietly powers terminals, pinball machines, and your disappointment.",rare,1.5,4e-05
+t2_motorola_6801,Motorola 6801,,Motorola,1977,,,,MCU,,5000,"6800 with onboard peripherals; great embedded brain, very reluctant hash worker.",rare,1,3e-05
+t2_motorola_6809,Motorola 6809,,Motorola,1978,,,,CPU,,9000,Beloved 8-bit CPU with fancy addressing; basically a 1970s luxury sports car of microprocessors.,rare,2,7e-05
+t2_mos_technology_6502,MOS Technology 6502,,MOS Technology,1975,,,,CPU,,3510,"Dirt-cheap 8-bit hero of Apple II, C64 and NES; mines nostalgia at a much higher rate than coins.",rare,1,5e-05
+t2_mos_6502a,MOS 6502A,,MOS Technology,1976,,,,CPU,,3510,"2 MHz �A� speed grade; doubles the clock, doubles the opportunity to be bad at hashing.",rare,1.2,6e-05
+t2_rca_cdp1802_cosmac,RCA CDP1802 COSMAC,,RCA,1974,,,,CPU,,5000,"Radiation-hard CMOS CPU; flew on space probes, now exiled to your very down-to-earth garbage miner.",rare,1,3e-05
+t2_rca_cdp1802_space_grade,RCA CDP1802 Space-Grade,,RCA,1976,,,,CPU,,5000,"Hubble and Galileo heritage; can survive deep space, but not your power bill.",legendary,1,3e-05
+t2_zilog_z80,Zilog Z80,,Zilog,1976,,,,CPU,,8500,Improved 8080 clone turned 8-bit superstar; powers more 80s micros than you can fit in a server rack.,rare,1.5,6e-05
+t2_zilog_z80a,Zilog Z80A,,Zilog,1977,,,,CPU,,8500,4 MHz speed demon of its day; hashes at speeds now rivaled by smart light bulbs.,rare,1.8,7e-05
+t2_zilog_z80_counterfeit_mystery,Zilog Z80 Counterfeit Mystery,,Zilog,1979,,,,CPU,,8500,"Dubious late-70s Z80 clone; timings are odd, opcodes are weirder, magic smoke is very real.",legendary,2,5e-05
+t2_mostek_mk3850_f8,Mostek MK3850 F8,,Mostek,1974,,,,CPU,,4000,Used in early video games and terminals; prefers drawing sprites to crunching hashes.,rare,1.5,3e-05
+t2_national_semiconductor_imp_16,National Semiconductor IMP-16,,National Semiconductor,1973,,,,CPU,,3000,"Early 16-bit multi-chip CPU; more of a �starter kit� than a miner, but very earnest.",rare,2,2e-05
+t2_national_sc_mp,National SC/MP,,National Semiconductor,1974,,,,CPU,,5000,National�s hobbyist-friendly CPU; spends most of its time blinking LEDs in single-board kits.,rare,1.2,3e-05
+t2_signetics_2650,Signetics 2650,,Signetics,1975,,,,CPU,,3000,Quirky 8-bit CPU beloved by weirdos; instruction set feels like it was designed on a napkin.,rare,1.5,4e-05
+t2_rockwell_pps_4,Rockwell PPS-4,,Rockwell,1972,,,,CPU,,2000,"4-bit microprocessor for calculators; mines nibble by nibble, mostly for practice.",rare,0.8,2e-05
+t2_rockwell_pps_8,Rockwell PPS-8,,Rockwell,1974,,,,CPU,,3500,"8-bit follow-up; suitable for terminals and POS systems, deeply unsuitable for profit.",rare,1.2,3e-05
+t2_fairchild_pps_25,Fairchild PPS-25,,Fairchild,1972,,,,CPU,,2500,"""Early multi-chip 4-bit CPU; proves you can build a computer out of more packages than sense.""[web:99]",legendary,1,2e-05
+t2_intel_4040,Intel 4040,,Intel,1974,,,,CPU,,3000,4004�s slightly less primitive sibling; adds more instructions and exactly zero mining viability.,rare,1.2,1.5e-05
+t2_intel_8049_2,Intel 8049,,Intel,1976,,,,MCU,,6000,"Programmed ROM microcontroller; once controlled keyboards, now controls your hash expectations.",rare,0.6,3e-05
+t2_mostek_mk3870_2,Mostek MK3870,,Mostek,1977,,,,MCU,,8000,Single-chip controller that loved appliances; hashes only when left unsupervised.,rare,0.7,3e-05
+t2_motorola_mc14500b,Motorola MC14500B,,Motorola,1977,,,,CPU,,500,"""One-bit �industrial control� CPU; can only answer yes/no questions",legendary,0.3,5e-06
+t2_ti_tms_9900_evaluation_sample,TI TMS 9900 Evaluation Sample,,Texas Instruments,1978,,,,CPU,,8000,"16-bit CPU sold in DIP; belongs in TI-99/4A, ends up in your drawer instead.",rare,3.5,6e-05
+t2_fujitsu_mb8861,Fujitsu MB8861,,Fujitsu,1975,,,,CPU,,4000,"Fujitsu 8-bit micro; used in niche systems, perfect for niche garbage miners.",rare,1.5,3e-05
+t2_rca_cdp1801,RCA CDP1801,,RCA,1974,,,,CPU,,3000,Predecessor to the 1802; more a stepping stone than a serious hash competitor.,rare,1,2.5e-05
+t2_hitachi_hd46800,Hitachi HD46800,,Hitachi,1978,,,,CPU,,4100,"Motorola 6800-compatible; clones instructions, does not clone decent hashrate.",rare,2,5e-05
+t2_intel_8080a,Intel 8080A,,Intel,1975,,,,CPU,,4500,"Improved 8080; happily runs CP/M, unhappily runs your mining code.",rare,2.2,6e-05
+t2_sharp_lh0080,Sharp LH0080,,Sharp,1977,,,,CPU,,8500,Z80 clone powering many Japanese micros; secretly wishes it was running arcade games instead.,rare,1.8,5e-05
+t2_mos_6510,MOS 6510,,MOS Technology,1979,,,,CPU,,3510,"Commodore 64�s CPU; excellent at SID tunes and BASIC games, allergic to cryptography.",rare,1.2,5.5e-05
+t2_mos_6507,MOS 6507,,MOS Technology,1975,,,,CPU,,3510,Cut-down 6502 used in Atari 2600; mines fewer hashes than the console mines high scores.,rare,0.9,4e-05
+t2_zilog_z8000_2,Zilog Z8000,,Zilog,1979,,,,CPU,,17500,Early 16-bit CPU that didn�t quite conquer the world; enjoys obscure UNIX ports and your obscure miner.,rare,3.5,7e-05
+t2_motorola_68000_es,Motorola 68000 ES,,Motorola,1979,,,,CPU,,68000,Late-70s engineering sample of the iconic 16/32-bit CPU; still offended you�re not running UNIX on it.,legendary,4,8e-05
+t2_ti_tms_9980,TI TMS 9980,,Texas Instruments,1977,,,,CPU,,8000,"8-bit offshoot of the 9900; good at embedded control, baffled by hash difficulty.",rare,2.5,4e-05
+t2_rca_cdp1804,RCA CDP1804,,RCA,1981,,,,CPU,,6000,"Low-power CMOS variant; could run on batteries forever, slowly, very slowly, hashing.",rare,1.1,3e-05
+t2_intel_mcs_4_calculator_set,Intel MCS-4 Calculator Set,,Intel,1972,,,,SOC,,2300,"Complete 4004-based chipset; optimized for adding prices, not hunting nonces.",legendary,2,1.5e-05
+t2_intel_mcs_8_system,Intel MCS-8 System,,Intel,1974,,,,SOC,,3500,"8008-based system kit; developer�s delight, miner�s worst nightmare in terms of throughput.",legendary,3,5e-05
+t2_mostek_mk6800_evaluation_board,Mostek MK6800 Evaluation Board,,Mostek,1975,,,,SOC,,4100,Lab board for the 6800; comes with demo programs and absolutely no intention of making you rich.,rare,4,4e-05
+t2_zilog_z80_cpu_card,Zilog Z80 CPU Card,,Zilog,1978,,,,SOC,,8500,"S-100 bus Z80 card; once the heart of serious hobbyist machines, now a very retro hash co-processor.",rare,5,6e-05
+t2_mecl_i_ecl_logic_slice,MECL-I ECL Logic Slice,,Motorola,1962,,,,COPROCESSOR,,6,"Early emitter-coupled logic IC; switches fast for the 60s, mostly generates heat and academic papers.",legendary,3,5e-07
+t2_molecular_electronic_computer_module,Molecular Electronic Computer Module,,Texas Instruments,1961,,,,CUSTOM,,2,"""Demo IC computer built for the US Air Force; simulates a desk calculator and your hashrate at the same glacial speed.""[web:122]",legendary,5,1e-06
+t2_apollo_guidance_computer_logic_ic,Apollo Guidance Computer Logic IC,,Fairchild,1965,,,,CUSTOM,,18,"""Core logic for landing on the Moon; awful miner",legendary,20,2e-06
+t2_cdc_6600_logic_gate_array,CDC 6600 Logic Gate Array,,Control Data,1964,,,,CUSTOM,,8,"""Supercomputer building block; could beat everyone at math",legendary,50,3e-06
+t2_ibm_system_360_slt_module,IBM System/360 SLT Module,,IBM,1964,,,,SOC,,4,"""Hybrid IC module; snaps into mainframes",rare,15,1e-06
+t2_four_phase_al1_bit_slice,Four-Phase AL1 Bit-Slice,,Four-Phase Systems,1969,,,,COPROCESSOR,,250,"""MOS LSI bit-slice used as early CPU building block; stack enough slices and you get a very slow miner.""[web:124]",rare,4,4e-06
+t2_rca_mos_lsi_test_chip,RCA MOS LSI Test Chip,,RCA,1965,,,,COPROCESSOR,,75,"""Early MOS integrated circuit; best used for proving Moore�s Law",rare,2,1e-06
+t2_rca_mos_calculator_slice,RCA MOS Calculator Slice,,RCA,1968,,,,CUSTOM,,350,"""Calculator-oriented MOS logic; adds",rare,6,6e-06
+t2_ti_calculator_logic_ic,TI Calculator Logic IC,,Texas Instruments,1967,,,,CUSTOM,,75,"""Used in early electronic calculators; mines only when nobody is watching and even then",rare,4,5e-06
+t2_ibm_7030_stretch_ecl_module,IBM 7030 Stretch ECL Module,,IBM,1961,,,,COPROCESSOR,,3,"""High-speed ECL logic for Stretch; generates more bragging rights than hashes",legendary,40,2e-06
+t2_honeywell_200_ic_logic_card,Honeywell 200 IC Logic Card,,Honeywell,1963,,,,CUSTOM,,8,"""IC-based logic card from early third-generation systems; more comfortable doing COBOL than crypto.""[web:122]",rare,18,1e-06
+t2_univac_1107_thin_film_memory_ic,UNIVAC 1107 Thin-Film Memory IC,,UNIVAC,1962,,,,COPROCESSOR,,0,"""Exotic thin-film memory and logic; could store bits",legendary,10,8e-07
+t2_ncr_315_integrated_logic_block,NCR 315 Integrated Logic Block,,NCR,1962,,,,COPROCESSOR,,6,"""Part of transistor/IC hybrid mainframes; moves bits around like punch cards in silicon form.""[web:122]",rare,12,1e-06
+t2_burroughs_b5000_stack_ic,Burroughs B5000 Stack IC,,Burroughs,1961,,,,CUSTOM,,4,"""Stack-machine oriented logic; great for recursion",legendary,22,1.5e-06
+t2_minuteman_guidance_lsi_block,Minuteman Guidance LSI Block,,Autonetics,1968,,,,CUSTOM,,150,"""Military-grade LSI guidance module; carefully steers missiles",legendary,30,7e-06
+t2_semiconductor_network_computer_block,Semiconductor Network Computer Block,,Texas Instruments,1961,,,,SOC,,3,"""Monolithic IC demonstration computer; absolutely historic",legendary,8,2e-06
+t2_rca_cos_mos_logic_demo,RCA COS/MOS Logic Demo,,RCA,1968,,,,COPROCESSOR,,35,"""Early low-power MOS logic block; can run for ages",rare,3,3e-06
+t2_ibm_solid_logic_technology_pack,IBM Solid Logic Technology Pack,,IBM,1965,,,,SOC,,4,"""SLT pack combining multiple transistors and components; basically a tiny mainframe on a stick",rare,16,1e-06
+t2_motorola_early_mos_clock_chip,Motorola Early MOS Clock Chip,,Motorola,1969,,,,COPROCESSOR,,350,"""Clock/logic combo IC; keeps time very well",rare,2,9e-07
+t2_ti_mos_watch_clock_prototype,TI MOS Watch/Clock Prototype,,Texas Instruments,1969,,,,COPROCESSOR,,350,"""Prototype digital clock circuitry; ideal for telling you how long your blocks are taking",rare,1,7e-07
+t2_intel_4004_2,Intel 4004,,Intel,1971,,,,CPU,,2300,"First microprocessor; 740 kHz of raw enthusiasm, utterly useless for hashing but priceless trash-lab centerpiece.",legendary,1,1e-05
+t2_intel_8086_10,Intel 8086-10,,Intel,1979,,,,CPU,,29000,Early 10 MHz x86; squeaks out a few hashes per century while wearing bell-bottom instructions.,rare,3,0.00015
+t2_doom_idkfa_compute_slab,DOOM IDKFA Compute Slab,,id Software,1993,,,,ASIC,,666000000,Rip and tear through SHA-256 hashes at unholy speed. Runs at exactly 35 FPS regardless of load. BFG-cooled. Chainsaw noise suppression not included.,mythic,666,666000
+t2_intel_486dx2_66,Intel 486DX2-66,,Intel,1992,,,,CPU,,1200000,66 MHz internal clock felt insanely fast in 1992; now struggles to hash faster than your fridge.,uncommon,25,0.0015
+t2_amd_k6_2_550,AMD K6-2 550,,AMD,1999,,,,CPU,,9300000,Late-90s value chip pushed past 500 MHz; proud participant in the great MHz marketing war.,rare,20,0.004
+t2_intel_pentium_iii_1_ghz,Intel Pentium III 1 GHz,,Intel,2000,,,,CPU,,28100000,"The 1 GHz milestone; fan roars, temps rise, hashes dribble out like dial-up packets.",rare,35,0.01
+t2_intel_pentium_4_3_8_ghz,Intel Pentium 4 3.8 GHz,,Intel,2004,,,,CPU,,125000000,"NetBurst at full send; produces more clock cycles than useful work, perfect for space-heater mining.",uncommon,115,0.03
+t2_intel_pentium_4_7_0_ghz_ln2,Intel Pentium 4 7.0 GHz LN2,,Intel,2005,,,,CPU,,125000000,Extreme overclock record from the NetBurst era; lives only under liquid nitrogen and bad ideas.,legendary,250,0.05
+t2_amd_athlon_64_fx_57,AMD Athlon 64 FX-57,,AMD,2005,,,,CPU,,114000000,Single-core beast at 2.8 GHz; hashes decently for its age while demanding premium vintage respect.,rare,104,0.02
+t2_intel_core_2_duo_e8600,Intel Core 2 Duo E8600,,Intel,2008,,,,CPU,,410000000,"Wolfdale hitting 4+ GHz on air; excellent at retro games, marginal at retro mining.",uncommon,65,0.04
+t2_intel_core_i7_920_oc_4_ghz,Intel Core i7-920 OC 4 GHz,,Intel,2008,,,,CPU,,731000000,First-gen i7 pushed to 4 GHz; chews through wattage and hash calculations with equal appetite.,rare,180,0.06
+t2_intel_core_i7_980x,Intel Core i7-980X,,Intel,2010,,,,CPU,,1170000000,"Six-core Gulftown; early multi-threaded monster, now relegated to enthusiast scrapyards.",rare,130,0.09
+t2_amd_fx_9590,AMD FX-9590,,AMD,2013,,,,CPU,,1200000000,"5 GHz stock clock, 220 W TDP; the original �turn electricity into heat� CPU-miner gag.",rare,220,0.1
+t2_amd_fx_8350_ln2_8_8_ghz,AMD FX-8350 LN2 8.8 GHz,,AMD,2012,,,,CPU,,1200000000,"""Overclocking legend; briefly touched 8.7�8.8 GHz under liquid nitrogen",legendary,350,0.2
+t2_intel_core_i7_4790k,Intel Core i7-4790K,,Intel,2014,,,,CPU,,1400000000,4.4 GHz turbo in everyday rigs; hashes okay while keeping the nostalgia for �Devil�s Canyon� alive.,uncommon,88,0.18
+t2_intel_core_i7_6700k,Intel Core i7-6700K,,Intel,2015,,,,CPU,,1750000000,"SkyLake 4 GHz+ champ; strong single-thread, modest hashrate, perfectly tuned for mediocre mining.",uncommon,91,0.22
+t2_intel_core_i7_7700k,Intel Core i7-7700K,,Intel,2017,,,,CPU,,1750000000,4.5 GHz stock turbo and very toasty; your hashes come preheated.,uncommon,95,0.26
+t2_amd_ryzen_7_2700x,AMD Ryzen 7 2700X,,AMD,2018,,,,CPU,,4800000000,"Eight Zen+ cores at 4.3 GHz boost; decent RandomX engine, underwhelmed SHA-256 calculator.",uncommon,105,0.4
+t2_intel_core_i9_9900k,Intel Core i9-9900K,,Intel,2018,,,,CPU,,3000000000,"8 cores, 5 GHz boosts; great at games, slightly ashamed of CPU mining returns.",rare,95,0.55
+t2_amd_ryzen_9_3950x,AMD Ryzen 9 3950X,,AMD,2019,,,,CPU,,9890000000,16 cores of Zen 2; respectable hashrate furnace when GPUs have all gone on strike.,rare,105,0.85
+t2_intel_core_i9_10900k,Intel Core i9-10900K,,Intel,2020,,,,CPU,,3100000000,Ten cores pushing 5.3 GHz; converts high clocks into hot air and modest coin dust.,rare,125,0.9
+t2_amd_ryzen_9_5950x,AMD Ryzen 9 5950X,,AMD,2020,,,,CPU,,10400000000,"16-core Zen 3; quietly out-hashes most of your trash CPUs combined, while sipping power politely.",rare,105,1.1
+t2_intel_core_i9_12900ks,Intel Core i9-12900KS,,Intel,2022,,,,CPU,,12000000000,"""First official 5.5 GHz boost; hybrid cores juggle threads and hashes like a caffeinated scheduler.""[web:114]",rare,150,1.3
+t2_intel_core_i9_13900ks,Intel Core i9-13900KS,,Intel,2023,,,,CPU,,12000000000,"""6.0 GHz stock boost; eats power supplies for breakfast and hashes at respectable",rare,253,1.6
+t2_intel_core_i9_14900kf_9_1_ghz_wr,Intel Core i9-14900KF 9.1 GHz WR,,Intel,2024,,,,CPU,,12000000000,"""World-record 9+ GHz LN2 run; technically mines",legendary,400,2.5
+t2_intel_4004_3,Intel 4004,,Intel,1971,,,,CPU,,2300,"First commercial microprocessor; struggles with basic math, let alone hashes, but oozes silicon history.",legendary,1,1e-05
+t2_intel_8086_2,Intel 8086,,Intel,1978,,,,CPU,,29000,16-bit ancestor of your entire x86 trash pile; mines at glacial speed but with great dignity.,rare,2,0.0002
+t2_intel_80286_2,Intel 80286,,Intel,1982,,,,CPU,,134000,Protected mode pioneer; protects your coins mainly by never generating any.,uncommon,6,0.0004
+t2_intel_80386dx_2,Intel 80386DX,,Intel,1985,,,,CPU,,275000,First 32-bit x86; hashpower roughly equal to a distracted pocket calculator.,uncommon,16,0.0008
+t2_intel_80486dx2,Intel 80486DX2,,Intel,1992,,,,CPU,,1200000,Double-clocked classic; gets very proud of finishing a single block header per geological era.,uncommon,25,0.0015
+t2_pentium_mmx_200,Pentium MMX 200,,Intel,1996,,,,CPU,,4500000,"Multimedia extensions from the dial-up age; decent at MP3s, terrible at SHA-256.",common,25,0.004
+t2_pentium_iii_800,Pentium III 800,,Intel,2000,,,,CPU,,28100000,"Coppermine core, copper wires, copper smell when overclocked too far.",common,30,0.01
+t2_pentium_4_3_0_ghz,Pentium 4 3.0 GHz,,Intel,2002,,,,CPU,,55000000,NetBurst space heater; converts electricity into heat and coil whine more than hashes.,common,84,0.02
+t2_athlon_xp_2500,Athlon XP 2500+,,AMD,2003,,,,CPU,,54300000,"Legendary overclocker; mines a little, cooks VRMs a lot.",uncommon,68,0.015
+t2_intel_core_2_duo_e8400,Intel Core 2 Duo E8400,,Intel,2008,,,,CPU,,410000000,Dual-core darling of 2008; hashes about as fast as a modern phone while using ten times the power.,common,65,0.05
+t2_intel_core_i7_920,Intel Core i7-920,,Intel,2008,,,,CPU,,731000000,"First-gen i7 on X58; great for learning overclocking, mediocre for mining anything but nostalgia.",uncommon,130,0.08
+t2_intel_core_i5_2500k,Intel Core i5-2500K,,Intel,2011,,,,CPU,,1160000000,"Sandy Bridge legend; refuses to die, but also refuses to mine efficiently.",common,95,0.1
+t2_intel_core_i7_2600k,Intel Core i7-2600K,,Intel,2011,,,,CPU,,1160000000,"Overclockers� sweetheart; stable at silly clocks, still slow at hashing.",uncommon,95,0.13
+t2_amd_fx_8350,AMD FX-8350,,AMD,2012,,,,CPU,,1200000000,Eight �cores� of hot air; achieves negative efficiency in summer.,uncommon,125,0.12
+t2_intel_core_i7_4790k_2,Intel Core i7-4790K,,Intel,2014,,,,CPU,,1400000000,"Devil�s Canyon; excellent single-thread, mediocre hashrate, outstanding space-heater abilities.",uncommon,88,0.18
+t2_intel_core_i7_8700k,Intel Core i7-8700K,,Intel,2017,,,,CPU,,3000000000,Six cores of gaming glory; CPU mining only when the GPU union goes on strike.,uncommon,95,0.35
+t2_amd_ryzen_5_1600,AMD Ryzen 5 1600,,AMD,2017,,,,CPU,,4800000000,"First-gen Zen; cheap used, decent threads, perfect for budget CPU-only masochism.",common,65,0.3
+t2_amd_ryzen_7_3700x,AMD Ryzen 7 3700X,,AMD,2019,,,,CPU,,5990000000,"8 cores, 16 threads; respectable RandomX miner, bored by SHA-256.",uncommon,65,0.55
+t2_ibm_power4,IBM POWER4,,IBM,2001,,,,CPU,,174000000,Big iron dual-core; mining hashes between database queries in some forgotten datacenter.,rare,115,0.06
+t2_dec_alpha_21264_2,DEC Alpha 21264,,DEC,1998,,,,CPU,,15200000,"Ahead-of-its-time RISC beast; great at FP, hilariously overqualified for your junk rig.",rare,90,0.02
