@@ -22,23 +22,21 @@ Key files: game_engine.py (core logic), standalone.py (terminal UI), trash.csv (
 
 **Current scoring system (game_engine.py):**
 - TYPE_MULTIPLIERS: CPU=1.0, GPU=2.5, DATACENTER=5.0, ARRAY=3.5, TPU=2.8, NPU=2.2, ASIC=2.0, etc.
-- TYPE_SCORE_BOOST: DATACENTER=1_000_000, ARRAY=1_000_000 (applied after log2 formula)
-- Compute path: clock * (bits/8) * cores * tmult * era_bonus
-- Hashrate path: log2(hashrate_mhs + 1) * 100 * tmult * era_bonus * boost
+- Compute path: clock × (bits/8) × cores × type_multiplier × era_bonus
+- Hashrate path: sqrt(hashrate_MH/s / 1,000,000) × 2000 × type_multiplier × era_bonus
+- Transistor density bonus: logarithmic up to 3.5× cap (50B transistor ceiling)
 - Era bonus: pre-1975=5.0, 1975-84=4.0, 1985-94=3.0, 1995-04=2.0, 2005-14=1.5, 2015+=1.0
 
-**Known scoring problems (not yet fixed):**
-- log2 compression means all DATACENTER/ARRAY items cluster in a ~2x score band regardless of hashrate spread (e.g. Mega-Rack S19 at 20 PH/s scores barely more than Backyard Pod at 0.45 PH/s)
-- 80386DX and 80486DX both at 33MHz score identically (396) — 486 should score higher due to IPC advantage (~1.5x clock-for-clock)
-- 4 cloud datacenter items (Ashburn, Oregon, Sydney, Frankfurt) have hashrate=0 and score zero
-- DATACENTER type multiplier (5.0) means a small datacenter can outscore a large ARRAY (3.5) unfairly
+**Scoring problems resolved (all traced to fields populated with 0s instead of real-world data):**
+- ✅ Switched from log2 to sqrt formula — DATACENTER/ARRAY items now spread properly
+- ✅ Fixed 80486DX IPC advantage — effective clock bumped ~1.5× vs 386
+- ✅ Fixed 4 zero-hashrate cloud datacenters (Ashburn, Oregon, Sydney, Frankfurt)
+- ✅ Added transistor density bonus (up to 3.5× multiplier)
+- ✅ Looked up missing transistor counts for 13 console/mobile chips
+- ✅ Fixed BM1397/BM1398 chip naming on S19 Pro row
 
-**Agreed next steps for CSV work:**
-- Matthew will use Perplexity to research real-world hashrate data (EH/s or PH/s) for the actual facilities in trash2.csv — operators like Foundry USA, Hut 8, Bitfarms publish quarterly reports
-- Also source real SHA-256 / GPU mining benchmark hashrates (MH/s, GH/s) for CPU/GPU items in trash.csv — sites like whattomine.com, old mining forums
-- Fix the four zero-hashrate cloud DCs with plausible values
-- Fix 486 IPC advantage in trash.csv (bump effective clock ~1.5x to reflect real-world perf vs 386)
-- Consider changing hashrate score formula from log2 to sqrt(hashrate_in_PH) for better spread
+**Remaining CSV work:**
+- Research real SHA-256 hashrates for CPU/GPU items and quarterly mining data for datacenter/array items (using Perplexity — sources: whattomine.com, mining forums, operator reports from Foundry USA, Hut 8, Bitfarms)
 
 **Display improvements already made (standalone.py):**
 - fmt_score(n): formats scores with K/M/B/T/Q suffixes (e.g. 16.10B)

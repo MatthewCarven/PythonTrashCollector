@@ -71,26 +71,39 @@ def compute_score(hw: dict) -> float:
 
     # --- compute path (CPUs, GPUs, DSPs, etc.) ---
     # Defensive: some CSV rows have empty strings for numeric fields; treat as 0.
-    try:    clock = float(hw.get("clock_mhz") or 0)
-    except: clock = 0.0
-    try:    bits  = float(hw.get("word_bits")  or 0)
-    except: bits  = 0.0
-    try:    cores = float(hw.get("cores")      or 0)
-    except: cores = 0.0
+    try:    clock = float(hw.get("clock_mhz") or 1)
+    except: clock = 1.0
+    try:    bits  = float(hw.get("word_bits")  or 1)
+    except: bits  = 1.0
+    try:    cores = float(hw.get("cores")      or 1)
+    except: cores = 1.0
 
     if hashrate:
-        raw_score = math.log2(hashrate + 1) * 100 * tmult * eb
+        # sqrt formula: convert MH/s → TH/s first, then sqrt, scale by 2000.
+        # This gives ~45x spread across the datacenter range vs log2's ~2x,
+        # so a 20 PH/s Mega-Rack actually dominates a 20 TH/s backyard shed.
+        raw_score = math.sqrt(hashrate / 1_000_000) * 2000 * tmult * eb
     else:
         raw_score = clock * ((bits or 8) / 8) * (cores or 1) * tmult * eb
 
-    # --- floor: Rick Sanchez wrote bitcoin_sieve for every chip ever fabbed ---
-    # No piece of silicon ever scores absolute zero.
-    # We use transistor count as a size-aware proxy so relative order is preserved:
-    # a chip with more transistors gets a slightly higher floor, and the era bonus
-    # means vintage rarity still counts. The 0.001 scale keeps this well below any
-    # chip that has real clock/cores data.
+    # --- transistor density bonus ---
+    # More silicon = more IPC, more parallelism, more everything.
+    # Soft multiplier capped at 3.5x (2.5 range above 1.0 base).
+    # log scale so billions of transistors feel meaningful but don't
+    # completely detach from clock/core reality.
+    # 50B transistors (A100-class) hits the cap. 275K (386) barely moves.
     try:    transistors = float(hw.get("transistors") or 0)
     except: transistors = 0.0
+
+    if transistors > 0:
+        density_bonus = 1.0 + (math.log2(transistors) / math.log2(50_000_000_000)) * 2.5
+        density_bonus = min(density_bonus, 3.5)  # hard cap
+    else:
+        density_bonus = 1.0
+
+    raw_score *= density_bonus
+
+    # --- floor: no piece of silicon ever scores absolute zero ---
     floor = math.log2(transistors + 2) * tmult * eb * 0.001
 
     score = max(raw_score, floor)
@@ -451,6 +464,206 @@ def legendary_multiplier(parts: list) -> float:
         total += step
         step *= 0.5
     return total
+
+
+# =============================================================================
+# COMBO BONUS MULTIPLIERS
+# Inspired by Rick Sanchez heterogeneous compute wiring philosophy:
+#   "Wire the smallest device as the hypervisor — the FPGA reshapes itself
+#    around everything else.  The ASIC just crunches its one trick beneath."
+#
+# FPGA is required in every named combo (it IS the hypervisor fabric).
+# Combos are checked highest-tier first; only the best match applies.
+# The combo multiplier stacks ON TOP of diversity and legendary multipliers.
+# =============================================================================
+
+# Each entry: (frozenset of required hw types, multiplier, combo name, description)
+_COMBO_TIERS = [
+    (
+        frozenset(["FPGA", "CPU", "GPU", "ASIC", "TPU"]),
+        4.0,
+        "C-137 Stack",
+        "Five-domain heterogeneous compute. Rick would approve.",
+    ),
+    (
+        frozenset(["FPGA", "CPU", "GPU", "TPU"]),
+        3.0,
+        "Portal Gun Silicon",
+        "Neural accelerator + reprogrammable fabric + shaders + general purpose. Wubba lubba.",
+    ),
+    (
+        frozenset(["FPGA", "CPU", "GPU", "ASIC"]),
+        2.5,
+        "Rick's Übercomputer",
+        "FPGA hypervisor orchestrates CPU, GPU, and a dedicated hash cruncher.",
+    ),
+    (
+        frozenset(["FPGA", "CPU", "GPU"]),
+        1.75,
+        "Hybrid Hypervisor Stack",
+        "FPGA reconfigures itself to bridge CPU control flow and GPU shader lanes.",
+    ),
+    (
+        frozenset(["FPGA", "GPU"]),
+        1.35,
+        "FPGA-GPU Bridge",
+        "Reprogrammable gate array wired directly into the shader pipeline.",
+    ),
+    (
+        frozenset(["FPGA", "CPU"]),
+        1.20,
+        "FPGA-CPU Cluster",
+        "FPGA acts as co-processor and memory controller. Vintage supercomputer vibes.",
+    ),
+    (
+        frozenset(["FPGA", "ASIC"]),
+        1.15,
+        "Reconfigurable Miner",
+        "FPGA handles algorithm switching; ASIC does the brute-force SHA-256.",
+    ),
+]
+
+
+def combo_multiplier(parts: list) -> tuple:
+    """
+    Return (multiplier: float, combo_name: str, description: str).
+    FPGA must be present for any named combo to activate.
+    Returns (1.0, '', '') if no combo is matched.
+    """
+    types_present = {p.get("type", "").upper() for p in parts}
+    if "FPGA" not in types_present:
+        return 1.0, "", ""
+    for required, mult, name, desc in _COMBO_TIERS:
+        if required.issubset(types_present):
+            return mult, name, desc
+    return 1.0, "", ""
+
+
+# =============================================================================
+# BUSINESS ACCOUNTABILITY & PLANNING ACT — PERMIT TIERS
+# "You use electricity to make money. We use electricity to eat.
+#  We are not the same."
+#
+# Tiers are assessed against the user's TOTAL rig score across all rigs.
+# Permit fee is weekly, paid in credits.
+# CPRM (Computational Prosperity Redistribution Mechanism) is deducted
+# from collections over CPRM_THRESHOLD_BTC at the rate for the player's tier.
+# =============================================================================
+
+CPRM_THRESHOLD_BTC = 100.0      # collections under this are beneath State notice
+CPRM_OVERHEAD_RATE = 0.05       # 5% of pool retained as State administrative overhead
+PERMIT_DURATION_DAYS = 7        # permits are weekly
+
+# (score_threshold, tier_number, tier_name, weekly_credit_fee, cprm_rate, flavour)
+PERMIT_TIERS = [
+    (
+        500_000_000_000,  # 500B+
+        4,
+        "State Competitor",
+        50_000_000,
+        0.25,
+        "You have attracted the personal attention of the Ministry of Computational Prosperity. "
+        "A dedicated observer has been assigned to your account. Comply.",
+    ),
+    (
+        50_000_000_000,   # 50B–500B
+        3,
+        "Industrial Scale Operator",
+        5_000_000,
+        0.20,
+        "Your energy consumption rivals a small municipality. "
+        "The State notes your contribution to the electricity shortage with considerable interest.",
+    ),
+    (
+        1_000_000_000,    # 1B–50B
+        2,
+        "Licensed Commercial Operator",
+        500_000,
+        0.15,
+        "You are conducting business-scale compute operations. "
+        "The Ministry of Computational Prosperity requires full accountability and planning compliance.",
+    ),
+    (
+        100_000_000,      # 100M–1B
+        1,
+        "Registered Operator",
+        50_000,
+        0.10,
+        "Your operation has been noted in the Ministry of Compute records. "
+        "A Tier 1 permit is required to continue lawful mining activity.",
+    ),
+    (
+        0,                # <100M — exempt
+        0,
+        "Hobbyist (Exempt)",
+        0,
+        0.0,
+        "The State has not yet noticed your operation. "
+        "Keep it that way.",
+    ),
+]
+
+
+# =============================================================================
+# RECYCLE YIELD
+# Breaks a hardware part down into raw materials.
+# Gold scales with rarity (connectors/pins).
+# Copper and aluminium scale with TDP (cooling hardware).
+# PCB fibreglass is a flat yield — every part has a board.
+# =============================================================================
+
+_GOLD_BY_RARITY = {
+    "common":    0.001,   # trace gold in basic contacts
+    "uncommon":  0.005,
+    "rare":      0.020,
+    "epic":      0.080,
+    "legendary": 0.300,   # dense connector arrays, gold-plated everything
+}
+
+def recycle_yield(hw: dict) -> dict:
+    """
+    Returns a dict of material yields in grams:
+    { gold, copper, aluminium, pcb }
+    """
+    rarity = hw.get("rarity", "common").lower()
+    try:    tdp = float(hw.get("tdp_watts") or 0)
+    except: tdp = 0.0
+
+    gold      = _GOLD_BY_RARITY.get(rarity, 0.001)
+    copper    = round(max(tdp * 0.15, 0.1), 4)   # heatpipes scale with heat
+    aluminium = round(max(tdp * 1.50, 0.5), 4)   # heatsink scales with heat
+    pcb       = 20.0                               # every part has a board
+
+    return {
+        "gold":      round(gold, 4),
+        "copper":    copper,
+        "aluminium": aluminium,
+        "pcb":       pcb,
+    }
+
+
+def assess_permit_tier(total_score: float) -> dict:
+    """
+    Given a player's total rig score, return their permit tier info dict:
+    {tier, name, weekly_fee, cprm_rate, flavour, score_threshold}
+    """
+    for threshold, tier, name, fee, rate, flavour in PERMIT_TIERS:
+        if total_score >= threshold:
+            return {
+                "tier":            tier,
+                "name":            name,
+                "weekly_fee":      fee,
+                "cprm_rate":       rate,
+                "flavour":         flavour,
+                "score_threshold": threshold,
+            }
+    # Fallback — should never reach here given 0-threshold tier
+    return {
+        "tier": 0, "name": "Hobbyist (Exempt)",
+        "weekly_fee": 0, "cprm_rate": 0.0,
+        "flavour": "The State has not yet noticed your operation.",
+        "score_threshold": 0,
+    }
 
 
 # =============================================================================
@@ -1347,13 +1560,161 @@ class TrashCollectorEngine:
                 break
         return results
 
+    def auto_build(self, name_prefix="Smart-Rig"):
+        """
+        Greedy diversity-optimised rig builder — O(n log n).
+        Costs 10% of BTC balance as a consultant fee (waived if broke).
+
+        Uses pre-indexed type buckets (deques, sorted best-first) so every
+        draft is O(1) instead of scanning the whole remaining pool each rig.
+        A global sorted overflow list handles Pass 2 fill slots.
+
+        Returns dict:
+          {
+            "fee_charged": float,
+            "rigs_built":  int,
+            "rigs":        [{"name": str, "inv_ids": [...], "parts_hw": [...]}, ...],
+            "parts_left":  int,
+          }
+        """
+        from collections import deque
+
+        DRAFT_ORDER = ["FPGA", "GPU", "CPU", "ASIC", "TPU",
+                       "NEUROMORPHIC", "DSP", "MCU", "MEMORY",
+                       "MOTHERBOARD", "DATACENTER", "ARRAY"]
+
+        # ── Consultant fee ────────────────────────────────────────────────
+        btc_bal = self.mdb.get_btc_balance(self.uid, self.gid)
+        fee = btc_bal * 0.10 if btc_bal > 0 else 0.0
+        if fee > 0:
+            self.mdb.add_btc(self.uid, self.gid, -fee)
+
+        # ── Build pool and type index — sort once, O(n log n) ─────────────
+        raw_inv = self._inventory_with_hw()   # [(inv_id, hw_dict), ...]
+        pool = []
+        for inv_id, hw in raw_inv:
+            pool.append({
+                "inv_id": inv_id,
+                "hw":     hw,
+                "type":   hw.get("type", "CPU").upper(),
+                "score":  compute_score(hw),
+            })
+        pool.sort(key=lambda x: x["score"], reverse=True)
+
+        # One deque per type, best-score at front (already ordered by pool sort)
+        type_buckets = {}
+        for p in pool:
+            type_buckets.setdefault(p["type"], deque()).append(p)
+
+        # Global overflow list for Pass 2 — same order as pool (score desc)
+        overflow = list(pool)   # shallow copy, we'll skip used entries cheaply
+
+        used    = set()
+        built   = []
+        counter = 1
+        total   = len(pool)
+
+        while total - len(used) >= PARTS_PER_RIG:
+            rig_parts     = []
+            drafted_types = set()
+
+            # Pass 1 — O(1) per type: pop best available from each bucket
+            for want_type in DRAFT_ORDER:
+                if len(rig_parts) >= PARTS_PER_RIG:
+                    break
+                if want_type in drafted_types:
+                    continue
+                bucket = type_buckets.get(want_type)
+                if not bucket:
+                    continue
+                # Skip already-used entries at front of bucket
+                while bucket and bucket[0]["inv_id"] in used:
+                    bucket.popleft()
+                if bucket:
+                    pick = bucket.popleft()
+                    rig_parts.append(pick)
+                    drafted_types.add(want_type)
+                    used.add(pick["inv_id"])
+
+            # Pass 2 — fill remaining slots from overflow (score desc)
+            # Advance a pointer rather than rebuilding a list each rig
+            if len(rig_parts) < PARTS_PER_RIG:
+                for p in overflow:
+                    if len(rig_parts) >= PARTS_PER_RIG:
+                        break
+                    if p["inv_id"] not in used:
+                        rig_parts.append(p)
+                        used.add(p["inv_id"])
+
+            if len(rig_parts) < PARTS_PER_RIG:
+                break
+
+            # Find an unused rig name — pre-check existing names once
+            name = f"{name_prefix} #{counter}"
+            while self.mdb.get_rig_by_name(self.uid, self.gid, name):
+                counter += 1
+                name = f"{name_prefix} #{counter}"
+
+            inv_ids = [p["inv_id"] for p in rig_parts]
+            self.mdb.create_rig(self.uid, self.gid, name, inv_ids)
+            built.append({
+                "name":     name,
+                "inv_ids":  inv_ids,
+                "parts_hw": [p["hw"] for p in rig_parts],
+            })
+            counter += 1
+
+        return {
+            "fee_charged": fee,
+            "rigs_built":  len(built),
+            "rigs":        built,
+            "parts_left":  len(pool) - len(used),
+        }
+
     def sell_part_all(self):
-        """Sell every part in inventory. Returns list of individual sell results."""
-        inv = self.mdb.get_inventory(self.uid, self.gid)
-        results = []
-        for inv_id, _ in inv:
-            results.append(self.sell_part(inv_id))
-        return results
+        """
+        Sell every part in inventory — bulk optimised.
+
+        Instead of N individual sell_part() calls (each doing a SELECT,
+        DELETE and two UPDATEs), this method:
+          1. Fetches the full inventory in one query
+          2. Buckets by rarity (lookup table style) so price is O(1) per part
+          3. Calculates total BTC in a single pass — no repeated DB reads
+          4. Bulk-deletes all inventory rows in one DELETE … IN (…) query
+          5. One single add_btc() call with the grand total
+
+        Returns a summary dict (not a per-item list — the list would be huge).
+        """
+        inv = self._inventory_with_hw()   # [(inv_id, hw_dict), ...]
+        if not inv:
+            return {"ok": False, "sold": 0, "total_btc": 0.0}
+
+        # ── Price bucket by rarity — one dict lookup per part ─────────────
+        # Formula mirrors sell_part(): RARITY_PRICE_MULT[rarity] * score * 0.5
+        total_btc   = 0.0
+        rarity_counts = {}
+        inv_ids_to_delete = []
+
+        for inv_id, hw in inv:
+            rarity     = hw.get("rarity", "common")
+            score      = compute_score(hw)
+            sell_price = round(RARITY_PRICE_MULT.get(rarity, 0.002) * max(score, 1) * 0.5, 6)
+            total_btc += sell_price
+            rarity_counts[rarity] = rarity_counts.get(rarity, 0) + 1
+            inv_ids_to_delete.append(inv_id)
+
+        # ── One bulk DELETE + one add_btc ──────────────────────────────────
+        self.mdb.remove_hardware_bulk(inv_ids_to_delete, self.uid, self.gid)
+        self.mdb.add_btc(self.uid, self.gid, total_btc)
+
+        btc_price = self._get_btc_price()
+        return {
+            "ok":           True,
+            "sold":         len(inv_ids_to_delete),
+            "total_btc":    round(total_btc, 6),
+            "credit_value": round(total_btc * btc_price, 2),
+            "by_rarity":    rarity_counts,   # e.g. {"common": 5000, "rare": 200, …}
+        }
 
     def get_status(self):
         """Compact snapshot for the status command."""

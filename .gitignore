@@ -1,10 +1,23 @@
+# Environment
 .env
-__pycache__ 
-__pycache__ 
-__pycache__/ 
+
+# Python
+__pycache__/
 *.pyc
+*.pyo
+
+# Game data — never commit save files or databases
 *.db
+standalone_data/
+
+# Compiled builds
 *.exe
 *.zip
-standalone_data/
+
+# Editor junk
 .~lock.*
+.vscode/
+*.swp
+
+# Backup / pre-fix data snapshots
+trash3..csv

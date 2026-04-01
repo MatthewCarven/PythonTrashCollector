@@ -38,6 +38,9 @@ from game_engine import (
     RARITY_ORDER,
     PARTS_PER_RIG,
     compute_score,
+    diversity_multiplier,
+    legendary_multiplier,
+    combo_multiplier,
 )
 
 # ── Console with minimum width ──────────────────────────────────────────
@@ -407,7 +410,7 @@ _RIG_NAME_COMMANDS = {"toggle", "rig", "scrap"}
 
 # All base commands
 _ALL_COMMANDS = [
-    "scavenge", "parts", "inventory", "inv", "build", "build_all", "rigs", "rig",
+    "scavenge", "parts", "inventory", "inv", "build", "build_all", "auto_build", "rigs", "rig",
     "toggle", "toggle_all", "mine", "collect", "scrap", "scrap_all", "scrap_num_rigs", "market", "buy",
     "sell_part", "sell_part_all", "price", "buy_btc", "sell_btc", "wallet", "status",
     "log", "history", "help", "quit", "exit",
@@ -1124,7 +1127,8 @@ def show_help():
         ("scavenge", "Dig through e-waste to find hardware (2hr cooldown)"),
         ("parts [page]", "View your hardware inventory"),
         ("build <name>", "Build a rig from 5 parts (interactive selection)"),
-        ("build_all [prefix]", "Auto-build as many rigs as possible (names: prefix_1, prefix_2…)"),
+        ("build_all [prefix]",  "Auto-build as many rigs as possible (names: prefix_1, prefix_2…)"),
+        ("auto_build [prefix]", "Smart build: greedy diversity+combo optimiser. Costs 10% BTC fee."),
         ("rigs", "Overview of all your mining rigs"),
         ("rig <name>", "Detailed view of a specific rig"),
         ("toggle <name>", "Turn a rig on/off"),
@@ -1473,15 +1477,60 @@ def main():
                         if built:
                             log.append("build_all", f"Auto-built {len(built)} rigs with prefix '{prefix}'")
 
+                elif cmd == "auto_build":
+                    prefix = args[0] if args else "Smart-Rig"
+                    result = engine.auto_build(name_prefix=prefix)
+                    if result["rigs_built"] == 0:
+                        console.print("[yellow]Not enough parts to build any rigs (need 5).[/yellow]")
+                    else:
+                        btc_price = engine._get_btc_price()
+                        fee_creds = result["fee_charged"] * btc_price
+                        console.print(
+                            f"\n[bold yellow]🤖 AI Consultant Fee:[/bold yellow] "
+                            f"{result['fee_charged']:,.6f} BTC "
+                            f"(≈ {fee_creds:,.2f} credits)"
+                        )
+                        console.print(
+                            f"[bold green]⚡ Built {result['rigs_built']} rig(s) "
+                            f"({result['parts_left']} parts left in inventory)[/bold green]"
+                        )
+                        for r in result["rigs"]:
+                            types  = sorted({hw.get("type", "?") for hw in r["parts_hw"]})
+                            base   = sum(compute_score(hw) for hw in r["parts_hw"])
+                            div    = diversity_multiplier(r["parts_hw"])
+                            leg    = legendary_multiplier(r["parts_hw"])
+                            cmult, cname, _ = combo_multiplier(r["parts_hw"])
+                            total  = base * div * leg * cmult
+                            combo_str = f"  🧬 {cname}" if cname else ""
+                            console.print(
+                                f"  [cyan]{r['name']}[/cyan] — "
+                                f"Score: [bold]{total:,.0f}[/bold]  "
+                                f"Types: {'+'.join(types)}{combo_str}"
+                            )
+                        log.append(
+                            "auto_build",
+                            f"Smart-built {result['rigs_built']} rigs, "
+                            f"fee {result['fee_charged']:,.6f} BTC",
+                        )
+
                 elif cmd == "sell_part_all":
-                    results = engine.sell_part_all()
-                    if not results:
+                    result = engine.sell_part_all()
+                    if not result["ok"]:
                         console.print("[yellow]No parts in inventory to sell.[/yellow]")
                     else:
-                        total_btc = sum(r["sell_price"] for r in results if r["ok"])
-                        btc_price = engine._get_btc_price()
-                        console.print(f"[bold green]💰 Sold {len(results)} part(s) for {total_btc:,.6f} BTC (≈ {total_btc * btc_price:,.2f} credits)[/bold green]")
-                        log.append("sell_part_all", f"Sold {len(results)} parts  +{total_btc:,.6f} BTC")
+                        console.print(
+                            f"[bold green]💰 Sold {result['sold']:,} part(s) for "
+                            f"{result['total_btc']:,.6f} BTC "
+                            f"(≈ {result['credit_value']:,.2f} credits)[/bold green]"
+                        )
+                        for rarity, count in sorted(
+                            result["by_rarity"].items(),
+                            key=lambda x: RARITY_ORDER.index(x[0]) if x[0] in RARITY_ORDER else 99
+                        ):
+                            emoji = RARITY_EMOJI.get(rarity, "⚪")
+                            console.print(f"  {emoji} {rarity.title()}: {count:,}")
+                        log.append("sell_part_all",
+                                   f"Sold {result['sold']} parts +{result['total_btc']:,.6f} BTC")
 
                 elif cmd == "market":
                     show_market(engine.get_market())
