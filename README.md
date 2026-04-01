@@ -71,7 +71,7 @@ The game will create a `standalone_data/` folder next to the script, or fall bac
 
 ```bash
 pip install pyinstaller
-pyinstaller --onefile --add-data "trash.csv;." --add-data "trash2.csv;." --add-data "trash3..csv;." standalone.py
+pyinstaller --onefile --add-data "trash.csv;." --add-data "trash2.csv;." --add-data "trash3.csv;." standalone.py
 ```
 
 The exe will be in `dist/`. Save data lives next to the exe in `standalone_data/`.
